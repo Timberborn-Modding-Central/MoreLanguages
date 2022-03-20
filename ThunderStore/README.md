@@ -6,7 +6,7 @@ This mod makes it possible to add new custom translations with corresponding bea
 - Türkçe (Turkish)
 
 ## Creating a custom language pack
-Want to make a new language for yourself? No biggy it's very simple! Just copy the files (xxXX.txt, xxXX_names.txt) from an existing language pack and start translating.  
+Want to make a new language for yourself? No biggy it's very simple! Just copy the files (enUS.txt, enUS_names.txt) from `defaultlang` to `lang`
 A row goes as following: ID,Text,Comment.
 - **ID:** The key the game uses to pick a translation
 - **Text:** The text that will show in the game
@@ -17,7 +17,7 @@ Do you need line breaks or did it stop working? try to add quotes around the tex
 
 ## Submitting a custom language pack into the mod
 #### Option 1: Discord
-Send a message in the **\#modding-and-whatnot**.
+Send a message in the **\#modding-and-whatnot** channel.
 #### Option 2: Github issue
 [Create a issue](https://github.com/Timberborn-Modding-Central/MoreLanguages/issues) include the 2 files for the language pack and name for credits.
 #### Option 3: Github pull request

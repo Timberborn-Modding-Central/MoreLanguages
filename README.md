@@ -17,7 +17,7 @@ Do you need line breaks or did it stop working? try to add quotes around the tex
 
 ## Submitting a custom language pack into the mod
 #### Option 1: Discord
-Send a message in the **\#modding-and-whatnot**.
+Send a message in the **\#modding-and-whatnot** channel.
 #### Option 2: Github issue
 [Create a issue](https://github.com/Timberborn-Modding-Central/MoreLanguages/issues) include the 2 files for the language pack and name for credits.
 #### Option 3: Github pull request
