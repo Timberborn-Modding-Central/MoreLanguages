@@ -19,7 +19,7 @@ Do you need line breaks or did it stop working? try to add quotes around the tex
 #### Option 1: Discord
 Send a message in the **\#modding-and-whatnot**.
 #### Option 2: Github issue
-[Create a issue](https://github.com/Timberborn-Modding-Central/MoreLanguages/issues) include the 2 files for the language pack.
+[Create a issue](https://github.com/Timberborn-Modding-Central/MoreLanguages/issues) include the 2 files for the language pack and name for credits.
 #### Option 3: Github pull request
 - place the new language pack in `ThunderStore > plugins > lang`
 - Update minor version in `MoreLanguages.csproj` (1.0.0 -> 1.1.0)
