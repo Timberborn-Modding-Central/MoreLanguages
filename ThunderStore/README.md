@@ -3,7 +3,7 @@ This mod makes it possible to add new custom translations with corresponding bea
 
 ## Included language packs
 - wanguage(UWU)
-- Turkish (🇹🇷)
+- Türkçe (Turkish)
 
 ## Creating a custom language pack
 Want to make a new language for yourself? No biggy it's very simple! Just copy the files (xxXX.txt, xxXX_names.txt) from an existing language pack and start translating.  
@@ -16,7 +16,18 @@ Do you need line breaks or did it stop working? try to add quotes around the tex
 **Example:** example.key,"Yes i'm a very special translation :D",This is a special one
 
 ## Submitting a custom language pack into the mod
-Did you make a new language pack and want it to be added to the mod? Send a message in the **\#modding-and-whatnot**, or make a pullrequest in the github with the new pack added, optional add the versioning in minefest.json and MoreLanguagesPlugin.cs.  
+#### Option 1: Discord
+Send a message in the **\#modding-and-whatnot**.
+#### Option 2: Github issue
+[Create a issue](https://github.com/Timberborn-Modding-Central/MoreLanguages/issues) include the 2 files for the language pack.
+#### Option 3: Github pull request
+- place the new language pack in `ThunderStore > plugins > lang`
+- Update minor version in `MoreLanguages.csproj` (1.0.0 -> 1.1.0)
+- Update minor version in `MoreLanguagesPlugin.cs` (1.0.0 -> 1.1.0)
+- Update minor version in `ThunderStore > manifest.json` (1.0.0 -> 1.1.0)
+- Update change logs, Included language packs & Credits in `README.md` & `ThunderStore > README.md`
+- Build project
+
 **NOTE: No foul language packs will be added in the mod**
 
 ## Experimental
@@ -25,7 +36,15 @@ This mod is enabled while in experimental mode, but is not updated for the exper
 ## Developers
 This mod removes the debugging message when a key is missing due experimental game keys. This can be disabled with a config file that will be generated with bepinex.
 
+## Credits
+- BiGaripAdam (Creation Türkçe update 1)
+- TheBloodEyes (Creation wanguage update 1)
+
 ## Changelogs
 ### 1.0.0
 - Creation MoreLanguage for Timberborn update 1
-- Adding language wanguage(UWU)
+- Added language wanguage(UWU)
+### 1.1.0
+- Added language Türkçe (Turkish)
+- Changed README
+- Build replaces ThunderStore DLL

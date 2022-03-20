@@ -1,4 +1,5 @@
 ﻿using System.Collections.Generic;
+using System.Diagnostics.CodeAnalysis;
 using System.IO;
 using System.Linq;
 using System.Reflection;
@@ -11,7 +12,7 @@ using Timberborn.Localization;
 namespace MoreLanguages;
 
 [HarmonyPatch]
-[BepInPlugin("com.timbercentral.morelanguages", "MoreLanguages", "1.0.0")]
+[BepInPlugin("com.timbercentral.morelanguages", "MoreLanguages", "1.1.0")]
 public class MoreLanguagesPlugin : BaseUnityPlugin
 {
     private static ConfigEntry<bool> _missingKeyLogging;
@@ -68,6 +69,7 @@ public class MoreLanguagesPlugin : BaseUnityPlugin
     /// <returns></returns>
     [HarmonyPrefix]
     [HarmonyPatch(typeof(Timberborn.Localization.LocalizationService), "Load", typeof(string))]
+    [SuppressMessage("Member Access", "Publicizer001:Accessing a member that was not originally public")]
     private static bool IgnoreOriginalWithNewLanguagesLoad(string languageName, Timberborn.Localization.LocalizationService __instance, LocalizationRepository ____localizationRepository, ILoc ____loc)
     {
         if (GetFieldValuesFromStatic(typeof(LocalizationCodes)).ContainsValue(languageName))
