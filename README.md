@@ -3,6 +3,7 @@ This mod makes it possible to add new custom translations with corresponding bea
 
 ## Included language packs
 - wanguage(UWU)
+- Turkish (🇹🇷)
 
 ## Creating a custom language pack
 Want to make a new language for yourself? No biggy it's very simple! Just copy the files (xxXX.txt, xxXX_names.txt) from an existing language pack and start translating.  

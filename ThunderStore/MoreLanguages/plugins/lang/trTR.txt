@@ -1,0 +1,968 @@
+ID,Text,Comment
+Settings.Language.Name,Türkçe (Turkish),A really uwu language
+Attractions.Visitors,Ziyaretçiler,"A header above a list of beavers visiting an attraction, such as a campfire."
+Attractions.VisitorsLimit,Ziyaretçiler: {0},{0} stands for capacity. Tells players the max capacity of the attraction in a shorter way
+Autosave.Success,Otomatik Kayıt,"Notification on top of the window when autosave succeeded. Keep short, it disappears after 2 seconds"
+Autosave.Failure,Otomatik Kayıt Hatalı,Notification on top of the window when autosave failed. It disappears after 10 seconds
+Autosave.FailureDueToFullDisk,Yetersiz disk alanı nedeniyle otomatik kaydetme başarısız oldu,Notification on top of the window when autosave failed. It disappears after 10 seconds
+Beaver.Adulthood,Erişkinlik,Next to a progress bar that shows when a baby beaver reaches adulthood.
+Beaver.Age,Yaş: {0},"{0} stands for number of days, for example 'Age: 5'".
+Beaver.DeadNameSuffix,(ölü),Preceded by beaver name and age
+Beaver.Dead,ölü,Shown in the beaver info window to explain that the beaver died
+Beaver.DiedOldAge,{0} yaşlandığı için öldü.,{0} stands for beaver name
+Beaver.Employment,Hizmet,Header of a section that tells of how many and where beavers are working
+Beaver.GrownUp,{0} artık yetişkin.,{0} stands for beaver name. A notification that a beaver achieved maturity.
+Beaver.House,Barınma: {0},{0} stands for Building.DisplayName. Tells which type of building the beaver resides in.
+Beaver.Homeless,Evsiz,Signifies that the beaver has no home
+Beaver.HomelessPlural,Evsizler,Label before number of homeless beavers
+Beaver.Population.Adults,Yetişkin,Label before number of adult beavers
+Beaver.Population.Children,Çocuk,Label before number of kit beavers
+Beaver.Population.Population,Çocuk,Label before number of kit beavers
+Beaver.Unemployed,İşsiz,"Signifies that the beaver has no job, singular"
+Beaver.UnemployedPlural,İşsizler,"Used in population statistics, followed by the number of unemployed beavers"
+Beaver.Workplace,Çalışma Yeri: {0},{0} stands for Building.DisplayName. Tells which type of building the beaver works in.
+BlockObject.Rotation.Clockwise,[R],Tooltip that tells players how to rotate objects
+BlockObject.Rotation.Counterclockwise,[SHIFT + R],Tooltip that tells players how to rotate objects
+Bonus.BuildingSpeed,İnşa Hızı,Speed at which beavers build.
+Bonus.CarryingSpeed,Taşıma hızı,Speed at which beavers carry items
+Bonus.Fertility,Doğurganlık,Speed at which beavers mate and produce babies
+Bonus.GrowthSpeed,Büyüme hızı,Speed at which young beavers grow up
+Bonus.LifeExpectancy,Tahmini ömür,The presumed length of beavers' life.
+Bonus.Strength,Güç,How much stuff can the beaver carry.
+Bonus.WalkingSpeed,Yürüme hızı,Speed at which the beavers walk.
+Bonus.WorkingSpeed,Çalışma hızı,Speed at which the beavers work.
+Breeding.NutrientsNeeded,Gerekli besinler:,Followed by a list of nutrients needed to produce a new beaver in breeding facility
+Breeding.Progress,Üreme ilerlemesi:,Followed by progress bar describing production progress of new beaver in breeding facility
+Breeding.ProgressHalted,"Üreme durduruldu, besin bekleniyor",
+Breeding.ProgressHaltedShort,Üreme durduruldu,
+BugTracker.Prompt,{0} adresine yönlendirileceksiniz.,An OK/Cancel prompt before opening a web browser. {0} stands for url to bug tracker.
+Building.AquaticFarmhouse.Description,"<SolidHighlight>Sulak</SolidHighlight> mahsulleri eken ve hasat eden uzman çiftçiler istihdam eder.","Aquatic is a keyword, must be the same as in NaturalResources.Aquatic."
+Building.AquaticFarmhouse.DisplayName,Su çiftliçi,"A farmhouse that specializes in water plants."
+Building.AquaticFarmhouse.FlavorDescription,"""Bir zamanlar balık yediğimiz söylentisi vardı. İğrenç!"" —Ma' Ngonel","Beavers eating fish is a common misconception. Beavers are 100% herbivores. Ma' Ngonel is an almost legendary figure - a beaver grandma, known for her stern hand, cooking skills and respect among both kits and adult beavers. Her name is an inside joke, as our community constantly demands an addition of catapults, mangonels etc."
+Building.Bakery.Description,Farklı unlardan ekmek ve hamur işleri pişirir.,Pastry being a baked good.
+Building.Bakery.DisplayName,Fırın,Building that bakes bread
+Building.Bakery.FlavorDescription,"""Üzerine biraz talaş serpilmiş sıcak bir çörek gibisi yoktur."" —Ma' Ngonel","Ma' Ngonel is an almost legendary figure - a beaver grandma, known for her stern hand, cooking skills and respect among both kits and adult beavers. Her name is an inside joke, as our community constantly demands an addition of catapults, mangonels etc."
+Building.Barrack.Description,"Pratik, paylaşımlı konut.",
+Building.Barrack.DisplayName,Barınak,Barracks are cramped homes for beavers. Not related to soldiers.
+Building.Barrack.FlavorDescription,"""İki Dişler bir Barınağa girmiş."" —Iron Teeth joke","Reference to 'walk into a bar' jokes; only Iron Teeth use Barracks, as Folktails prefer different lodges and are less work-focused than Iron Teeth"
+Building.Barrier.Description,Suyu engelleyen doğal bir bariyer. Yıkılabilir.,Demolished meaning removed by a worker.
+Building.Barrier.DisplayName,Bariyer,Not a dam since that's another building in game but if not possible it could be called a Natural Dam.
+Building.Barrier.FlavorDescription,Çamur ve dalların oluşturduğu bir baraj.,
+Building.BeaverStatue.Description.Folktails,"Besili bir kunduz heykeli.",
+Building.BeaverStatue.Description.IronTeeth,"Çalışkan bir kunduz heykeli",
+Building.BeaverStatue.DisplayName,Kunduz Heykeli,Statue of a beaver
+Building.BeaverStatue.FlavorDescription.Folktails,"Güzel günler gurulu, köü günlerde aç hissetiriyor.","The statue shows a beaver with a full belly so it can make one hungry when looking at it."
+Building.BeaverStatue.FlavorDescription.IronTeeth,"Oraklı bir dişlek gibi tasarlandı.","This metal statue depicts a beaver worker with a raised hammer. Hammer and sickle is an emblem of Soviet Russia. Folktails must be same as faction name (Faction.Folktails.DisplayName)."
+Building.Beehive.Description,Yakın mahsüllerin büyüme hızını arttırır.,
+Building.Beehive.DisplayName,Arı kovanı,
+Building.Beehive.FlavorDescription,"""Önünde sonunda alışırsın.""  —Ma' Ngonel","Ma' Ngonel is an almost legendary figure - a beaver grandma, known for her stern hand, cooking skills and respect among both kits and adult beavers. Her name is an inside joke, as our community constantly demands an addition of catapults, mangonels etc."
+Building.Bench.DisplayName,Bank,
+Building.Bench.FlavorDescription,"Arada bir, bazı vandallar kamu malını yiyecek.",
+Building.BreedingPod.Description,"Demir Dişlerin üremesinin tercih edilen tek yolu",Iron Teeth must be the same as the faction name (Faction.IronTeeth.DisplayName).
+Building.BreedingPod.DisplayName,Üreme Kapsülü,
+Building.BreedingPod.FlavorDescription,"""Kapsüller bizim geleceğimizdir. Önümüzdeki aya kadar on iki taneye daha ihtiyacımız var."" —Ol' Kazko","Ol' Kazko is a legendary forefather of modern beavers, famous inventor, pioneer of rapid industrialization."
+Building.BuildersHut.Description,Ek inşaatçılar çalıştırır. Yollar çizerek menzilini genişletin.,
+Building.BuildersHut.DisplayName,İnşaatçı Kulübesi,
+Building.BuildersHut.FlavorDescription,Kunduzluk bir günde inşa edilmedi. Efsaneler 6 saatte diye anlatır.,Beaverome is a mythical beaver city built by beavers of many different factions who banded together to work on timber-tech for the greater good of all beavers.
+Building.Campfire.Description,Kunduzların akşamları dinlenmeleri ve sosyalleşmeleri için bir yer.,
+Building.Campfire.DisplayName,Kamp Ateşi,
+Building.Campfire.FlavorDescription,"Bazen, ateş ve odun iyi bir ikilidir.",
+Building.Carousel.Description,Her yaştan kunduz için eğlenceli bir atlı karınca.,
+Building.Carousel.DisplayName,Atlı Karınca,Alternative name: Merry-Go-Round
+Building.Carousel.FlavorDescription,"""Nereye gittiğini sanıyorsun? Bu dallar kendiliğinden soyulamazlar."" —Ma' Ngonel","Ma' Ngonel is an almost legendary figure - a beaver grandma, known for her stern hand, cooking skills and respect among both kits and adult beavers. Her name is an inside joke, as our community constantly demands an addition of catapults, mangonels etc."
+Building.CompactWaterWheel.DisplayName,Kompakt Su Çarkı,"A water wheel that's smaller than other versions."
+Building.CompactWaterWheel.Description,"Su akışını enerjiye dönüştüren kompakt bir jeneratör.",
+Building.CompactWaterWheel.FlavorDescription,"Evet, su çarkını yeniden icat edebilirsiniz.","A play on 'can't reinvent the wheel'"
+Building.Dam.Description,"Su akışını önlemek için bir engel. Fakat su sızdırıyor.".,Spillway is a hole near the top that allows for the water to pass.
+Building.Dam.DisplayName,Engel,
+Building.Dam.FlavorDescription,"Herkesin bildiği gibi, bir uygarlığın temelleri su altında inşa edilir.",
+Building.DeepMechanicalWaterPump.DisplayName,"Derin Mekanik Su Pompası",
+Building.DeepWaterPump.Description,"Kunduzların içmesi için suyu pompalar ve filtreler.",
+Building.DeepWaterPump.DisplayName,Derin Su Pompası,A water pump which can access deeper water than a regular pump.
+Building.DeepWaterPump.FlavorDescription,"""Su, uzun kuyrukların büyüdüğü ve kunduzun bir tesisatçı olduğu, aşağıdaki topraktan geliyor." -Demir Dişler iş şarkısı","Adapted from Men at Work's famous 'Down Under' song ; Iron Teeth is a faction name, keep consistent (Faction.IronTeeth.DisplayName)"
+Building.DistributionPost.Description,"Diğer bölgelere mal dağıtır",
+Building.DistributionPost.DisplayName,Dağıtım Merkezi,A building which employs beavers who deliver goods to other districts.
+Building.DistributionPost.FlavorDescription,"""On ikinci bölgeye biraz patates gönderin, kitleri çok verimsiz."" —Ma' Ngonel","""Hunger Games"" reference - 12th district was a poor district which Katniss Everdeen originated from."
+Building.DistrictCenter.Description,"Kendi nüfusu, kaynakları ve izole bir yol ağı ile bir bölge kurar. İnşaatçı çalıştırır.",
+Building.DistrictCenter.DisplayName,Bölge Merkezi,
+Building.DistrictCenter.FlavorDescription.Folktails,"""Konfor, yemek ve sağlam ahşap."" —Folktails motto",The motto must be the same as in Faction.Folktails.Description
+Building.DistrictCenter.FlavorDescription.IronTeeth,"""Çalış, çalış, çalış."" —Iron Teeth motto",The motto must be the same as in Faction.IronTeeth.Description
+Building.DistrictGate.Description,"Bölgeleri ayır".,
+Building.DistrictGate.DisplayName,"Bölge Kapısı","A gate which is placed between two districts, looks similar to Chinatown gates."
+Building.DistrictGate.FlavorDescription,"Dışarı çıkmadan önce malzemelerinizi toplamalısınız.","This is an adapted famous line from Baldur's Gate (""You must gather your party before venturing forth"")."
+Building.DoubleFloodgate.DisplayName,"Çift Katlı baraj",
+Building.DoubleFloodgate.FlavorDescription,"Mükemmelliği nasıl geliştirirsiniz? Daha uzun yaparsın.",
+Building.DoubleLodge.Description,"Daha fazla kunduzun sığabileceği daha büyük bir kulübe.",
+Building.DoubleLodge.DisplayName,Dublex kulübe,This lodge fits twice as many beavers
+Building.DoubleLodge.FlavorDescription,"Ne kadar çok o kadar neşeli.","This lodge fits twice as many beavers as a standard one"
+Building.DoublePlatform.DisplayName,"Çift Katlı Platform",Double meaning twice as tall.
+Building.DoublePlatform.FlavorDescription,"İki kat yükseklik,daha fazla sağlamlık.",
+Building.DropOffPoint.Description,"Diğer bölgelerden mal tedarik eder",
+Building.DropOffPoint.DisplayName,Toplama Merkezi,A small building which acts as a place where beavers from other districts can bring their goods.
+Building.DropOffPoint.FlavorDescription,"""Kurabiyeler hala gelmedi mi? Hayır? Tamam, onun yerine tahtaları alacağım."" —Pina","Pina is a younger beaver figure that's exploring the world and isn't related to any faction in particular. Pina as a name relates to the pine tree, the translated name shouldn't suggest a gender if possible."
+Building.Dynamite.Armed,Kontrollü Patlama!,Dynamite is set to detonate
+Building.Dynamite.BeaverDeathMessage,"{0} patlama sırasında öldü.",{0} stands for beaver name
+Building.Dynamite.CantDetonate,"Patlatmak içi fazla derindeyiz",Message shows if dynamite is built on the lowest level of the map
+Building.Dynamite.Description,"Altındaki arazi bloğunu yok eder ve bitişik dinamitleri tetikler.",Triggers can be changed to detonates
+Building.Dynamite.Detonate,Patlat,A button.
+Building.Dynamite.DisplayName,Dinamit,There's a resource called Explosives so they need to have different names
+Building.Dynamite.FlavorDescription,"Kıyamet sonrası dünyaya uyum sağlamak için kunduzların bazı aşırı önlemlere ihtiyacı vardı.",
+Building.EfficientMine.Description,Yeraltı harabelerinden hurda metal çıkaran madencileri çalıştırır. Yenilikçi tasarım madencilik hızını en üst düzeye çıkarır.
+Building.EfficientMine.DisplayName,"Verimli Maden","An extracting facility which can be placed on underground ruins."
+Building.Engine.Description,"Enerji için yakıt kullanır.",
+Building.Engine.DisplayName,Motor,"Not a steam engine;it might show up later as a different building"
+Building.Engine.FlavorDescription,"Bu buluş ne kadar büyük olursa olsun, Demir Dişler dışındaki kunduz ulusları tarafında bir kıymık haline geldi.","Iron Teeth is one of the playable factions, with the Engine being one of their unique buildings."
+Building.ExplosivesFactory.Description,"Kağıttan patlayıcı üretir.",Explosives and paper being resource names.
+Building.ExplosivesFactory.DisplayName,"Patlayıcı Fabrikası",Explosives is a resource name
+Building.ExplosivesFactory.FlavorDescription,"Sanki tüm yerleşimi ahşaptan inşa etmek yeterli değilmiş gibi.",
+Building.Farmhouse.Description,"Eken ve hasat eden çiftçileri istihdam ediyor.",
+Building.Farmhouse.DisplayName,Çiftlik Evi,,
+Building.Farmhouse.FlavorDescription,"Tarım, bugün kunduz toplumunun üzerinde durduğu sütunlardan biri haline geldi.",
+Building.FlameOfProgress.DisplayName,İlerleme Alevi,Name of a monument
+Building.FlameOfProgress.FlavorDescription,"Çok fazla ahşap kulübe duman içinde kaldıktan sonra, kunduzlar yangın sorununu halletmek için yemin ettiler.",
+Building.Floodgate.Description,"Ayarlanabilir bir yüksekliğe kadar suyu engeller.",
+Building.Floodgate.DisplayName,"Baraj",
+Building.Floodgate.Height,"Yükseklik: {0}",
+Building.Floodgate.Synchronize,"Bitişik bent kapaklarıyla senkronize edin",
+Building.Floodgate.FlavorDescription,"Ol 'Kazko il barajı yaratana kadar kimse bir barajı iyileştirebileceğinizi düşünmedi.",
+Building.Forester.Description,"Ağaç ve Bitki yetiştirir.",
+Building.Forester.DisplayName,"Ormancı",A building with a worker that plants trees and bushes
+Building.Forester.FlavorDescription,"Cesur ve güzel ormancılar, kunduz toplumunun çekirdeğidir.","Forresters are a family of central characters in ""Bold and Beautiful"", an extremely long-running American soap opera. Feel free to adapt this flavor, do not translate that literally."
+Building.GathererFlag.Description,"Böğürtlen toplayan toplayıcılar çalıştırır".,
+Building.GathererFlag.FlavorDescription,"Böğürtlenleri sepete koyarak, kunduzlar yanlışlıkla lezzetli bir tatlı buldular.",
+Building.GathererFlag.DisplayName,Toplayıcı Bayrağı,Flag' could also be a Post or something similar as long as it is consistent with other Flags and different from Haulers Post
+Building.GearWorkshop.Description,"Tahtalardan dişliler üretir.",Gears and Planks are resources; keep consistent.
+Building.GearWorkshop.DisplayName,"Dişli Atölyesi",Gear is a resource
+Building.GearWorkshop.FlavorDescription,"""Sağlam ahşap dişli!"" was a catchphrase coined by Ol' Kazko as he pushed for rapid industrialization.","Metal Gear Solid is a famous Japanese video game series. Ol' Kazko is a legendary forefather of modern beavers, famous inventor, pioneer of rapid industrialization."
+Building.Grill.Description,"Izgara sebze.",
+Building.Grill.DisplayName,Izgara,A place that grills
+Building.Grill.FlavorDescription,"""Onları ezin, kaynatın, yapışmaz tavada ızgara yapın!"" —""500 Ways to Eat a Potato"" by Ma' Ngonel","Adapted quote from Lord of the Rings paired with a nod to an infamous Soviet-era cookbook ""500 potato dishes"". Ma' Ngonel is an almost legendary figure - a beaver grandma, known for her stern hand, cooking skills and respect among both kits and adult beavers. Her name is an inside joke, as our community constantly demands an addition of catapults, mangonels etc."
+Building.Gristmill.Description,"Bitkisel maddeleri un haline getirir.","Plant matter meaning different parts of plants, such as roots or flowers."
+Building.Gristmill.DisplayName,Değirmen,
+Building.Gristmill.FlavorDescription,"Daha karmaşık beslenme ile birlikte çok aşamalı gıda işleme fikri geldi.",
+Building.HaulingPost.Description,"Nakliyeciler, bir bölgedeki işçilere mal taşımada yardımcı olarak üretkenliklerini büyük ölçüde artırır.",
+Building.HaulingPost.DisplayName,Nakliye Merkezi,Keep different from Flag buildings since the building is of a different category than flags.
+Building.HaulingPost.FlavorDescription,"Kunduzların en kaslısı, bir nakliyecinin kuyruğuna basmak istemezsiniz.",
+Building.IndustrialLogPile.Description,"Kütükleri saklamanın en etkili yolu.",
+Building.IndustrialLogPile.DisplayName,Endüstriyel Kütük Depolama,A place to store logs in an efficient manner
+Building.IndustrialLogPile.FlavorDescription,"Bir yığından daha iyi olan nedir? Daha fazla yığın.","The building is an improved, stackable variant of Building.LogPile"
+Building.Inventor.DisplayName,Mucit,
+Building.Inventor.FlavorDescription,"Ol' Kazko'nun mirasından ilham alan kunduz mucitleri her zaman kereste teknolojisini geliştirmeye heveslidir.","Ol' Kazko is a legendary forefather of modern beavers, famous inventor, pioneer of rapid industrialization."
+Building.IrrigationTower.Description,"Çevresini sular.",
+Building.IrrigationTower.DisplayName,"Sulama Deposu",
+Building.IrrigationTower.FlavorDescription,"Dünyanın üçte birinden daha azının suyla kaplı olması nedeniyle, sulama bir zorunluluk haline geldi.",The game is set on Earth turned into a dry wasteland.
+Building.LaborerMonument.DisplayName,İşçi Anıtı,Name of a monument
+Building.LaborerMonument.FlavorDescription,"El emeğinin yerini sanayileşmeye bırakmasından sonra bile, kunduzların çalışma anlayışı değişmedi.",
+Building.LargeBarrack.DisplayName,Büyük Barınak,Barracks are cramped homes for beavers. Not related to soldiers. A bigger variant of Building.Barrack.
+Building.LargeBarrack.FlavorDescription,""Gizlilik" nedir?","Barracks are very cramped so there isn't much private space."
+Building.LargeMetalPlatform.DisplayName,Büyük Metal Platform,
+Building.LargeMetalPlatform.FlavorDescription,"Gerçek heavy metal tutkunları için.","Heavy metal is a reference to the music genre. This building is massive and made of metal."
+Building.LargeRowhouse.DisplayName,Büyük Birleşik Ev,"A rowhouse is a narrow and tall house that is connected to other homes on both sides, often built in a row. Building.Rowhouse"
+Building.LargeRowhouse.FlavorDescription,"Demir Dişler yüksek bir bina kompleksi geliştirdiler.","Referencing 'complex' meaning a group of buildings as well as a psychological behaviour."
+Building.LargeWarehouse.Description,"Çok miktarda mal depolar.",
+Building.LargeWarehouse.DisplayName,Büyük Depo,
+Building.LargeWarehouse.FlavorDescription,"İçeride o kadar çok mal varken, kuyruk sallamaya yer yok.","""No room to swing a cat"" is an English idiom, feel free to adapt."
+Building.LargeWaterTank.Description,Su depolar.,
+Building.LargeWaterTank.DisplayName,"Büyük Su Deposu",
+Building.LargeWaterTank.FlavorDescription,"Yüzme havuzu olarak kullanılmaya çalışılan kitlerin çabalarına rağmen, bu tank endüstriyel amaçlara hizmet edecek şekilde tasarlanmıştır.",
+Building.LargeWaterWheel.DisplayName,"Büyük Su Çarkı","A water wheel that's bigger than other versions."
+Building.LargeWaterWheel.Description,"Daha büyük, daha verimli bir su çarkı. Yandan desteklenir.",
+Building.LargeWindmill.Description,"Daha büyük pervaneler daha fazla enerji üretimine izin verir.",
+Building.LargeWindmill.DisplayName,"Büyük Yel Değirmeni",Advanced windmill that can rotate
+Building.LargeWindmill.FlavorDescription,"Ters rüzgardan daha iyi rüzgar yok.","Tailwind being a wind blowing from behind, a pun since beavers have tails."
+Building.Levee.Description,"Suyu tamamen bloke eder.",
+Building.Levee.DisplayName,Tam Engel,Different to a Dam
+Building.Levee.FlavorDescription,"Dengeli, güçlendirilmiş ve nesiller boyu kunduz su mühendisleri tarafından mükemmel bir şekilde şekillendirilmiş. Bu, "sadece bir tahta blok" değil.",
+Building.Lido.Description,"Nehir kenarında dinlenmek için mükemmel bir yer.",
+Building.Lido.DisplayName,Yüzme Havuzu,"Lido as in a swimming pool. Built on a river bank and used to relax. Includes a swimming area and a small land area with a few lawn chairs."
+Building.Lido.FlavorDescription,"""Bu gerçekten iyi bir zamanlama ama kuyruk vuruşunuz üzerinde çalışmalıyız!"" —Pina","Backstroke is a swimming style, but beavers also have tails. Pina is a younger beaver figure that's exploring the world and isn't related to any faction in particular. Pina as a name relates to the pine tree, the translated name shouldn't suggest a gender if possible."
+Building.Lodge.Description,"Geceyi geçirmek için bir yer.",
+Building.Lodge.DisplayName,Kulübe,Type of housing; named after the beaver lodges
+Building.Lodge.FlavorDescription,"""Eski günlerde bir kulübe, tam da bu kulübeydi. Ve şimdi? Bunu bilmiyorum."" —Ma' Ngonel",
+Building.LodgeMirrored.DisplayName,Kulübe (Simetrik),A symmetrical version of a Lodge with door on the other side
+Building.LodgeMirrored.FlavorDescription,"lenogN 'aM— "".taht tuoba wonk t'nod I ?won dnA .egdol a ,taht tsuj saw egdol a syad nedlo eht nI""","Please use the the same flavor description as Building.Lodge.FlavorDescription but in reverse. If that is a problem in your language, use the same text as Building.Lodge.FlavorDescription."
+Building.LogFence.Description,"Kütüklerden yapılmış dekoratif bir çit.",
+Building.LogFence.DisplayName,"Tahta çit",
+Building.LogPile.Description,Kütük depolama alanı.,Log is a resource
+Building.LogPile.DisplayName,Kütük depolama,
+Building.LogPile.FlavorDescription,"Ne yazık ki, kimse ne kadar odun girip çıktığına dair bir kayıt tutmuyor.","""Log"" pun — feel free to adapt."
+Building.LumberjackFlag.Description,"Ağaçları kesen bir oduncu çalıştırır.",
+Building.LumberjackFlag.DisplayName,"Oduncu Bayrağı",Flag' could also be a Post or something similar as long as it is consistent with other Flags and different from Haulers Post
+Building.LumberjackFlag.FlavorDescription,"""Onlar oduncu ve işte böyleler, bütün gece uyurlar ve bütün gün çalışırlar!"" —Popüler kunduz şarkısı","Adapted from Monthy Python's ""Lumberjack Song"""
+Building.LumberMill.Description,"Kütüklerde kalas yapılır",Planks and Logs are resources so this needs to be consistent with their name
+Building.LumberMill.DisplayName,"Kereste fabrikası",
+Building.LumberMill.FlavorDescription,"Ol tarafından teşvik ediliyor’ Kazko, mekanize ahşap işleme, yaşlı kunduzlar arasında çok fazla diş gıcırdatmasına neden oldu.","Ol' Kazko is a legendary forefather of modern beavers, famous inventor, pioneer of rapid industrialization."
+Building.MechanicalWaterPump.Description,"Suyu bir taraftan pompalar, diğer taraftan tahliye eder. Normal bir pompadan daha verimli.",
+Building.MechanicalWaterPump.DisplayName,"Mekanik Su Pompası","A mechanically powered water pump."
+Building.MetalFence.Description,"Metalden yapılmış dekoratif bir çit.",
+Building.MetalFence.DisplayName,"Metal çit",
+Building.MetalPlatform.Description,"Sağlam bir sütun tarafından tutulan devasa bir platform.",
+Building.MetalPlatform.DisplayName,"Metal Platform",
+Building.Mine.Description,"Yeraltı harabelerinden hurda metal çıkaran madencileri çalıştırır.",
+Building.Mine.DisplayName,Maden,"An extracting facility which can be placed on underground ruins."
+Building.Mine.FlavorDescription,"Çok açgözlülük ve çok derine dalmak diye bir şey yoktur.","The mine provides an endless supply of scrap metal. Reference to 'they delved too greedily and too deep, and disturbed that from which they fled, Durin's Bane' from LOTR"
+Building.MiniLodge.Description,"Tek bir kunduzun sığabileceği küçük bir kulübe.",
+Building.MiniLodge.DisplayName,Mini Kulübe,A small lodge for only one beaver
+Building.MiniLodge.FlavorDescription,"Biri daha tamam,","Referencing 'Two Beavers Are Better Than One' meme-song from 'How I Met Your Mother' TV show."
+Building.MechanicalWaterPump.FlavorDescription,"Kovalarla koşmaktansa akan su daha iyidir.","Running water meaning water that is moving."
+Building.MudBath.Description,"Kabarcıklarla mekanik olarak aşılanmış bir çamur banyosu.",
+Building.MudBath.DisplayName,"Çamur banyosu","A mud bath infused with bubbles, basically a jacuzzi but that word is too human."
+Building.MudBath.FlavorDescription,"Baloncuklar nereden geliyor?","Fart joke but it's easy to see it as bubbles all appear in the middle of the bath where the visitors' tails are directed."
+Building.Observatory.Description,"Kunduzlar yıldızları keşfederek yaşadıkları dünya hakkında daha fazla bilgi edinirler.","A building where beavers look into the space using telescopes"
+Building.Observatory.DisplayName,"Gözlemevi","A building where beavers look into the space using telescopes"
+Building.Observatory.FlavorDescription,"Kamp ateşine baktıktan sonraki mantıklı adım.",
+Building.PaperMill.Description,"Verimli mekanize kağıt fabrikası.",Paper is a resource.
+Building.PaperMill.DisplayName,"Kâğıt fabrikası",
+Building.PaperMill.FlavorDescription,"Hurdacılar için kurutulmuş bir atıştırmalık olarak ortaya çıkan şey, sonra çabucak başka kullanımlar buldu.",
+Building.Path.Description,"Binalar yollarla birbirine bağlanmalıdır.",
+Building.Path.DisplayName,Yol,
+Building.Path.FlavorDescription,"""Köy yolları, beni evime, ait olduğum kulübeye götür."" —Popular beaver song","Adapted from ""Take Me Home, Country Roads"" by John Denver"
+Building.PlankFence.Description,"Tahtalardan yapılmış dekoratif bir çit.",
+Building.PlankFence.DisplayName,"Tahta Çit",
+Building.Platform.Description,"Diğer binalar için bir köprü veya temel görevi görebilecek yükseltilmiş bir platform.",
+Building.Platform.DisplayName,Platform,
+Building.Platform.FlavorDescription,"Kunduz platformlarının etkileyici yük taşıma kapasitesi, onları bir mühendislik şaheseri haline getirir.",
+Building.PowerShaft.Description,"Güç aktarımı".,"Power being mechanical/kinetic, not electricity. Alternative name: axle."
+Building.PowerShaft.FlavorDescription,"Ol' Kazko'nun büyük icatlarından biri.","Ol' Kazko is a legendary forefather of modern beavers, famous inventor, pioneer of rapid industrialization."
+Building.PowerShaftHigh.DisplayName,"Yüksek Güçlü Mil",For ease of translation could also be called an axle
+Building.PowerShaftIntersection.DisplayName,"Güç Mil Kesişimi",For ease of translation could also be called an axle
+Building.PowerShaftStraight.DisplayName,"Düz Güç Mili",For ease of translation could also be called an axle
+Building.PowerShaftTIntersection.DisplayName,"T Güç Mili",For ease of translation could also be called an axle. A three-way junction of power shafts.
+Building.PowerShaftTurn.DisplayName,"Güç Mil Dönüşü",For ease of translation could also be called an axle
+Building.PowerWheel.Description,"Kunduzla çalışan bir yedek güç kaynağı.",
+Building.PowerWheel.DisplayName,"Güç Çarkı",Meaning a wheel that produces power
+Building.PowerWheel.FlavorDescription,"Kunduzlar, daha az gelişmiş kemirgenlerden bazı teknikleri ödünç alabileceklerini çabucak fark ettiler.",This building looks like a hamster wheel.
+Building.PrintingPress.Description,"Kağıt kullanarak kitap yazdırır.",Book and Paper are resources.
+Building.PrintingPress.DisplayName,"Matbaa",
+Building.PrintingPress.FlavorDescription,"Genellikle, kunduzlar her sayfayı okuduktan hemen sonra tüketirler, bu nedenle iyi literatür her zaman talep görmektedir.",
+Building.Roof.FlavorDescription,"Daha şık bir çatı, dostane bir mahalle rekabetini körüklemek için genellikle yeterlidir.",
+Building.Roof1x1.DisplayName,Çatı 1x1,Numbers at the end denote size X by Y
+Building.Roof1x2.DisplayName,Çatı 1x2,Numbers at the end denote size X by Y
+Building.Roof2x2.DisplayName,Çatı 2x2,Numbers at the end denote size X by Y
+Building.Roof2x3.DisplayName,Çatı 2x3,Numbers at the end denote size X by Y
+Building.Roof3x2.DisplayName,Çatı 3x2,Numbers at the end denote size X by Y
+Building.RooftopTerrace.Description,"Kunduzların akşamları dinlenip sosyalleşebilecekleri bir yer.",
+Building.RooftopTerrace.DisplayName,Çatı terası,
+Building.RooftopTerrace.FlavorDescription,"Gece boyunca konuşmak için harika bir yer ve ne manzara!",
+Building.Rowhouse.Description,"Az yer kaplayan pratik, paylaşımlı konut.",
+Building.Rowhouse.DisplayName,"Bitişik Evler","A rowhouse is a narrow and tall house that is connected to other homes on both sides, often built in a row."
+Building.Rowhouse.FlavorDescription,"Oyuklardan daha iyi konutlar.",
+Building.Ruins.Description,"Metal kaynağı.",Metal is a resource
+Building.Ruins.DisplayName,"Kalıntılar",
+Building.Ruins.FlavorDescription,"Arazi boyunca dağılmış, yıpranmış insan kalıntıları, kunduzlara hayal edilemez olanı sağladı - ahşaptan daha üstün bir kaynak.",
+Building.Scarecrow.Description,"Kuşları korkutmak için yapılmış bir tarla dekorasyonu.",
+Building.Scarecrow.DisplayName,"Korkuluk",
+Building.Scarecrow.FlavorDescription,"Kendi alanlarında üstün.",
+Building.ScavengerFlag.Description,"Hurdacılar harabelerden hurda metal toplar.",Metal is a resource;ruins are a building
+Building.ScavengerFlag.DisplayName,"Hurdacı bayrağı",
+Building.ScavengerFlag.FlavorDescription,"Geleneksel ahşap yerleşim yerlerine metal getiren hurdacılar, bazılarından saygı görürken bazıları tarafından da küçümser.",
+Building.Shredder.Description,"Hurda metali parçalar ve bloklar halinde sıkıştırır.",
+Building.Shredder.DisplayName,"Parçalayıcı",
+Building.Shredder.FlavorDescription,"Bir insanın çöpü bir kunduzun hazinesidir.","Adapted from ""One man’s trash is another man’s treasure"""
+Building.Shrine.Description,"Kunduzların doğayı düşünebileceği küçük bir tapınak.",
+Building.Shrine.DisplayName,"Tapınak",
+Building.Shrine.FlavorDescription,"Güneşi de övün, çok fazla değil.","Dark Souls reference, beavers should be thankful for the sun as it allows their crops to grow etc., but in excess, it also leads to the droughts."
+Building.Shrub.DisplayName,"Çalı",Must be different than 'Bush' which is a plant in the game
+Building.Shrub.FlavorDescription,"Pratik olan her şeyi savunur, kunduzlar hem güzel hem de lezzetli dekorasyonlarını sever.",
+Building.Slope.DisplayName,"Yamaç",
+Building.Slope.FlavorDescription,"Bunu buraya kim koymuşsa, kunduzlar minnettardır.",
+Building.SmallWarehouse.Description,"Mal depolar.",
+Building.SmallWarehouse.DisplayName,"Küçük Depo",
+Building.SmallWarehouse.FlavorDescription,"Kıyamet sonrası dünyanın tüm tehlikeleriyle birlikte, malların uygun şekilde depolanması çok önemlidir.",
+Building.SmallWaterTank.Description,"Az miktarda su depolar.",
+Building.SmallWaterTank.DisplayName,"Küçük Su Deposu",
+Building.SmallWaterTank.FlavorDescription,"Her damla suyu nasıl kurtaracağını öğrenmek, kunduzların zorlu çevreye uyum sağlamasına yardımcı oldu.",
+Building.Smelter.DisplayName,Döküm atölyesi,"A facility that uses very high temperature to produce metal blocks from iron ore."
+Building.Smelter.FlavorDescription,"Yeni kunduz dünyası ter ve yanık kürk kokusuyla dövüldü.",
+Building.StartingLocation.DisplayName,"Başlangıç Konumu",
+Building.StreamGauge.Description,"Suyun derinliğini ve akışını ölçer.",
+Building.StreamGauge.DisplayName,"Akış Göstergesi",
+Building.StreamGauge.FlavorDescription,"Kunduzların işlerinde bir gelgit var. Hangi, selde alınan, servete yol açar.","Adapted quote from Shakespeare's 'Julius Cesar'"
+Building.StreamGauge.HighestWaterLevel,"En yüksek su seviyesi: {0}",
+Building.StreamGauge.Reset,"Sıfırla",
+Building.StreamGauge.WaterCurrent,"Su akımı: {0} cm",
+Building.StreamGauge.WaterLevel,"Su seviyesi: {0}",
+Building.SuspensionBridge.Description,"Kunduzların boşluklardan geçmesine izin verir.",
+Building.SuspensionBridge.FlavorDescription,"Göründüğünden daha sağlam.",
+Building.SuspensionBridgeMetal.FlavorDescription,"Göründüğü kadar sağlam.",
+Building.SuspensionBridge1x1.DisplayName,Asma köprü 1x1,Numbers at the end denote size X by Y
+Building.SuspensionBridge2x1.DisplayName,Asma köprü 2x1,Numbers at the end denote size X by Y
+Building.SuspensionBridge3x1.DisplayName,Asma köprü 3x1,Numbers at the end denote size X by Y
+Building.SuspensionBridge4x1.DisplayName,Asma köprü 4x1,Numbers at the end denote size X by Y
+Building.SuspensionBridge5x1.DisplayName,Asma köprü 5x1,Numbers at the end denote size X by Y
+Building.SuspensionBridge6x1.DisplayName,Asma köprü 6x1,Numbers at the end denote size X by Y
+Building.TappersShack.Description,"Ağaçlardan özsu ve şurup toplayan musluklar kullanır.",
+Building.TappersShack.DisplayName,"Tapper'ın Kulübesi","A shack where workers tap trees to gather sap and syrups, similar to sugar shacks in Canada."
+Building.Temple.DisplayName,"Tapınak",
+Building.Temple.FlavorDescription,"Burada kunduzlar, göreceli cömertliği ile doğaya teşekkür eder.",We don't want to make references to real-life religion.
+Building.TributeToIngenuity.DisplayName,"Yaratıcılığa Saygı Duruşu",Name of a monument
+Building.TributeToIngenuity.FlavorDescription,"Her grup farklı bir yol izler ama kunduzların yaratıcılığı evrenseldir.",
+Building.TripleFloodgate.DisplayName,"Üçlü baraj",
+Building.TripleFloodgate.FlavorDescription,"yüksek seviyede su tutmak için",
+Building.TripleLodge.Description,"Bir sürü kunduz barındırır.",Houses thrice the amounts of beavers as normal lodge
+Building.TripleLodge.DisplayName,Üç Katlı Kulübe,
+Building.TripleLodge.FlavorDescription,"""İleri git ve çoğal"", Dişleklerin ciddiye aldığı bir atasözüdür.""","Go Forth and multiply is a biblical quote."
+Building.TriplePlatform.DisplayName,Üç katlı Platform,Triple as triple the height of a normal platform
+Building.TriplePlatform.FlavorDescription,"Direkleri kemirmek kesinlikle yasaktır!",
+Building.UndergroundRuins.Description,"Madenden çıkarılabilen metal artıklarıyla dolu, gömülü kalıntılar.",
+Building.UndergroundRuins.DisplayName,"Yeraltı Harabeleri","Buried ruins on top of which an extracting facility - a mine - can be placed."
+Building.UndergroundRuins.FlavorDescription,"Aşağıda insanlar her ne yapıyorsa, kesinlikle çok fazla metal gerektiriyor.",
+Building.UndergroundWarehouse.Description,"Büyük yeraltı deposu.",
+Building.UndergroundWarehouse.DisplayName,"Yeraltı Deposu",
+Building.UndergroundWarehouse.FlavorDescription,"Tüm depolama alanı, merdivenlerin uçuşuna değer.",
+Building.WaterDump.Description,"Su boşaltır.",
+Building.WaterDump.DisplayName,"Su Damlatma",A building (or its employee) which discharges water brought in buckets from other places.
+Building.WaterDump.FlavorDescription,"""Bana yeterince kova ver, ben de gölü taşıyayım."" —Ol' Kazko","A reference to a quote by Archimedes: Give me a place to stand, and I shall move the world."
+Building.WaterPump.Description,"Kunduzların içmesi için suyu pompalar ve filtreler.",
+Building.WaterPump.DisplayName,Su Pompası,
+Building.WaterPump.FlavorDescription,"Bir yudum tatlı su sizi pompalamaya yeter.","""Pump"" pun, feel free to adapt."
+Building.WaterSource.DisplayName,"Su Kaynağı",
+Building.WaterSource.FlavorDescription,"""Nehrin hep aksın."" —Beaver greeting",
+Building.WaterWheel.Description,"Güç üretir, bir nehir kıyısında suya konulmalıdır.",Power is not an electrical but mechanical/kinetic energy.
+Building.WaterWheel.DisplayName,Su Çarkı,
+Building.WaterWheel.FlavorDescription,"Ol' Kazko'nun opus magnum'u.","Ol' Kazko is a legendary forefather of modern beavers, famous inventor, pioneer of rapid industrialization."
+Building.Windmill.Description,"Rüzgardan değişken miktarda güç üretir.",
+Building.Windmill.DisplayName,"Yel Değirmeni",
+Building.Windmill.FlavorDescription,"""Hepimiz rüzgardaki talaşız!"" —Folktails song","Reference to ""Dust in the Wind"" by Kansas."
+Building.WoodenStairs.DisplayName,"Ahşap Merdivenler",
+Building.WoodenStairs.FlavorDescription,"Merdivenlerin icadı ile kunduzlar bir sonraki seviyeye yükseldi.",
+Building.WoodWorkshop.Description,"Tahtaları reçine ile doldurarak güçlendirir.","It produces treated / impregnated planks. The resin used is a pine resin."
+Building.WoodWorkshop.DisplayName,"Ahşap Atölyesi","It produces treated / impregnated planks. Do NOT use the same term as lumber mill."
+Building.WoodWorkshop.FlavorDescription,"İşlenmiş tahtalar neden bu kadar güçlü? Çünkü reçineler.","'Because resins' sounds like 'Because reasons', wordplay on an older meme."
+Buildings.AboveGround,"<SolidHighlight>Yerleşim:</SolidHighlight> Diğer binaların üzerine yerleştirilmelidir.",
+Buildings.BuildingIsUnique,"<SolidHighlight>Bu gruba özel</SolidHighlight>",Describes a building which is only available to this faction.
+Buildings.DeletePrompt,"Binayı kaldırmak istediğinizden emin misiniz?",
+Buildings.FloodedAlert,"Binayı su basmış",
+Buildings.FloodedPanel,"Su bastı.",
+Buildings.GroundOnly,"<SolidHighlight>Yerleştirme:</SolidHighlight> Sadece zemine yerleştirilebilir.",
+Buildings.NeedsWaterAlert,"Binanın suya ihtiyacı var",
+Buildings.NeedsWaterPanel,"Bu binanın çalışması için daha derin suya ihtiyacı var.",
+Buildings.Paused,Kapalı.,"Alternative terms: Paused, Switched off"
+Buildings.Solid,<SolidHighlight>Sağlam:</SolidHighlight> Üzerine başka binalar inşa edilebilir.,Solid or Stackable — something that tells the player that you can build on top of it
+Buildings.UnreachableBuildingAlert,"Bağlantısız bina","Shown when a building isn't connected to a district center, shorter version"
+Buildings.UnreachableBuildingPanel,"Bu bina herhangi bir bölge merkezine yol ile bağlı değil.".,"Shown when a building isn't connected to a district center, longer version"
+Buildings.UnreachableConstruction,"Bu şantiye inşaatçılardan çok uzak! Daha fazla yol veya yeni bir bölge inşa edin.",Shown when a construction site is out of range
+Buildings.UnsuitableBuildingBelow,"Bu binanın {0} üzerine inşa edilmesi gerekiyor",{0} stands for another buildings DisplayName. This is a warning shown to the user during building placing.
+BuildingTools.CantUnlock,"{0} açılamıyor, yeterli Bilim Puanı yok.",{0} stands for Building.DisplayName {1} stands for amount. Prompt when player doesn't have enough science points to unlock a building.
+BuildingTools.DistrictsInConflict,"Bölgeler bir kapı ile ayrılmalıdır.",A warning when a player tries to connect two districts without separating them with a District Gate.
+BuildingTools.Multiple,"Birden çok nesne yerleştirmek için <b>SFB</b>'yi basılı tutun",Tooltip that tells the players that they can place multiple objects at once
+BuildingTools.UnlockPrompt,"{0} kilidini açmak istediğinizden emin misiniz? {1} Bilim Puanına mal olur.",{0} stands for Building.DisplayName {1} stands for amount. Prompt when player presses to unlock a building.
+CancelPlantingTool.Description,"Dikim alanlarının işaretini kaldırmak için kullanın.",Description of a tool that removes fields.
+CancelPlantingTool.Title,"Ekim alanını temizle",Tool that removes fields so the beavers won't plant there.
+Carrying.Carry,"Taşıyor: {0} ({1} / {2} kg)",{0} stands for Good.DisplayName {1} stands for carried good weight {2} stands for beaver lifting capacity. Tells player what the beaver is carrying and how much it weighs in comparison to the beaver's strength
+Carrying.Nothing,Yok,When beaver is carrying nothing.
+Clusters.SharesPower,"Gücü bitişik binalarla paylaşır.",Power is not an electrical but mechanical/kinetic energy. Notifies that the power is shared with buildings that touch this building.
+ConstructionSites.NoMaterials,"Gerekli tüm malzemeleri alamıyorum.",Shown in the building box when there are no available materials in the nearby storages or no storages nearby
+ConstructionSites.NoMaterialsShort,"İnşaat malzemeleri eksik",Notification that the construction can't be finished; keep fairly short
+ConstructionSites.PriorityTitle,"İnşaat önceliği:",Setting a priority for construction work on a construction site
+ConstructionSites.Progress,"İlerleme: {0}%{1}",{0} stands for percentage {1} stands for ConstructionSites.Info. Percentage of building finished
+ConstructionSites.Info.WaitingForMaterials,"(malzeme bekleniyor)",Awaiting new materials to build
+Core.BrowseDirectory,"Dizine göz atın ►",Opens file browser to either save folder or map folder. Please keep the arrow.
+Core.Cancel,İptal,A button please keep short
+Core.GameTip,"İpucu: Bir bina, Kulübe veya Depo <SolidHighlight>Sağlam</SolidHighlight> olarak işaretlenmişse, çatısına başka yapılar inşa edebilirsiniz.",Tip that shows up while the game is loading. Solid is a keyword.
+Core.Load,Yükle,A button please keep short
+Core.Loading,YÜKLENİYOR,Used in loading screen during loading
+Core.NavigationNext,Sonraki,Used in forms to navigate to the next step.
+Core.NavigationBack,Önceki,Used in forms to navigate to the previous step.
+Core.No,Hayır,A button please keep short
+Core.OK,Tamam,A button please keep short
+Core.Overwrite,"üzerine yaz",A button shown in prompts with confirmation that a file will be overwritten
+Core.ResourceNameAndAmount,{0} ({1}),"Used for example in building material costs, {0} stands for resource name, {1} stands for amount"
+Core.ResourceNameAndAmountPerHour,"{0} ({1} saatlik)","Used for example in building resource usage, {0} stands for resource name, {1} stands for amount"
+Core.Save,Kaydet,A button please keep short
+Core.SaveAs,Farklı kaydet...,A button please keep short
+Core.Start,Başlat,A button please keep short
+Core.Yes,Evet,
+Demolish.Mark,Yıkım,Demolishing is removing with the use of builders. Must be different than 'Delete' which has a slightly different meaning in the game.
+Demolish.Cancel,Yıkımı iptal et,
+Demolish.PriorityTitle,Yıkım önceliği:,Setting a priority for demolition work on demolition target
+DemolishSelectionTool.Description,"Yıkmak istediğiniz kaynakları işaretlemek için kullanın. Tüm kaynaklar kaybolacak.",
+DemolishSelectionTool.Title,"Kaynakları yıkım için işaretleyin",
+DemolishUnselectionTool.Title,"Kaynak yıkımını kaldırın",
+DemolishUnselectionTool.Description,Yıkım için işaretlenmiş kaynakların işaretini kaldırmak için kullanın.,
+DeletionTool.Description.Buildings,"Binaları silmek için bu aracı kullanın.",
+DeletionTool.Description.Objects,"Nesneleri silmek için bu aracı kullanın.".,
+DeletionTool.Prompt,"Seçilen nesneleri kaldırmak istediğinizden emin misiniz? Bunu geri alamazsınız.",
+DeletionTool.Title.Buildings,Binaları kaldır,
+DeletionTool.Title.Objects,Nesneyi kaldır,
+Distribution.AddNewRoute,Yeni rota ekle,Button please keep short
+Distribution.DistrictDistributionLimits,Bölge dağıtım limitleri,Button please keep short
+Distribution.High,Yüksek,The upper limit of imported/exported goods
+Distribution.Low,Düşük,The lower limit of imported/exported goods
+Distribution.LowHighTooltip,"Düşük - bu sınırın altındaki kaynaklar bir bölgeye taşınmaz
+ve gelen kaynaklar için önceliklendirilir.
+
+Yüksek - bu sınırın üzerindeki kaynaklar bir bölgeye taşınmaz.",
+Distribution.NoDistrict,Bölge yok,
+Distribution.NoRoutes,Rota belirlenmedi,
+Distribution.PickDropOffPointTip,"Hedef Bırakma Noktasını seçin. Farklı bir bölgede olmalı ve Karayolu ile Dağıtım merkezine bağlı olmalıdır.",Distribution Post must be consistent with Building.DistributionPost.
+Distribution.PickDropOffPointTitle,"Bırakma Noktasını Seçin",
+Distribution.PickDropOffPointWarning,"Hedef farklı bir bölgede olmalı ve yol ile bağlantılı olmalıdır.",
+Distribution.Routes,Rotalar,
+Distribution.RouteProblemAlert,"Kunduzlar malları dağıtamaz",
+Distribution.RouteProblemPanel,"Bazı yollar çalışmıyor.",
+Distribution.RoutePaused,Duraklatıldı,
+Distribution.SelectGood,"Mal seç",
+Districts.DefaultDistrictName,"Bölge {0}","{0} is a number. By default districts are named District 1, District 2 etc."
+Districts.Districts,Bölgeler,
+Districts.GlobalView,Genel Görünüm,
+Dwelling.Inhabitants,"Sakinler: {0}",{0} stands for a number. How many beavers live in this house.
+Dwelling.AssignAny,"herhangi birini ata",A button which assigns a random beaver to this house. Please keep short - constrained space.
+Dwelling.AssignUnemployed,"işsiz atama",A button which assigns a unemployed beaver to this house. Please keep short - constrained space.
+Dwelling.Dwellers,"Sakinler",Header for the box of the inhabitants/tenants of this house
+Dwelling.Newborn,{0} doğdu!,{0} stands for beaver name. Notification that shows when a new beaver is born.
+Dwelling.NoBeaverCanReach,"Hiçbir kunduz bu meskene ulaşamaz.",Information that this building is unreachable for any beavers.
+Dwelling.NoUnemployedCanReach,"Hiçbir işsiz kunduz bu meskene ulaşamaz.",Information that this building is unreachable for any unemployed beavers.
+Emptying.Empty,"Boş depolama",A command for beavers to empty this storage.
+Emptying.EmptyingInProgress,"Bina boşaltılıyor ve yeni malları kabul etmiyor.",
+EntityPanel.ChangeName,"Yeni bir ad girin:",Shown when renaming a beaver or a building
+EntityPanel.Hide,"Açıklamayı gizle",Tooltip for a button which hides description
+EntityPanel.Show,Açıklamayı göster,Tooltip for a button which shows description
+ExceptionPanel.HowToFindReport,"Rapora hangi verilerin dahil edileceğini burada görebilirsiniz:",
+ExceptionPanel.Introduction,"Bu beklemiyorduk. Sorun bizde ama bir hata raporu göndererek sorunu çözmemize yardımcı olabilirsiniz.",
+ExceptionPanel.ManualInstructions,"Alternatif olarak, raporu manuel olarak da gönderebilirsiniz:",
+ExceptionPanel.PrivacyPolicyAccept,"Kabul ediyorum",Next to a checkbox and followed by ExceptionPanel.PrivacyPolicyLink
+ExceptionPanel.PrivacyPolicyLink,"Gizlilik Politikası",Preceded by a checkbox and ExceptionPanel.PrivacyPolicyToggle
+ExceptionPanel.SendFail,"Gönderilemedi, yeniden denemek için tıklayın",
+ExceptionPanel.SendReport,Timberborn ekibine hata raporu gönder,
+ExceptionPanel.SendSuccess,"Raporunuzu aldık, teşekkürler!",
+ExceptionPanel.Sending,"Gönderiliyor...",
+ExceptionPanel.Title,"Haydaaa... bu bir hata :'(",
+Faction.Folktails.Description,"Kolay ve çalışkan. Dişlekler uzman çiftçilerdir. Doğaya saygı duyarlar ve onları bol nimetlerle ödüllendirilirler.
+Sloganları: <i>Konfor, yemek ve sağlam ahşap.</i>",Description of a beaver faction
+Faction.Folktails.DisplayName,Dişlek,Name of a faction
+Faction.IronTeeth.Description,"Geleneksel ahşap yöntemlerini terk edenler, gelişmiş makineler inşa etmek için demir ve bilimde ustalaştılar.
+Yaratıcılık, verimlilik ve çevreye saygısızlık yoluyla ilerleme sağlarlar.
+Sloganları: <i>Çalış, çalış, çalış.</i>",Description of a beaver faction
+Faction.IronTeeth.DisplayName,Demir Diş,Name of a faction
+FactionSelection.Header,"Grubunu seç",
+FactionSelection.NewFactionUnlocked,"Yeni grup kilidi açıldı:",Followed by the name of a faction in new line
+FactionSelection.WellbeingCondition,"Kilidi açmak için {0} mutlu döngünün {1} için tamamlanması gerekli",{0} stands for a number {1} stand for Faction.DisplayName
+Fields.Harvesting,Hasat,Preceded by Fields.PriorityAction
+Fields.Planting,Ekim,Preceded by Fields.PriorityAction
+Fields.PriorityAction,"Öncelikli eylem:",Which of the actions is prioritized.
+GameExitPanel.Exit,Çık,A button please keep short
+GameExitPanel.Message,"Gitmeden önce, geri bildiriminizi paylaşarak oyunu daha iyi hale getirmemize yardımcı olun.",
+GameExitPanel.ShareFeedback,"Geri bildirimde bulun",A button please keep short
+GameExitPanel.Title,"Timberborn'u erken erişimde oynadığınız için teşekküler.",
+Gathering.GathererFlag.Action,"Toplama:","Followed by a list of goods, like Gathers: Berries"
+Gathering.Nothing,Yok,Nothing is prioritized to be gathered.
+Gathering.Prioritize,Öncelik:,Which resource is prioritized to be gathered.
+Goals.Button,Hedefler,A button please keep short
+Goals.NotEligible,"Bu grubu oynarken uygun değil",Preceded by Goals.Progress
+Goals.Unlocked,Kilit açıldı!,Preceded by Goals.Progress
+Goals.Progress,İlerleme:,
+Good.Berries.DisplayName,Böğürtlen,Resource name
+Good.Berries.PluralDisplayName,Böğürtlen,Resource name
+Good.Book.DisplayName,Kitap,Resource name
+Good.Book.PluralDisplayName,Kitap,Resource name
+Good.Bread.DisplayName,Ekmek,Resource name
+Good.Bread.PluralDisplayName,Ekmek,Resource name
+Good.Carrot.DisplayName,Havuç,Resource name
+Good.Carrot.PluralDisplayName,Havuç,Resource name
+Good.CattailCracker.DisplayName,"Su kamışı krakeri","Crackers made from flour made from roots of the plant of a genus Typha, keep plant name same as NaturalResource.Cattail.DisplayName"
+Good.CattailCracker.PluralDisplayName,"Su kamışı krakeri","Crackers made from flour made from roots of the plant of a genus Typha, keep plant name same as NaturalResource.Cattail.DisplayName"
+Good.CattailFlour.DisplayName,"Su kamışı unu","Flour made from roots of the plant of a genus Typha, keep plant name same as NaturalResource.Cattail.DisplayName"
+Good.CattailFlour.PluralDisplayName,"Su kamışı unu","Flour made from roots of the plant of a genus Typha, keep plant name same as NaturalResource.Cattail.DisplayName"
+Good.CattailRoot.DisplayName,"Su kamışı kökü","Root of plant of a genus Typha, keep plant name same as NaturalResource.Cattail.DisplayName"
+Good.CattailRoot.PluralDisplayName,"Su kamışı kökü","Root of plant of a genus Typha, keep plant name same as NaturalResource.Cattail.DisplayName"
+Good.Chestnut.DisplayName,"Kestane","Fruit of a Aesculus hippocastanum tree, also known as conkers"
+Good.Chestnut.PluralDisplayName,"Kestane","Fruit of a Aesculus hippocastanum tree, also known as conkers"
+Good.Explosives.DisplayName,Patlayıcı,Resource name. Not to be confused with the Dynamite building.
+Good.Explosives.PluralDisplayName,Patlayıcı,Resource name. Not to be confused with the Dynamite building.
+Good.Flour.DisplayName,Un,Resource name
+Good.Flour.PluralDisplayName,Un,Resource name
+Good.Gear.DisplayName,Dişli,Resource name
+Good.Gear.PluralDisplayName,Dişli,Resource name
+Good.GrilledChestnut.DisplayName,"Kızarmış kestane","Grilled fruit of a Aesculus hippocastanum tree, also known as conkers, keep plant name same as Good.Chestnut.DisplayName."
+Good.GrilledChestnut.PluralDisplayName,"Kızarmış kestane","Grilled fruit of a Aesculus hippocastanum tree, also known as conkers, keep plant name same as Good.Chestnut.DisplayName."
+Good.GrilledPotato.DisplayName,"Kızarmış patates",Resource name
+Good.GrilledPotato.PluralDisplayName,"Kızarmış patates",Resource name
+Good.GrilledSpadderdock.DisplayName,"Sarı nilüfer ızgarası","Grilled plant Nuphar Lutea, keep plant name same as NaturalResource.Spadderdock.DisplayName"
+Good.GrilledSpadderdock.PluralDisplayName,"Sarı nilüfer ızgarası","Grilled plant Nuphar Lutea, keep plant name same as NaturalResource.Spadderdock.DisplayName"
+Good.Log.DisplayName,Kütük,Resource name
+Good.Log.PluralDisplayName,Kütük,Resource name
+Good.MaplePastry.DisplayName,"Akçaağaç böreği","A baked good filled with maple syrup."
+Good.MaplePastry.PluralDisplayName,"Akçaağaç böreği","A baked good filled with maple syrup."
+Good.MapleSyrup.DisplayName,"Akçaağaç şurubu","Sweet syrup created from maple sap"
+Good.MapleSyrup.PluralDisplayName,"Akçaağaç şurubu","Sweet syrup created from maple sap"
+Good.MetalBlock.DisplayName,Metal blok,Resource name
+Good.MetalBlock.PluralDisplayName,Metal blok,Resource name
+Good.Paper.DisplayName,Kağıt,Resource name
+Good.Paper.PluralDisplayName,Kağıt,Resource name
+Good.PineResin.DisplayName,"Çam reçinesi","Also known as pine sap. Pine is the type of tree defined in NaturalResource.Pine.DisplayName."
+Good.PineResin.PluralDisplayName,"Çam reçinesi","Also known as pine sap. Pine is the type of tree defined in NaturalResource.Pine.DisplayName."
+Good.Plank.DisplayName,Kalas,Resource name
+Good.Plank.PluralDisplayName,Kalaslar,Resource name
+Good.Potato.DisplayName,Patates,Resource name
+Good.Potato.PluralDisplayName,Patates,Resource name
+Good.ScrapMetal.DisplayName,Hurda metal,Resource name
+Good.ScrapMetal.PluralDisplayName,Hurda metaller,Resource name
+Good.Spadderdock.DisplayName,"Sarı nilüfer","A plant formally called Nuphar Lutea"
+Good.Spadderdock.PluralDisplayName,"Sarı nilüfer","A plant formally called Nuphar Lutea"
+Good.TreatedPlank.DisplayName,"işlenmiş tahta","Plank impregnated with resin. Use the same word for plank as in Good.Plank."
+Good.TreatedPlank.PluralDisplayName,"işlenmiş tahta","Plank impregnated with resin. Use the same word for plank as in Good.Plank."
+Good.Water.DisplayName,Su,Resource name
+Good.Water.PluralDisplayName,Su,Resource name
+Good.Wheat.DisplayName,Buğday,Resource name
+Good.Wheat.PluralDisplayName,Buğday,Resource name
+Good.WheatFlour.DisplayName,Buğday unu,"Flour made out of wheat. Use the same name for wheat as in Good.Wheat."
+Good.WheatFlour.PluralDisplayName,Buğday unu,"Flour made out of wheat. Use the same name for wheat as in Good.Wheat."
+GoodConsuming.SupplyDescription,"Kullanım: {0}",{0} stands for resource name and amount per hour.
+GoodConsuming.SupplyRemaining,"Tedarik {0} saat sürecek","{0} stands for hours. Describes a building which requires a certain resources to operate, such as water."
+Goods.Nothing,"Hiç bir şey yok",
+Growing.Time,"Büyüme: {0}",{0} stands for a number of days. How many days left does this plant have to fully grow.
+Hauling.Prioritize,"Nakliyeciler tarafından inşaata öncelik verin",building is a noun in this sentence. This building will be prioritized by haulers.
+Homelessness.StrandedStatusMessage,"Kunduz mahsur kaldı",This status is activated after a beaver got stranded and cut off from the village.
+Inventory.All,Tamamı,A button please keep short
+Inventory.Allowed,Kabul:,Please keep short. What types of resources are allowed in storage.
+Inventory.Capacity,"Kapasite:",How much space there is in the storage
+Inventory.Default,Varsayılan,A button please keep short. The default resources will be desired.
+Inventory.Desired,İstenilen:,Please keep short. Which resources will be desired in the storage.
+Inventory.IsEmpty,"Stokta hiç mal yok",
+Inventory.Full,"Bina dolu".,Building full of items.
+Inventory.Goods,"Mallar:",
+Inventory.Header.Desired,İstenilen,Please keep short. Header above a column that tells how many of each resource is desired in the storage.
+Inventory.Header.Name,Ad,Please keep short. Header above a column with names of resources allowed in the storage.
+Inventory.Header.Stock,Stok,Please keep short. Header above a column with amounts of resource in stock of the storage.
+Inventory.None,Hiç biri,A button please keep short. No resources are allowed/desired
+Inventory.StartingInventory,"Başlangıç malları",
+KeyBindingsPanel.Bindings,"<b>Zaman</b>
+Hız değiştirme: ~, 1, 2, 3
+Durdur: BOŞLUK
+
+<b>Kamera</b>
+Kamera Gezdirme: WASD / Yön tuşları, Fare tekerleği (Sağ Tuş ile ayarlardan değiştirilebilir)
+Kamera döndürme: Q / E, Sağ Fare Tuşu (Scroll)
+Kamera Yakınlaşma: Fake tekerleği, PAGE UP / PAGE DOWN
+Kamerayı hızlı hareket: SHIFT
+Kaydet / Kamera konumuna geri dön: CTRL + V / V
+Arayüzü gizle / göster: CTRL + H
+Maksimum görünür seviyeyi değiştir: ALT + Fake tekerleği
+Su görünürlüğünü aç/kapat: T
+
+<b>Binalar</b>
+Binalar: R / SHIFT + R
+Binayı kaldır: DEL
+Binayı kaldırmaya zorla: SHIFT + DEL
+Binayı duraklat / devam et: P",Description of available key bindings
+KeyBindingsPanel.Header,Kısa yollar,Header of the key bindings box
+Labor.TransportWhenIdle,"Boştayken malları depolar arasında taşı.",Next to a toggle. Transport is a verb here.
+LoadMapPanel.Header,Harita düzenle,
+MainMenu.WelcomeScreenStart,Başla!,A button please keep short
+MainMenu.WelcomeScreenText,"Selamlar yerleşimci!
+
+<i>Timberbornu Erken Erişim</i> ile oynuyorsunuz.
+
+Önümüzdeki yol heyecan verici ancak oyunun devam eden bir çalışma olduğunu unutmayın. Yeni içerik eklemeye devam ediyoruz ve oyunun mevcut birçok parçası daha fazla çalışma gerektiriyor. Hatalar ve çökmeler olacak. Lütfen geri bildiriminizi <i>Geri bildirim</i> düğmesini kullanarak veya resmi Discord sunucusunda paylaşın.
+
+Daha önce Timberborn Alpha, Beta veya Demo oynadıysanız, oyun o zamandan beri yoğun bir şekilde optimize edildi ve yeni binalar, ikinci oynanabilir fraksiyon ve daha fazlası dahil olmak üzere yeni içerikler içeriyor. Bazı mekaniklerin yeniden tasarlandığına ve farklı çalışmasına hazırlıklı olun.
+
+İyi şanslar ve sulak kalmayı unutmayın!",
+MainMenu.WelcomeScreenTitle,Erken Erişim Bilgilendirmesi,Header of the welcome screen popup.
+Manufactory.CurrentRecipe,"Reçete:","Text before a dropdown for changing factory recipe - what the factory produces from what ingredients."
+Manufactory.NoRecipeOption,Yok,"Text shown in a dropdown when no recipe is selected. Keep below 15 characters."
+Manufactory.NoRecipeStatus,"Reçete seçilmedi","A warning that no recipe is selected for crafting"
+Manufactory.NoRecipeStatusShort,"Reçete seçilmedi","A warning that no recipe is selected for crafting. Please keep short."
+Manufactory.Recipe.FlowingWater,"Su akışı","Water brought in buckets from other places is discharged in a building (Water dump) creating freely flowing water. This freely flowing water is the recipe product."
+MapEditor.Brush.AbsoluteTerrainHeight,"Arazi yüksekliği (Düşür)",A tool that changes terrain height to an absolute value.
+MapEditor.Brush.Density,Yoğunluk,Density of objects.
+MapEditor.Brush.Height.Label,"Fırça yüksekliği:",Either absolute or relative height at which brush will paint.
+MapEditor.Brush.Height.Shortcuts,"[ [ ] / [ ] ], [ALT-Scroll]",
+MapEditor.Brush.NaturalResourceRemoval,"Doğal kaynakları kaldır",Natural resources meaning trees and bushes
+MapEditor.Brush.NaturalResourceSpawning,"Doğal kaynaklar",Natural resources meaning trees and bushes
+MapEditor.Brush.RandomizeYieldGrowth,"Rastgele verim artışı","This text is next to a toggle that randomizes the percentage growth of fruit, chestnuts or other things that can be gathered and regrow"
+MapEditor.Brush.RelativeTerrainHeight.Tip,"İndirmek için <b>SHIFT</b> tuşunu basılı tutun.",To lower ground.
+MapEditor.Brush.RelativeTerrainHeight.Title,"Arazi yüksekliği (Arttır)",A tool that changes terrain height by a value relative to the original height.
+MapEditor.Brush.Shape.Label,Fırça şekli:,
+MapEditor.Brush.Shape.Round,Yuvarlak,
+MapEditor.Brush.Shape.Shortcuts,[\],
+MapEditor.Brush.Shape.Square,Kare,
+MapEditor.Brush.Size.Label,Fırça genişliği:,
+MapEditor.Brush.Size.Shortcuts,"[-] / [+], [CTRL-Scroll]",
+MapEditor.Exit,"Düzenleyiciden çık",A button please keep short
+MapEditor.Layers.Header,Katmanlar,"A header above a list of map layers that can be hidden, such as water or trees"
+MapEditor.Layers.NaturalResources,"Doğal kaynaklar",
+MapEditor.Layers.Water,Su,
+MapEditor.LoadMap.Header,Harita Seç,
+MapEditor.NewMap,Yeni harita,A button please keep short
+MapEditor.NewMap.Create,Oluştur,A button which confirms new map parameters and starts the map editor
+MapEditor.NewMap.Header,Yeni Harita,
+MapEditor.NewMap.Size,Boyut:,
+MapEditor.NoStartingLocation,"Başlangıç noktası belirleyin.",Notification that there is no starting location object. Keep consistent with Building.StartingLocation.DisplayName.
+MapEditor.SaveMap.Header,Haritayı kaydet,
+MapEditor.SaveMap.MapExists,"{0} haritası zaten var.",{0} stands for map name
+MapEditor.SaveMap.NamePlaceholder,Ad girin...,Placeholder text in an empty map name text field
+MapEditor.SaveMap.SavedAs,"{0} farklı kaydet'",{0} stands for map name. A notification when a map has been saved.
+MapEditor.SizePrompt,"{0}x{0} ve {1}x{1} arasında bir boyut girin.",{0} and {1} stands for a number
+MapEditor.Tip,"İpucu: Haritanızı suyla önceden doldurmak için ekranın üst kısmındaki su hızı kontrollerini kullanın.",Tip on the loading screen of the map editor.
+MapSelection.CustomMap,Özel,Meaning map is custom created by players. Keep short.
+MapSelection.Header,Harita seç,
+MapSelection.Recommended,Önerilen,This map is recommended for new players.
+Mechanical.BlockedConnection,"Güç bağlantısı engellendi!",Power is not an electrical but mechanical/kinetic energy.
+Mechanical.Efficiency,"Verimlilik: %{0}",{0} stands for efficiency percentage number. How efficient workshop is at using the energy.
+Mechanical.NetworkPower,"Ağ güç kaynağı / talebi: {0} / {1}",{0} stands for supply amount {1} stands for demand amount followed by PowerSymbol
+Mechanical.NoPower,"Binanın çalışması için güce ihtiyacı var. Bir güç kaynağına bağlayın.",
+Mechanical.NoPowerShort,"Binanın enerjisi yok",Power is not an electrical but mechanical/kinetic energy.
+Mechanical.PowerInput,"Güç girişi: {0}",{0} stands for power amount followed by PowerSymbol
+Mechanical.PowerInputMaximum,"Güç girişi / maksimum: {0} / {1}",{0} stands for input amount {1} stands for maximum amount followed by PowerSymbol
+Mechanical.PowerOutput,"Güç çıkışı: {0}",{0} stands for power amount
+Mechanical.PowerSymbol,bg,Please keep short. Stands for horse power; should keep similar.
+Mechanical.PowerSymbolPerFlow,hp/cmk,Please keep short. Stands for horse power per cubic metre per second; hp should be the same as Mechanical.PowerSymbol.
+Menu.Continue,Devam et,A button in main menu which opens the previously played game. Please keep short
+Menu.Credits,Emeği Geçenler,A button please keep short
+Menu.EditMap,Harita Düzenle,A button please keep short
+Menu.ExitChangesLostPrompt,"Çıkmak istediğinize emin misiniz? Değişiklikleriniz kaybolacak.",
+Menu.ExitGame,"Çıkış",A button please keep short
+Menu.ExitToDesktop,"Masaüstüne dön",A button please keep short
+Menu.ExitToDesktopPrompt,"Oyundan çıkmak istedğinize emin misiniz?",
+Menu.ExitToMenu,"Ana menüye dön",A button please keep short
+Menu.ExitToMenuPrompt,"Ana menüye dönmek istediğinize emin misiniz?",
+Menu.Feedback,"Geri Bildirim Sayfası",A button please keep short
+Menu.KeyBindings,"Kısa Yollar",A button please keep short
+Menu.LoadGame,"Kayıtlı Oyunlar",A button please keep short
+Menu.NewGame,"Yeni Oyun",A button please keep short
+Menu.NewGamePrompt,"Yeni oyuna başlamak istediğinize emin misiniz?
+Kaydedilmemiş değişiklikleriniz kaybolacak.",
+Menu.NewMap,"Harita Oluştur",A button please keep short
+Menu.ResumeGame,"Oyuna devam et",A button please keep short
+Menu.SaveGame,"Oyunu Kaydet",A button please keep short
+Menu.Settings,"Ayarlar",A button please keep short
+Migration.Adults,"Yetişkinler",Field label please keep short
+Migration.Children,"Çocuklar",Field label please keep short
+Migration.FromDistrict,"Bu Bölgeden:",
+Migration.Header,"Göç Planı",
+Migration.Migrate,"Göç et",Button please keep short
+Migration.MigratePopulation,"Göç",Button please keep short
+Migration.NoDistrictInRange,"Menzilde başka bir bölge yok.",
+Migration.ToDistrict,"Bu Bölgeye:",
+NaturalResource.Birch.DisplayName,Huş ağacı,Tree of the genus Betula.
+NaturalResource.Birch.FlavorDescription,"""Unutmayın, kitler, çok fazla kabuğu soymayın! Ağaca zarar veriyor!"" —Ma' Ngonel","Peeling stripes of birch bark is oddly satisfying. Ma' Ngonel is an almost legendary figure - a beaver grandma, known for her stern hand, cooking skills and respect among both kits and adult beavers. Her name is an inside joke, as our community constantly demands an addition of catapults, mangonels etc."
+NaturalResource.Cattail.FlavorDescription,"""Kuyruklar hakkında her şeyi biliyorum ama kedi nedir?"" —Pina","Makes sense only in english, feel free to adapt. Pina is a younger beaver figure that's exploring the world and isn't related to any faction in particular. Pina as a name relates to the pine tree, the translated name shouldn't suggest a gender if possible."
+NaturalResource.ChestnutTree.FlavorDescription,"""Bir kestaneye basabilirsin!"" —Kunduzların en sert hakareti","Reference to a ""Step on a lego"" meme, chestnuts have prickly, spiky husks"
+NaturalResource.Blueberry.DisplayName,Yaban mersini,Plant of the genus Vaccinium
+NaturalResource.Blueberry.FlavorDescription,"""Kuraklık vurduğunda bunlardan daha fazlasını istemeye geleceksin."" —Ma' Ngonel","Ma' Ngonel is an almost legendary figure - a beaver grandma, known for her stern hand, cooking skills and respect among both kits and adult beavers. Her name is an inside joke, as our community constantly demands an addition of catapults, mangonels etc."
+NaturalResource.Carrot.DisplayName,Havuç,Daucus carota subspecies sativus
+NaturalResource.Carrot.FlavorDescription,Çiğ havuçlar, kunduzların yemeklerini çıtırtı çıkarmadan dengelemelerine yardımcı olur.,
+NaturalResource.Cattail.DisplayName,Su Kamışı,"Plant of a genus Typha"
+NaturalResource.ChestnutTree.DisplayName,"Kestane ağacı","A Aesculus hippocastanum tree"
+NaturalResource.Maple.DisplayName,Akçaağaç,Tree of the genus Sapindaceae
+NaturalResource.Maple.FlavorDescription,"kesik atılmış akçaağaç şurup üretir, ancak yüksek kaliteli kereste daha da tatlı bir ödüldür.",
+NaturalResource.Pine.DisplayName,Çam,Tree of the genus Pinus
+NaturalResource.Pine.FlavorDescription,"""Ah, kudretli orman, senin için nasıl da can atıyorum!"" —Bilinmeyen kunduz şair","""Pine"" pun, feel free to adapt."
+NaturalResource.Potato.DisplayName,Patates,Plant Solanum tuberosum
+NaturalResource.Potato.FlavorDescription,"""Patates pişirmenin birden fazla yolu var."" —Kunduz atasözü",
+NaturalResource.Spadderdock.DisplayName,"Sarı nilüfer","Plant Nuphar Lutea"
+NaturalResource.Spadderdock.FlavorDescription,"Doğa, mesajını yaprakların şekli aracılığıyla iletir.","Spadderdock has heart-shaped leaves, and it can be seen in the game."
+NaturalResource.Wheat.DisplayName,Buğday,Plant Triticum aestivum
+NaturalResource.Wheat.FlavorDescription,"""Biz altın tarlalarında yürürken bulutsuz gökyüzündeki güneşi unutacaksınız."" —Kunduz şarkısı","Adapted from ""Fields of Gold"" by Sting."
+NaturalResources.Aquatic,"<SolidHighlight>Sulak</SolidHighlight>: bu bitki kısmen suya batırılmalıdır.","Aquatic is a keyword. Shown after selecting an aquatic plant. Examples of aquatic plants include spadderdock or water lilies."
+NaturalResources.DiedFromNotEnoughWater,"Çok uzun süre susuz kaldı ve öldü.",Shown when a water plant died after its river or lake had dried up.
+NaturalResources.DiedFromTooMuchWater,"Çok uzun süre sular altında kaldı ve öldü.",Shown when a plant died after it had been submerged in water for too long.
+NaturalResources.DyingFromNotEnoughWater,"Suyu bitti ve {0} gün içinde ölecek.",Shown when a water plant is dying because its river or lake dried up.
+NaturalResources.DyingFromTooMuchWater,"Su bastı ve {0} gün içinde ölecek.",Shown when a plant is dying because it is submerged in water.
+NaturalResources.Dried,"Kurudu ve öldü.",Shown for plants which died from lack of water.
+NaturalResources.Drying,"Kuruyor ve {0} gün içinde ölecek.",{0} stands for number of days
+NaturalResources.GenericDied,öldü.,Refers to a plant.
+NaturalResources.Leftover,"{0} (artık)",{0} stands for NaturalResource.DisplayName. Leftover meaning plant that was cut but not yet collected.
+NaturalResources.Mature,"{0} (ergin)",{0} stands for NaturalResource.DisplayName. Fully grown plant.
+NaturalResources.Seedling,"{0} (fide)",{0} stands for NaturalResource.DisplayName. Not fully grown plant.
+NaturalResources.Visibility.Hide,"Doğal kaynakları gizle",Tooltip for button hiding natural resources
+NaturalResources.Visibility.Show,"Doğal kaynakları göster",Tooltip for button showing natural resources
+NaturalResources.Watered,"Sulu ve canlıdı.",
+Need.Hunger.CriticalDescription,"Açlıktan öldü",
+Need.Hunger.DeathMessage,"açlıktan öldü.",Preceded by beaver name
+Need.Hunger.DisplayName,Açlık,
+Need.Roof.DisplayName,Çatı,"Same as Building.Roof2x2.DisplayName without the size. It refers to roofs as one of the available decorations, do not confuse with Shelter which is a separate need."
+Need.Shelter.DisplayName,Barınma,"A need that is fulfilled when a beaver has a house."
+Need.Sleep.CriticalDescription,Yorgun,
+Need.Sleep.DisplayName,Uyku,A need satisfied when a beaver sleeps.
+Need.Thirst.CriticalDescription,Susuz,
+Need.Thirst.DeathMessage,susuzluktan öldü.,Preceded by beaver name
+Need.Thirst.DisplayName,Susuzluk,A need satisfied by providing water.
+NeedGroup.Aesthetics.DisplayName,"Estetik","Name of a need group where needs are satisfied by decorating your settlement, previously Need.Esthetics.DisplayName"
+NeedGroup.Awe.DisplayName,Etki,"Same as the Need named Awe"
+NeedGroup.BasicNeeds.DisplayName,"Temel ihtiyaçlar","A group of needs which includes needs such as Hunger, Water, Shelter etc."
+NeedGroup.Fun.DisplayName,"Eğlence","Name of a need group where needs are satisfied by building attractions for the beavers, previously Need.Fun.DisplayName"
+NeedGroup.Happiness.DisplayName,"Mutluluk","General happiness of the populace"
+NeedGroup.Knowledge.DisplayName,"Bilgi","Name of a need group where needs are satisfied when beavers learn new stuff, previously Need.Knowledge.DisplayName"
+NeedGroup.Nutrition.DisplayName,Besin,"Same as the need named Nutrition"
+NeedGroup.SocialLife.DisplayName,"Sosyal Hayat","Name of a need group where needs are satisfied by letting beavers be social and chat with other beavers, previously Need.SocialLife.DisplayName"
+NeedGroup.Spirituality.DisplayName,Maneviyat,"Name of a need group where needs are satisfied by places of worship such as temples, previously Need.Spirituality.DisplayName"
+Needs.Critical.Beaver,"Kunduz ölecek.",
+Needs.InRange,"{0} alan içinde","{0} stands for radius size (area of effect), text is shown after Need.DisplayName to indicate its radius"
+Needs.SatisfiesInRange,"{1} alan içinde {0}'i karşılar",{0} stands for Need.DisplayName {1} stands for radius size (area of effect)
+Needs.NoEffects,"Etkisi yok",
+Needs.SatisfiedEffects,Memnun kalındığında etkiler,
+Needs.UnsatisfiedEffects,Memnun kalmadığında etkiler,
+NewGameConfigurationPanel.Aged,Yaşlı,"Describing age of beavers, between text fields, example: 'Starting beavers: [20] aged [10]'"
+NewGameConfigurationPanel.Custom,Özel,Game mode keep short
+NewGameConfigurationPanel.Cycles,Döngüde,"Cycle is a unit of time shown after a number, example usage: '10 cycles'. Must be consistent with Weather.CycleAndDayLong."
+NewGameConfigurationPanel.Days,gün,"Shown after a number field, example usage: '10 days'"
+NewGameConfigurationPanel.DroughtDuration,"Kuraklık süresi","Label of a setting, how long drought is during each cycle."
+NewGameConfigurationPanel.Easy,Basit,Game mode keep short
+NewGameConfigurationPanel.EasyModeDescription,"Hala öğreniyorsunuz veya rahat bir şehir kurma deneyimi istiyorsunuz.
+
+Yerleşiminiz bol miktarda kaynakla başlar.
+
+Kunduzlar daha az yiyecek ve su tüketirler.
+
+Kuraklık nadir ve kısadır.",
+NewGameConfigurationPanel.FoodConsumption,"Besin tüketimi","Label of a setting, how much food beavers consume during a game. For example 'Food consumption: 60%'"
+NewGameConfigurationPanel.For,"","Specifies a duration, between text fields, example usage: 'Drought duration handicap: [50%] for [10] cycles'"
+NewGameConfigurationPanel.DroughtDurationHandicap,"Kuraklık süresi","Label of a setting, makes droughts shorter during a game, example usage: 'Drought duration handicap: 50%"
+NewGameConfigurationPanel.Hard,Zor,Game mode keep short
+NewGameConfigurationPanel.HardModeDescription,"İnsanlar başaramadı ve siz de başaramayacaksınız.
+
+Yerleşiminiz kıt kaynaklarla başlar.
+
+Kuraklık şiddetlidir ve zamanla daha da kötüleşir.
+
+Kesici dişlerinizi keskinleştirin.","Hard difficulty description. 'did not make it' as in they did not survive. 'sharpen your incisors' is meant to be a kind of a call to arms before a tough game."
+NewGameConfigurationPanel.Normal,Normal,Game mode keep short
+NewGameConfigurationPanel.NormalModeDescription,"Bir meydan okuma istiyorsun.
+
+Yerleşiminiz ılımlı kaynaklarla başlar.
+
+Kuraklıklar başlangıçta daha hafiftir ancak zamanla yoğunlaşır.",
+NewGameConfigurationPanel.Start,Başlama,A button starting the game please keep short
+NewGameConfigurationPanel.StartingAdults,"Başlangıç yetişkinleri","Label of a setting, number of adults spawned at the start of a game."
+NewGameConfigurationPanel.StartingChildren,"Başlangıç çocukları","Label of a setting, number of children spawned at the start of a game."
+NewGameConfigurationPanel.StartingFood,"Başlangıç besini","Label of a setting, amount of food available at the start of a game."
+NewGameConfigurationPanel.StartingWater,"Başlangıç suyu","Label of a setting, amount of water available at the start of a game."
+NewGameConfigurationPanel.TemperateWeatherDuration,"Ilıman hava süresi","Label of a setting, how long temperate weather is during each cycle."
+NewGameConfigurationPanel.To,"ile","Describes a range of numbers, example usage: '20 to 50%'"
+NewGameConfigurationPanel.SubHeader,"Oyun Modu",
+NewGameConfigurationPanel.WaterConsumption,"Su tüketimi","Label of a setting, how much water beavers consume during a game, for example 'Water consumption: 60%'."
+NewGameFactionPanel.Header,"YENİ OYUN",Top header of menu window keep short and capitalized
+NewGameFactionPanel.SubHeader,"Grup Seç",
+NewGameMapPanel.SubHeader,Harita Seç,
+NewMapPanel.Header,"Yeni harita oluştur",
+Planting.NoPriorityOption,Yok,No resource is prioritized
+Planting.Prioritize,"Öncelikli kaynak:",Which resource to prioritize when planting.
+Planting.UnlockPrompt,"{1} ekebilmek için {0} kilidini açmanız gerekiyor.",{0} stands for Building.DisplayName {1} stands for NaturalResource.DisplayName.
+PlantingTool.Description,"Dikim için bir alan belirlemek için bu aracı kullanın.",
+PlantingTool.RequiredBuilding,Gerekli bina: {0},{0} stands for Building.DisplayName.
+Priorities.VeryLow,Çok düşük,Please keep short
+Priorities.Low,Düşük,Please keep short
+Priorities.Normal,Normal,Please keep short
+Priorities.High,Yüksek,Please keep short
+Priorities.VeryHigh,Çok Yüksek,Please keep short
+PriorityTool.Description,"İnşaat ve yıkım için önceliği ayarlamak için bu aracı kullanın.",
+PriorityTool.Tip,"Önceliğini ayarlamak için bir öğeye tıklayın veya daha büyük bir alan seçmek için basılı tutun.",
+Ruins.ShuffleModel,"Modeli karıştır",Shuffle as in Randomize.
+Ruins.Yield,"Kalan kaynak",Followed by colon and then Good and a number in parentheses.DisplayName
+Saving.DeleteSave,Kaydı sil,"A button. Please keep short."
+Saving.DeleteSavePrompt,"{0}'i silmek istediğinizden emin misiniz?",{0} stands for save name
+Saving.DeleteSettlement,"Yerleşimi sil","A button. Please keep short."
+Saving.DeleteSettlementPrompt,"{0} yerleşimini silmek istediğinizden emin misiniz? Bu, yerleşimin tüm kayıtlarını siler.",{0} stands for settlement name
+Saving.Error,"Kaydetme başarısız oldu! Ad içinde geçersiz karakter olmadığından ve yeterli disk alanı olduğundan emin olun.",Message shown to player when saving game or map failed
+Saving.IncompatibleVersion,"Bu kaydetme, mevcut oyun sürümüyle uyumlu değil. Kaydı yüklemek, çökmeye neden olabilir ve oyunu bozan hatalarla karşılaşabilirsiniz. Yeni özelliklerden tam olarak yararlanmak için yeni bir oyun başlatmanızı şiddetle öneririz.
+
+Yüklemek istediğinizden emin misiniz?","This message is shown after a player tries to load an incompatible save."
+Saving.InvalidName,"Geçersiz ad, geçerli bir karakter girdiğinizden emin olun.","Error message shown after inputting a settlement name with illegal characters such > < ?."
+Saving.LoadGamePanelHeader,Oyunu yükle,
+Saving.NameSettlement,"Yerleşiminize ne ad vermek istersiniz?","A prompt in the box for naming your settlement after starting a new game."
+Saving.SaveGamePanelHeader,Oyunu kaydet,
+Saving.Saves,Kayıtlar,"One of the two headers in the load game panel. Shown above a list of saves assigned to a settlement."
+Saving.Settlements,Yerleşimler,"One of the two headers in the load game panel. Shown above a list of settlements."
+Saving.TakenName,"Bu ada sahip bir yerleşim zaten var.","Error message shown after inputting a settlement name that is already used."
+Saving.UnnamedSettlements,Adsız Yerleşimler,"A label used for a group of saves without assigned settlement names."
+Science.SciencePoints,"Bilim Puanları",The name of a resource which can be spent to unlock new technology
+SelectionTool.HoldTip,"Alanı seçmek için basılı tutun",
+SelectionTool.ClickOrHoldTip,"Bir alan seçmek için tek bir döşemeyi seçin veya düğmeyi basılı tutun".,
+Settings.GameSaving.AutoSavingOn,Otomatik kayıt,
+Settings.GameSaving.Header,Kayıt,
+Settings.Header,Ayarlar,
+Settings.Input.DragCamera,Kamera sürükleme,
+Settings.Input.EdgePanCamera,"Kenarlardan kamera kaydırma","When this option is enabled, player can move camera by moving mouse to screen edge"
+Settings.Input.EdgePanCameraSpeed,"Kamera Kaydırma hızı",
+Settings.Input.Header,Giriş,
+Settings.Input.InvertZoom,Yakınlaşmayı ters çevir,
+Settings.Input.KeyboardCameraMovementSpeed,Klavye hareket hızı,
+Settings.Input.KeyboardCameraRotationSpeed,Klavye dönüş hızı,
+Settings.Input.KeyboardCameraZoomSpeed,Klavye yakınlaşma hızı,
+Settings.Input.SwapMouseCameraMovementWithRotation,"Kamera Tuşlarını değiştir","When this option is enabled, the middle mouse button is swapped with the right mouse button"
+Settings.Language.Change,Değiştir,Please keep short
+Settings.Language.Warning,"Değişiklikler oyun yeniden başlatıldıktan sonra geçerli olacaktır.",Warning shown when user changes language
+Settings.Language.Restart,Yeniden Başlat,Please keep short
+Settings.Language.Current,Dil:,
+Settings.Screen.FullScreen,Tam ekran,
+Settings.Screen.GraphicsQuality,Grafik Kalitesi,
+Settings.Screen.Header,Grafik,
+Settings.Screen.Quality.Low,Düşük,Please keep short
+Settings.Screen.Quality.Medium,Orta,Please keep short
+Settings.Screen.Quality.High,Yüksek,Please keep short
+Settings.Screen.Quality.Ultra,En yüksek,Please keep short
+Settings.Screen.ResolutionScale,"Çözünürlük ölçeği",Please keep short
+Settings.Screen.ScreenResolution,Ekran Çözünürlüğü,
+Settings.Sound.EnvironmentVolume,Ortam sesleri,
+Settings.Sound.Header,Ses,
+Settings.Sound.MasterVolume,Ana ses,
+Settings.Sound.MusicVolume,Müzik Sesi,
+Settings.Sound.MuteWhenMinimized,"Arkaplana alındığında sesi kapat",
+Settings.Sound.UIVolume,Arayüz Sesi,
+Settings.Tutorial.Header,Eğitim,
+Settings.Tutorial.DisableTutorial,Eğitimi kapat,
+Settings.UI.Header,Arayüz,
+Settings.UI.RelaxedCameraRestrictions,Kamerayı kilitle,
+Settings.UI.RunInBackground,Arkaplanda devam et,A settings which controls whether the game should run when minimized or out of focus.
+Settings.UI.ShowFps,"FPS",
+Settings.UI.UIScaleFactor,Arayüz Ölçeği,
+ToolGroups.Decoration,Dekorasyon,Buildings and objects that are for decoration
+ToolGroups.Demolishing,"Binaları ve kaynakları yıkın",
+ToolGroups.FieldsPlanting,"Bitki mahsülü",This is in active voice as in 'to plant crops'
+ToolGroups.Food,"Besin",Buildings pertaining to growing and production of food
+ToolGroups.ForestryPlanting,"Ağaçlar ve çalılar dikin",This is in active voice
+ToolGroups.Housing,"Konut",Buildings that beavers can live in
+ToolGroups.Labor,"İş gücü",Buildings that employ general workers like builders or haulers
+ToolGroups.Landscaping,"Peyzaj",Buildings that allow changes to land such as Dams or Dynamite
+ToolGroups.Leisure,"Boş vakit",Buildings that beavers use in their free time such as campfire or temple
+ToolGroups.MapEditor,"Harita düzenleyici",Objects specific to map editor such as starting point or water source
+ToolGroups.Metal,Metal,Buildings that allow to collect and produce with metal
+ToolGroups.Monuments,"Anıtlar",Awe-inspiring statues and fantastic contraptions
+ToolGroups.Other,Diğer,Buildings that don't fit in other categories
+ToolGroups.Paths,"Yollar ve Yapılar","Buildings that are made to be built and walked upon or to support other buildings such as paths, stairs and platforms"
+ToolGroups.Power,Güç,Buildings that produce and transfer power
+ToolGroups.Priority,Öncelik ata,This is in active voice
+ToolGroups.Ruins,Kalıntılar,Group for different types of ruin objects
+ToolGroups.Science,Bilim,Buildings that produce Science points
+ToolGroups.Storage,Depolama,Buildings that store goods and resources
+ToolGroups.TreeCutting,Ağaçları Kes,This is in active voice
+ToolGroups.Water,Su,Buildings that gather and store water
+ToolGroups.Wood,Odun,Buildings that allow gathering and producing using wood
+TopBar.Food,Besin,A group of resources. Please keep short.
+TopBar.Logs,Kütükler,A group of resources. Please keep short.
+TopBar.Materials,Materyaller,A group of resources. Please keep short.
+TopBar.Nothing,"Hiç bir şey",A group of resources. Please keep short.
+TopBar.Science,Bilim,A group of resources. Please keep short.
+TopBar.Water,Su,A group of resources. Please keep short.
+TreeCuttingSelectionTool.Description,"Ağaçların kesileceği alanları işaretlemek için bu aracı kullanın.",Doesn't have to use a personal verb
+TreeCuttingSelectionTool.Title,"Kesim alınını işaretle",
+TreeCuttingUnselectionTool.Description,"Ağaçların kesileceği alanların işaretini kaldırmak için bu aracı kullanın.",Doesn't have to use a personal verb
+TreeCuttingUnselectionTool.Title,"Kesim alanını kaldır",
+Tutorial.Building,"inşa et": {0} ({1}/{2}),"{0} stands for building name {1} stands for number of built buildings {2} stands for number of buildings to build. This is used in a goal description with the verb in active voice, for example 'Build: Warehouse (0/5)'."
+Tutorial.Continue,Devam,
+Tutorial.Disable,Eğitimi kapat,
+Tutorial.DisablePrompt,"Eğiticiyi devre dışı bırakmak istediğinizden emin misiniz?
+Daha sonra ayarlarda yeniden etkinleştirebilirsiniz.",
+Tutorial.ConnectBuilding,"Bağlantı: {0} ({1}/{2})","{0} stands for building name {1} stands for number of buildings connected with paths {2} stands for number of buildings to connect. This is used in a goal description with the verb in active voice, for example 'Connect: Lumberjack Flag (0/2)'."
+Tutorial.Finish,Eğitimi kapat,
+Tutorial.MarkPlantables,Kalas: {0} ({1}/{2}),"{0} stands for resource name {1} stands for number of marked resource tiles {2} stands for number of tiles to mark with resource. This is used in a goal description with the verb in active voice, for example 'Plant: Carrot (0/5)'."
+Tutorial.MarkTrees,"Kesim Alınını işaretle",
+Tutorial.PanelTitle,Eğitim,
+Tutorial.PlaceBuilding,Yer: {0} ({1}/{2}),"{0} stands for building name {1} stands for number of built buildings {2} stands for number of buildings to build. This is used in a goal description with the verb in active voice, for example 'Place: Warehouse (0/5)'."
+Tutorial.PowerBuilding,Güç: {0} ({1}/{2}),"{0} stands for building name {1} stands for number of powered buildings {2} stands for number of buildings to power. This is used in a goal description with the verb in active voice, for example 'Power: Lumber Mill (0/1)'."
+Tutorial.TextToggle.Hide,"Metni gizle",Tooltip for tutorial button hiding intro text
+Tutorial.TextToggle.Show,"Metni göster",Tooltip for tutorial button showing intro text
+Tutorial.Stage.PlaceLumberjacks,"Hoş geldin! Bu eğitim, bir kunduz yerleşimi inşa etmenin tüm temelleri konusunda size yardımcı olacaktır.
+
+Her yeni yerleşimin kütüklere ihtiyacı vardır! Ağaçları yalnızca oduncular kesebilir, bu nedenle yakındaki ağaçların yanına iki Oduncu Bayrağı yerleştirin.","Logs is the name of the resource and Lumberjack Flag is the name of the building"
+Tutorial.Stage.FinishLumberjacks,"Bayraklar, bölgenin bina menzili içinde olmadıkça inşa edilmeyecektir.
+
+Bina aralığını görmek için Bölge Merkezini seçin. Yol yaparak genişletebilirsiniz.","Lumberjack Flag, District Center and Path are names of buildings"
+Tutorial.Stage.ConnectLumberjacks,"Girişi olan her bina bir Yol ile Bölge Merkezine bağlanmalıdır. Bölge Merkezlerinin sınırlı bir menzile sahip olduğunu unutmayın. Oduncu Bayraklarını Bölge Merkezine bağlamak için Yollar İnşa Edin.
+
+Menzilini görmek için Bölge Merkezini seçebilirsiniz.","District Center and Path are building names"
+Tutorial.Stage.MarkTrees,"Oduncular, siz onlara ne yapacaklarını söyleyene kadar çalışmaya başlamaz. Kesilecek bir alanı işaretlemek için Ağaçları kes aracını kullanın.
+
+Bir Oduncu Bayrağı yalnızca menzili içindeki ağaçları keser. Bir bayrak seçerek kontrol edebilirsiniz.","Lumberjack Flag is a name of a building. 'Cut trees' must be the same as ToolGroups.TreeCutting."
+Tutorial.Stage.WaterPump,"Kunduzlar hayatta kalmak için suya ihtiyaç duyarlar. Sürekli bir içme suyu kaynağı sağlamak için bir Su Pompası oluşturun. Bir Bölge Merkezine bağlamayı unutmayın.","Water Pump and District Center are names of buildings"
+Tutorial.Stage.Gatherer,"Suya ek olarak, kunduzların yiyeceğe de ihtiyacı vardır. Yabanmersini Çalılarının yanına bir Toplayıcı Bayrağı inşa et.
+
+Toplayıcılar, bayrağın menzilindeki Meyveleri otomatik olarak toplayacaktır. Toplayıcı Bayrağını seçerek menzili görebilirsiniz.",
+Tutorial.Stage.Storage,"Yerleştirdiğiniz tüm binalar bir miktar depoya sahip olsa da, hızla dolacaktır.
+
+Kütükleri depolamak için Kütük Yığını, Su depolamak için Küçük Su Tankları ve Meyveleri ve diğer kaynakları depolamak için Küçük Depo inşa edin.",
+Tutorial.Stage.Farmhouse,"Bir yerleşim, istikrarlı bir gıda kaynağına ihtiyaç duyar. Ekinleri dikmek ve hasat etmek için bir Çiftlik Evi inşa edin.
+
+İşçileriniz azalıyorsa, bazı binaları duraklatabilirsiniz. Bunu yapmak için bir bina seçin ve duraklat düğmesine tıklayın veya D'ye basın.
+
+Diğer birçok bina gibi, bir Çiftlik Evi de sınırlı bir menzile sahiptir.", Farmhouse is name of a building
+Tutorial.Stage.MarkCarrots,"Çiftçiler, siz onlara neyi ve nereye ekeceklerini söyleyene kadar çalışmaya başlamayacaktır. Bir havuç alanını işaretlemek için Bitki ekin aracını kullanın.
+
+Mahsullerin sulanan arazilere ekilmesi gerekir. Aksi takdirde kururlar ve sonunda ölürler.","Plant crops must be the same as ToolGroups.FieldsPlanting."
+Tutorial.Stage.Lodges,"Evler, kunduzlarınızın refahını artırır ve Dişlek popülasyonunuzun büyümesini sağlar.
+
+Tüm kunduzlarınızı barındıracak kadar Loca inşa edin.
+
+Kitler için boş yuvalar olmadıkça kunduzlar üremeyecektir.","Lodge is a name of a building."
+Tutorial.Stage.Inventor,"Bilim Puanları, daha gelişmiş binaların kilidini açmak için kullanılır. Bir Mucit zamanla Bilim Puanı üretecektir.","Inventor is the name of a building. Science Points must be the same as Science.SciencePoints."
+Tutorial.Stage.WaterWheel,"Artık daha gelişmiş kaynaklar üretmeye başlayabiliriz, ancak bazı binalar bunu yapmak için güce ihtiyaç duyar.
+
+Nehrin kıyısında bir Su Çarkı inşa edin. Su akışına bağlıdır, bu nedenle su olmadığında enerji üretmeyi durduracaktır.",Water Wheel is a name of a building
+Tutorial.Stage.LumberMill,"Plank üretmeye başlamanın zamanı geldi! Bir Kereste Fabrikası inşa edin ve onu Güç Milleri ile Su Çarkına bağlayın.
+
+Birçok bina duvardan duvara yerleştirildiğinde enerjiyi birbirine geçirebilir.","Lumber Mill and Water Wheel are the names of buildings."
+Tutorial.Stage.Forester,"Sabit bir kütük kaynağına ihtiyacımız var. Forester'ın kilidini açın ve ağaç dikmek istediğiniz bir yerin yakınına inşa edin.",Forester is a name of a building
+Tutorial.Stage.MarkPinesForPlanting,"Artık ağaç dikebilirsiniz. Ağaç ve çalı dikme aracını seçin ve biraz Çam dikin.
+
+Ekinler gibi, ağaçların da büyümesi için sulanması gerekir. Kesmek için işaretlemeyi unutmayın!","Plant trees and bushes must be the same as ToolGroups.ForestryPlanting."
+Tutorial.Stage.KeepPlaying,"Su akmaya devam ettiği sürece yerleşiminiz artık kendi kendine yeterli. Kunduzlarınızın kuraklıktan kurtulmasına yardımcı olmak için bir baraj inşa etmeyi veya daha fazla Su Deposu yerleştirmeyi düşünün.
+
+Eğitim size temel bilgileri gösterdi ancak kendi başınıza keşfedebileceğiniz çok daha fazlası var.
+
+İyi şanlar!","Water Tank is a building name."
+Water.Strength,"Güç",Followed by a number which tells how much water a water source produces
+WaterOpacity.Visibility.Hide,Suyu gizle,Tooltip for button hiding water
+WaterOpacity.Visibility.Show,"Suyu göster",Tooltip for button showing water
+WaterSimulationControls.Fast,Hızlı,A button please keep short. Water will flow fast once pressed.
+WaterSimulationControls.Tooltip,"Su simülasyonu",Short header
+WaterSimulationControls.Paused,Durduruldu,A button please keep short
+WaterSimulationControls.Reset,Sıfırla,A button please keep short
+WaterSimulationControls.Slow,"Yavaş",A button please keep short. Water will flow slowly once pressed.
+Weather.CycleAndDayLong,"Dönem {0}, gün {1}","Example usage: 'Cycle 2, day 5'."
+Weather.CycleAndDayShort,"Gün {0}-{1}",Example usage: 'Day 2-5'.
+Weather.Drought,"Kuraklık",
+Weather.DroughtEndedNotification,"Kuraklık sona erdi",A notification that a drought has ended.
+Weather.DroughtStartedNotification,"Kuraklık başladı",A notification that a drought has begun.
+Weather.Temperate,"Ilıman hava",
+Weather.Counter,{0} gün,Number of days before an event will start. Number is in 1.2 format (1.2 days)
+Weather.Forecast.Unknown,"Tahmin: Bilinmiyor",
+Weather.Forecast.DroughtApproaching,"Tahmin: Kuraklık geliyor",
+Weather.Forecast.DroughtInProgress,"Tahmin: Kuraklık sürüyor",
+Wellbeing.AverageWellbeing,"Ortalama mutluluk:",Please keep short. Well-being is how good the beavers feel in general. Could also be welfare or prosperity
+Wellbeing.DisplayName,"Mutluluk",How good the beavers feel. Could also be welfare or prosperity
+Wellbeing.HighscoreReached,"Kunduzlarınız her zamankinden daha mutlu! Yeni bir refah puanına ulaştınız:",A congratulation message when a settlement reaches a new well-being record
+Wellbeing.OnlyAdults,This need can only be satisfied by adults,The asterisk is a part of the text. Please leave it
+Wellbeing.OnlyChildren,This need can only be satisfied by children,The asterisk is a part of the text. Please leave it
+Wellbeing.PopulationWellbeing,"Nüfus mutluluğu",Please keep short. How good the beavers feel. Could also be welfare or prosperity
+Wellbeing.ShowPopulation,"Nüfus mutluluğu göster",How good the beavers feel. Could also be welfare or prosperity
+Wellbeing.UnlockedFactions,"Kilidi açılmış gruplar",Header of a section that tells about factions that can be unlocked
+Work.Bonus.BonusDescription,"Çalışan bonusu: {0}",For example 'Worker bonus: Strength +30%'. Used in building description if a building grants a bonus to its workers.
+Work.Bonus.PenaltyDescription,"Çalışan cezası: {0}",For example 'Worker penalty: Strength -20%'. Used in building description if a building grants a penalty to its workers.
+Work.ConsumptionItem,"Tüketim: {0}",Followed by a name of item this building consumes such as 'Consumes: Paper'. This is a verb.
+Work.CurrentWorkers,"İşçiler: {0} / {1}",Please keep short. {0} stands for the desired number of workers. {1} stands for max number of workers that can work in building.
+Work.FuelItem,"Yakıt: {0}",Followed by a name of item this building uses as fuel such as 'Fuel: Logs'.
+Work.FuelRemaining,"Kalan yakıt: {0}%","{0} stands for a number between 0 and 100, for example 10% means that most of the fuel has been depleted."
+Work.LackOfResources,"Gerekli tüm malzemeler alınamıyor.",
+Work.LackOfResourcesShort,"Bina malzemeleri eksik",
+Work.MaxDepth,"Maksimum derinlik: {0}","Explains how deep a building can reach, for example how deep it can pump water from. {0} stands for a number. Example usage: 'Depth: 5'"
+Work.NoUnemployed,"Bölgede işsiz kunduz yok.",Shown when there are no unemployed beavers available in a district to work in this building.
+Work.NoUnemployedShort,"Binada işçi yok",A shorter notification that lets players know that the building has no workers
+Work.ProductionItem,"Üretim: {0}",Followed by a name of item this building produces such as 'Produces: Explosives'. This is a verb.
+Work.Productivity,"Verimlilik":,How productive a workplace is. Followed by a percentage.
+Work.ProductivityTip,"Malzemelerin taşınması gibi duruş sürelerinin aksine üretim için harcanan zamanın yüzdesi.",Tooltip of how productivity works
+Work.Workers,"İşçiler: {0}",{0} stands for number of workers
+Work.WorkingHoursTooltip,"Çalışma saatleri",Tooltip explaining Work.WorkingHoursShort
+Work.WorkingHoursShort,"{0}s",Tooltip explaining Work.WorkingHoursShort
+Work.Vacant,Boş,Denotes an empty workplace slot without a worker.
+Yielding.NoStorageInRange,"Menzil içinde depolama yok",
+Yielding.NothingToDoInRange,"Menzilde yapılacak iş yok",
+Experimental.Header, "----",
+Experimental.WelcomeText, "----",
+Cutting.Yield,Kaynak,
+Gathering.Yield,Kaynak(Toplanan),
+Gathering.YieldGrowthProgress,{0}: {1}%,
+Growing.Progress,"İlerleme: {0}%",
+Need.Energy.DisplayName,"Enerji",
+Need.Energy.CriticalDescription,"Enerjisi çok az",
+Need.Maintenance.DisplayName,"Bakım",
+Need.Maintenance.CriticalDescription,"Yeterince bakımlı değil",
+Need.Maintenance.DeathMessage,"Bakımsızlıktan öldü"
+Golem.DisplayName,Golem,
+Golem.PluralDisplayName,Golem,
+Building.GolemFactory.DisplayName,Golem,
+Fields.Yield,Kaynak(Toplanan),
+Beaver.Population.Employment,Hizmet,
+Beaver.Population.Housing,Konut,
