@@ -1,11 +1,24 @@
 ID,Text,Comment
+Settings.Language.Name,Test englishg,A really uwu language
+Attractions.LoadRate,Popularity,Header above a panel showing how popular an attraction is in each hour during the day
 Attractions.Visitors,Visitors,"A header above a list of beavers visiting an attraction, such as a campfire."
 Attractions.VisitorsLimit,Visitors: {0},{0} stands for capacity. Tells players the max capacity of the attraction in a shorter way
 Autosave.Success,Autosaved,"Notification on top of the window when autosave succeeded. Keep short, it disappears after 2 seconds"
 Autosave.Failure,Autosave failed,Notification on top of the window when autosave failed. It disappears after 10 seconds
 Autosave.FailureDueToFullDisk,Autosave failed due to insufficient disk space,Notification on top of the window when autosave failed. It disappears after 10 seconds
+BatchControl.Attractions,Wellbeing,Tooltip of a tab allowing to manage wellbeing buildings.
+BatchControl.Empty,"There's nothing here, yet.",
+BatchControl.Housing,Housing,Tooltip of a tab allowing to manage housing buildings.
+BatchControl.Mechanical,Power,"Tooltip of a tab allowing to manage mechanical buildings. Power must be the same as used in Mechanical.PowerInput and other Mechanical. keys."
+BatchControl.Migration,"Migration","Title of migration panel"
+BatchControl.Population,Population,Tooltip of a tab allowing to manage population.
+BatchControl.ShowInfo,"Manage settlement","Button opening a window to view and manage multiple buildings and characters at once . Please keep short"
+BatchControl.Storage,Storage,Tooltip of a tab allowing to manage warehouses.
+BatchControl.Workplaces,Workplaces,Tooltip of a tab allowing to manage workplaces.
+Beaver.Adult.PrefabName,Beaver adult,
 Beaver.Adulthood,Adulthood,Next to a progress bar that shows when a baby beaver reaches adulthood.
 Beaver.Age,Age: {0},"{0} stands for number of days, for example 'Age: 5'."
+Beaver.Child.PrefabName,Beaver child,
 Beaver.DeadNameSuffix,(dead),Preceded by beaver name and age
 Beaver.Dead,Dead,Shown in the beaver info window to explain that the beaver died
 Beaver.DiedOldAge,{0} died of old age.,{0} stands for beaver name
@@ -14,26 +27,35 @@ Beaver.GrownUp,{0} has grown up.,{0} stands for beaver name. A notification that
 Beaver.House,Lives in: {0},{0} stands for Building.DisplayName. Tells which type of building the beaver resides in.
 Beaver.Homeless,Homeless,Signifies that the beaver has no home
 Beaver.HomelessPlural,Homeless,Label before number of homeless beavers
+Beaver.PluralDisplayName,Beavers,
 Beaver.Population.Adults,Adults,Label before number of adult beavers
-Beaver.Population.Beavers,Beavers,Tooltip of a section that shows the number of beavers
 Beaver.Population.Children,Children,Label before number of kit beavers
-Beaver.Population.Employment,Employment (employed / adults),Tooltip of a section that shows employment statistics
-Beaver.Population.Homeless,Homeless,Label before number of homeless beavers
-Beaver.Population.Housing,Housing,Tooltip of a section that shows available spots in houses
-Beaver.Population.Population,Population,Tooltip of a section that shows the number of beavers and other creatures
 Beaver.Unemployed,Unemployed,"Signifies that the beaver has no job, singular"
 Beaver.UnemployedPlural,Unemployed,"Used in population statistics, followed by the number of unemployed beavers"
 Beaver.Workplace,Works at: {0},{0} stands for Building.DisplayName. Tells which type of building the beaver works in.
 BlockObject.Rotation.Clockwise,[R],Tooltip that tells players how to rotate objects
 BlockObject.Rotation.Counterclockwise,[SHIFT + R],Tooltip that tells players how to rotate objects
+Bonus.Assembly,Assembly speed,"Action speed when working at high end, complex factories"
 Bonus.BuildingSpeed,Building speed,Speed at which beavers build.
+Bonus.CarryingCapacity,Carrying capacity,How much stuff a unit can carry
 Bonus.CarryingSpeed,Carrying speed,Speed at which beavers carry items
+Bonus.Construction,Construction speed,Action speed when constructing/building structures
+Bonus.Cooking,Cooking speed,Action speed when cooking food
+Bonus.CuttingSuccessChance,Cutting chance,Cutting chance when cutting down a tree
+Bonus.Farming,Farming speed,Action speed of farm work (planting and harvesting crops)
 Bonus.Fertility,Fertility,Speed at which beavers mate and produce babies
+Bonus.Forestry,Forestry speed,Action speed when practicing forestry (planting trees)
 Bonus.GrowthSpeed,Growth speed,Speed at which young beavers grow up
 Bonus.LifeExpectancy,Life expectancy,The presumed length of beavers' life.
-Bonus.Strength,Strength,How much stuff can the beaver carry.
+Bonus.Metalworking,Metalworking speed,Action speed when working at workplaces related to working with metal (smelting/processing metal)
+Bonus.Science,Science speed,Action speed when working at workplaces related to science (researching)
+Bonus.Source,{0} received from:,"{0} stands for Bonus name. Header above a list of needs that give this bonus." 
+Bonus.SwimmingSpeed,Swimming speed,Speed when swimming
 Bonus.WalkingSpeed,Walking speed,Speed at which the beavers walk.
+Bonus.WaterHandling,Water handling speed,Action speed when working at workplaces related to water (water pumps)
+Bonus.Woodworking,Woodworking speed,Action speed when working at workplaces related to working with wood (lumber mills etc)
 Bonus.WorkingSpeed,Working speed,Speed at which the beavers work.
+Breeding.NutrientBringing,"Nutrients are brought by haulers, the unemployed, and workers after work.","Haulers are the same as in Building.HaulingPost.Description, unemployed as in Beaver.UnemployedPlural, workers as in Work.WorkersLabel"
 Breeding.NutrientsNeeded,Needed nutrients:,Followed by a list of nutrients needed to produce a new beaver in breeding facility
 Breeding.Progress,Breeding progress:,Followed by progress bar describing production progress of new beaver in breeding facility
 Breeding.ProgressHalted,"Breeding halted, waiting for nutrients",
@@ -61,10 +83,15 @@ Building.Beehive.DisplayName,Beehive,
 Building.Beehive.FlavorDescription,"""You get used to the buzzing eventually.""  —Ma' Ngonel","Ma' Ngonel is an almost legendary figure - a beaver grandma, known for her stern hand, cooking skills and respect among both kits and adult beavers. Her name is an inside joke, as our community constantly demands an addition of catapults, mangonels etc."
 Building.Bench.DisplayName,Bench,
 Building.Bench.FlavorDescription,"Every now and then, some vandal will eat on the public property.",
+Building.Bell.Description,"It rings at the beginning and the end of a workday.","This is a large metal bell that rings twice a day."
+Building.Bell.DisplayName,Bell,"A large metal bell"
+Building.Bell.FlavorDescription,"""It's the morning ringing you should be looking forward to."" —Ol' Kazko","Ol' Kazko is a legendary forefather of modern beavers, famous inventor, pioneer of rapid industrialization."
+Building.BiofuelTank.Description,"A large vat that stores large quantities of fuel.",
+Building.BiofuelTank.DisplayName,Biofuel Tank,"A big tank filled with biofuel."
 Building.BreedingPod.Description,"The Iron Teeth's preferred, and only, way to reproduce.",Iron Teeth must be the same as the faction name (Faction.IronTeeth.DisplayName).
 Building.BreedingPod.DisplayName,Breeding Pod,
 Building.BreedingPod.FlavorDescription,"""Kits are our future. We need twelve more by next month."" —Ol' Kazko","Ol' Kazko is a legendary forefather of modern beavers, famous inventor, pioneer of rapid industrialization."
-Building.BuildersHut.Description,Employs additional builders. Extend its range by building paths.,
+Building.BuildersHut.Description,Employs additional builders.,
 Building.BuildersHut.DisplayName,Builders' Hut,
 Building.BuildersHut.FlavorDescription,Beaverome wasn't built in a day. Legend says it was six hours.,Beaverome is a mythical beaver city built by beavers of many different factions who banded together to work on timber-tech for the greater good of all beavers.
 Building.Campfire.Description,A place for beavers to relax and socialize in the evening.,
@@ -73,9 +100,13 @@ Building.Campfire.FlavorDescription,"Sometimes, fire and wood are a good match."
 Building.Carousel.Description,A wooden merry-go-round for beavers of all ages.,
 Building.Carousel.DisplayName,Carousel,Alternative name: Merry-Go-Round
 Building.Carousel.FlavorDescription,"""Where do you think you're going, kit? These branches won't peel themselves."" —Ma' Ngonel","Ma' Ngonel is an almost legendary figure - a beaver grandma, known for her stern hand, cooking skills and respect among both kits and adult beavers. Her name is an inside joke, as our community constantly demands an addition of catapults, mangonels etc."
+Building.ChargingStation.Description,"A place where golems come to recharge.",Golems should be the same as Golem.PluralDisplayName
+Building.ChargingStation.DisplayName,Charging Station,"A mechanically powered building where golems come to recharge"
 Building.CompactWaterWheel.DisplayName,Compact Water Wheel,"A water wheel that's smaller than other versions."
 Building.CompactWaterWheel.Description,"A compact generator transforming flow of water into energy.",
 Building.CompactWaterWheel.FlavorDescription,"Yes, you can reinvent the water wheel.","A play on 'can't reinvent the wheel'"
+Building.ControlTower.Description,A tall structure that sends out a signal to nearby golems to boost their performance.,Golems should be the same as Golem.PluralDisplayName
+Building.ControlTower.DisplayName,Control Tower,A building that emits a signal to nearby golems
 Building.Dam.Description,Blocks water but allows some to pass through a spillway at the top.,Spillway is a hole near the top that allows for the water to pass.
 Building.Dam.DisplayName,Dam,
 Building.Dam.FlavorDescription,"As everyone knows, a civilization's fundaments are built underwater.",
@@ -83,6 +114,7 @@ Building.DeepMechanicalWaterPump.DisplayName,Deep Mechanical Water Pump,
 Building.DeepWaterPump.Description,Pumps and filters water for beavers to drink.,
 Building.DeepWaterPump.DisplayName,Deep Water Pump,A water pump which can access deeper water than a regular pump.
 Building.DeepWaterPump.FlavorDescription,"""The water comes from the land down under, where cattails grow and beaver's a plumber."" –Iron Teeth work song","Adapted from Men at Work's famous 'Down Under' song ; Iron Teeth is a faction name, keep consistent (Faction.IronTeeth.DisplayName)"
+Building.DevBattery.DisplayName,Dev Battery,A battery available only for the game developers
 Building.DistributionPost.Description,Distributes goods to other districts.,
 Building.DistributionPost.DisplayName,Distribution Post,A building which employs beavers who deliver goods to other districts.
 Building.DistributionPost.FlavorDescription,"""Send some potatoes to the twelfth district, their kits are too thin."" —Ma' Ngonel","""Hunger Games"" reference - 12th district was a poor district which Katniss Everdeen originated from."
@@ -100,6 +132,7 @@ Building.DoubleLodge.DisplayName,Double Lodge,This lodge fits twice as many beav
 Building.DoubleLodge.FlavorDescription,"The more the merrier.","This lodge fits twice as many beavers as a standard one"
 Building.DoublePlatform.DisplayName,Double Platform,Double meaning twice as tall.
 Building.DoublePlatform.FlavorDescription,"Double the height, same trademark sturdiness.",
+Building.DoubleShower.DisplayName,Double Shower,A version of Building.Shower.DisplayName that can be used by two beavers at the same time
 Building.DropOffPoint.Description,Receives goods from other districts.,
 Building.DropOffPoint.DisplayName,Drop-off Point,A small building which acts as a place where beavers from other districts can bring their goods.
 Building.DropOffPoint.FlavorDescription,"""Have the cookies arrived yet? No? Okay, I'll take the planks instead."" —Pina","Pina is a younger beaver figure that's exploring the world and isn't related to any faction in particular. Pina as a name relates to the pine tree, the translated name shouldn't suggest a gender if possible."
@@ -137,6 +170,13 @@ Building.GathererFlag.DisplayName,Gatherer Flag,Flag' could also be a Post or so
 Building.GearWorkshop.Description,Manufactures gears from planks.,Gears and Planks are resources; keep consistent.
 Building.GearWorkshop.DisplayName,Gear Workshop,Gear is a resource
 Building.GearWorkshop.FlavorDescription,"""Wooden gear's solid!"" was a catchphrase coined by Ol' Kazko as he pushed for rapid industrialization.","Metal Gear Solid is a famous Japanese video game series. Ol' Kazko is a legendary forefather of modern beavers, famous inventor, pioneer of rapid industrialization."
+Building.GolemAssembler.Description,"Assembles autonomous golems, who can assist beavers in their everyday tasks.",Golems should be the same as Golem.PluralDisplayName
+Building.GolemAssembler.DisplayName,Golem Assembler,A factory for assembling golems. Golem should be the same as Golem.PrefabName
+Building.GolemPartFactory.Description,Puts together golem components.,Golem should be the same as Golem.PrefabName
+Building.GolemPartFactory.DisplayName,Golem Part Factory,"A factory for creating golem parts, that are later assembled into full golems. Golem should be the same as Golem.PrefabName."
+Building.GravityBattery.Description,"It stores energy surplus and gives it back when its network is underpowered. The higher it is built, the more energy it can store.",
+Building.GravityBattery.DisplayName,Gravity Battery,"A battery in the form of a crane, that stores energy by raising a heavy weight above the ground."
+Building.GravityBattery.FlavorDescription,"Here's what you can do when you invent your own laws of physics.","Gravity batteries in the real world do not make sense from the physics standpoint."
 Building.Grill.Description,"Grills vegetables.",
 Building.Grill.DisplayName,Grill,A place that grills
 Building.Grill.FlavorDescription,"""Mash 'em, boil 'em, grill 'em on a non-stick pan!"" —""500 Ways to Eat a Potato"" by Ma' Ngonel","Adapted quote from Lord of the Rings paired with a nod to an infamous Soviet-era cookbook ""500 potato dishes"". Ma' Ngonel is an almost legendary figure - a beaver grandma, known for her stern hand, cooking skills and respect among both kits and adult beavers. Her name is an inside joke, as our community constantly demands an addition of catapults, mangonels etc."
@@ -146,6 +186,8 @@ Building.Gristmill.FlavorDescription,With more complicated diet came the idea of
 Building.HaulingPost.Description,"Haulers assist workers within a district in carrying goods, greatly increasing their productivity.",
 Building.HaulingPost.DisplayName,Hauling Post,Keep different from Flag buildings since the building is of a different category than flags.
 Building.HaulingPost.FlavorDescription,"The most muscular of all beavers, you don't want to step on a hauler's tail.",
+Building.Healer.Description,Makes medicine and distributes it to Medical Beds.,"Medical bed should be the same as Building.MedicalBed, Medicine as Good.Medicine"
+Building.Healer.DisplayName,Healer,A building that serves as medicine factory and distribution center. It doesn't heal beavers inside. 
 Building.IndustrialLogPile.Description,An efficient way to store logs.,
 Building.IndustrialLogPile.DisplayName,Industrial Log Pile,A place to store logs in an efficient manner
 Building.IndustrialLogPile.FlavorDescription,What's better than a pile? A pile of piles.,"The building is an improved, stackable variant of Building.LogPile"
@@ -197,6 +239,8 @@ Building.LumberMill.DisplayName,Lumber Mill,
 Building.LumberMill.FlavorDescription,"Encouraged by Ol’ Kazko, mechanized wood processing caused much gnashing of teeth among older beavers.","Ol' Kazko is a legendary forefather of modern beavers, famous inventor, pioneer of rapid industrialization."
 Building.MechanicalWaterPump.Description,"Pumps water up on one side and discharges it on the other. More efficient than a regular pump.",
 Building.MechanicalWaterPump.DisplayName,Mechanical Water Pump,"A mechanically powered water pump."
+Building.MedicalBed.Description,A spot where sick beavers come to rest. Performs better when supplied with Medicine by a Healer.,"Medicine should be the same as Good.Medicine, Healer as Building.Healer.DisplayName, keep consistent"
+Building.MedicalBed.DisplayName,Medical Bed,A place where injured/sick beavers come to lie down and rest
 Building.MetalFence.Description,A decorative fence made out metal.,
 Building.MetalFence.DisplayName,Metal Fence,
 Building.MetalPlatform.Description,A gigantic platform held up by a sturdy column.,
@@ -211,6 +255,8 @@ Building.MechanicalWaterPump.FlavorDescription,"Better running water than runnin
 Building.MudBath.Description,"A mud bath mechanically infused with bubbles.",
 Building.MudBath.DisplayName,Mud Bath,"A mud bath infused with bubbles, basically a jacuzzi but that word is too human."
 Building.MudBath.FlavorDescription,"Where are the bubbles coming from?","Fart joke but it's easy to see it as bubbles all appear in the middle of the bath where the visitors' tails are directed."
+Building.Numbercruncher.Description,"A complicated machine that solves calculations without beavers operating it.","This machine is a primitive computer."
+Building.Numbercruncher.DisplayName,Numbercruncher,"A machine that's a primitive computer. It generates science points by performing research."
 Building.Observatory.Description,"By exploring the stars, beavers gain more knowledge about the world they live in.","A building where beavers look into the space using telescopes"
 Building.Observatory.DisplayName,Observatory,"A building where beavers look into the space using telescopes"
 Building.Observatory.FlavorDescription,"The logical next step after stargazing at the campfire.",
@@ -238,6 +284,8 @@ Building.PowerWheel.FlavorDescription,Beavers quickly realized they could borrow
 Building.PrintingPress.Description,Prints books using paper.,Book and Paper are resources.
 Building.PrintingPress.DisplayName,Printing Press,
 Building.PrintingPress.FlavorDescription,"Usually, beavers consume each page right after reading, so good literature is always in demand.",
+Building.Refinery.Description,"Manufactures fuel out of food and water.",
+Building.Refinery.DisplayName,Refinery,"A building where old food is processed to make biofuel"
 Building.Roof.FlavorDescription,A fancier roof is often enough to fuel a friendly neighbourhood rivalry.,
 Building.Roof1x1.DisplayName,Roof 1x1,Numbers at the end denote size X by Y
 Building.Roof1x2.DisplayName,Roof 1x2,Numbers at the end denote size X by Y
@@ -259,6 +307,8 @@ Building.Scarecrow.FlavorDescription,Outstanding in their field.,
 Building.ScavengerFlag.Description,Scavengers collect scrap metal from ruins.,Metal is a resource;ruins are a building
 Building.ScavengerFlag.DisplayName,Scavenger Flag,
 Building.ScavengerFlag.FlavorDescription,"Bringing metal to traditionally wooden settlements, scavengers earn respect from some and disdain from others.",
+Building.Shower.Description,"A spot where beavers can get refreshed with a shower.",
+Building.Shower.DisplayName,Shower,A simple shower for beavers.
 Building.Shredder.Description,Shreds scrap metal and compresses it into blocks.,
 Building.Shredder.DisplayName,Shredder,
 Building.Shredder.FlavorDescription,A human's trash is a beaver's treasure.,"Adapted from ""One man’s trash is another man’s treasure"""
@@ -271,7 +321,7 @@ Building.Slope.DisplayName,Slope,
 Building.Slope.FlavorDescription,"Whoever put it here, beavers are grateful.",
 Building.SmallWarehouse.Description,Stores goods.,
 Building.SmallWarehouse.DisplayName,Small Warehouse,
-Building.SmallWarehouse.FlavorDescription,"With all the hazards of post-apocalyptic world, proper storage of goods is crucial.",
+Building.SmallWarehouse.FlavorDescription,"With all the hazards of a post-apocalyptic world, proper storage of goods is crucial.",
 Building.SmallWaterTank.Description,Stores a small amount of water.,
 Building.SmallWaterTank.DisplayName,Small Water Tank,
 Building.SmallWaterTank.FlavorDescription,Learning how to save every drop of water helped beavers adapt to the harsh environment.,
@@ -296,6 +346,8 @@ Building.SuspensionBridge5x1.DisplayName,Suspension Bridge 5x1,Numbers at the en
 Building.SuspensionBridge6x1.DisplayName,Suspension Bridge 6x1,Numbers at the end denote size X by Y
 Building.TappersShack.Description,"Employs tappers who gather sap and syrup from trees.",
 Building.TappersShack.DisplayName,"Tapper's Shack","A shack where workers tap trees to gather sap and syrups, similar to sugar shacks in Canada."
+Building.TeethGrindstone.Description,"Used to sharpen broken teeth.",Broken teeth refers to Need.BrokenTeeth.CriticalDescription
+Building.TeethGrindstone.DisplayName,Teeth Grindstone,A grindstone contraption for sharpening beaver teeth
 Building.Temple.DisplayName,Temple,
 Building.Temple.FlavorDescription,"Here, beavers thank the whimsical nature for its relative generosity.",We don't want to make references to real-life religion.
 Building.TributeToIngenuity.DisplayName,Tribute to Ingenuity,Name of a monument
@@ -324,6 +376,10 @@ Building.WaterSource.FlavorDescription,"""May your river always flow."" —Beave
 Building.WaterWheel.Description,"Produces power, should be placed in water on a river bank.",Power is not an electrical but mechanical/kinetic energy.
 Building.WaterWheel.DisplayName,Water Wheel,
 Building.WaterWheel.FlavorDescription,Ol' Kazko's opus magnum.,"Ol' Kazko is a legendary forefather of modern beavers, famous inventor, pioneer of rapid industrialization."
+Building.WindGauge.Description,"A small vane that turns in the direction of the wind and tells its strength.",
+Building.WindGauge.DisplayName,Wind Gauge,A decoration that turns towards the wind
+Building.WindGauge.FlavorDescription,"""If I am right, this thing could fly if fixed to an engine and a pair of wings."" —Pina","Referencing the Wright brothers and their first-ever aircraft. Pina is a younger beaver figure that's exploring the world and isn't related to any faction in particular. Pina as a name relates to the pine tree, the translated name shouldn't suggest a gender if possible."
+Building.WindGauge.WindStrength,"Wind strength: {0}%","This tells how strong the wind is in percent between 0 and 100"
 Building.Windmill.Description,Generates a changeable amount of power from the wind.,
 Building.Windmill.DisplayName,Windmill,
 Building.Windmill.FlavorDescription,"""All we are is sawdust in the wind!"" —Folktails song","Reference to ""Dust in the Wind"" by Kansas."
@@ -335,30 +391,34 @@ Building.WoodWorkshop.FlavorDescription,"Why are treated planks so strong? Becau
 Buildings.AboveGround,<SolidHighlight>Above-ground:</SolidHighlight> Must be placed atop other buildings.,
 Buildings.BuildingIsUnique,<SolidHighlight>Unique to this faction</SolidHighlight>,Describes a building which is only available to this faction.
 Buildings.DeletePrompt,Are you sure you want to delete the building?,
-Buildings.FloodedAlert,Flooded building,
-Buildings.FloodedPanel,It's flooded,
+Buildings.EntranceBlocked,"Entrance blocked.","A notification for when a building entrance is blocked, keep it short"
+Buildings.FloodedAlert,Flooded building,"Alert that shows up when a building is flooded."
+Buildings.FloodedPanel,Flooded.,"Notification that shows in the selected building's panel when it's flooded."
 Buildings.GroundOnly,<SolidHighlight>Ground-only:</SolidHighlight> Must be built on the ground.,
+Buildings.InvalidTerrainLevel,This cannot be built at the bottom of the map.,An alert for when someone tries to build at the lowest layer of the map.
 Buildings.NeedsWaterAlert,Building needs water,
 Buildings.NeedsWaterPanel,This building needs deeper water to function.,
 Buildings.Paused,Turned off.,"Alternative terms: Paused, Switched off"
 Buildings.Solid,<SolidHighlight>Solid:</SolidHighlight> Other buildings can be built on its top.,Solid or Stackable — something that tells the player that you can build on top of it
 Buildings.UnreachableBuildingAlert,Unconnected building,"Shown when a building isn't connected to a district center, shorter version"
 Buildings.UnreachableBuildingPanel,This building isn't connected to any district center by paths.,"Shown when a building isn't connected to a district center, longer version"
-Buildings.UnreachableConstruction,This construction site is too far from builders! Build more paths or a new district.,Shown when a construction site is out of range
 Buildings.UnsuitableBuildingBelow,This building needs to be built on top of {0},{0} stands for another buildings DisplayName. This is a warning shown to the user during building placing.
 BuildingTools.CantUnlock,"Can't unlock {0}, not enough Science Points.",{0} stands for Building.DisplayName {1} stands for amount. Prompt when player doesn't have enough science points to unlock a building.
 BuildingTools.DistrictsInConflict,Districts must be separated by a gate.,A warning when a player tries to connect two districts without separating them with a District Gate.
 BuildingTools.Multiple,Hold <b>LMB</b> to place multiple objects,Tooltip that tells the players that they can place multiple objects at once
 BuildingTools.UnlockPrompt,Are you sure you want to unlock {0}? It costs {1} Science Points.,{0} stands for Building.DisplayName {1} stands for amount. Prompt when player presses to unlock a building.
+Camera.StateSaved,Camera state saved,"Notification on top of the window when camera state(location, rotation) is saved by player."
 CancelPlantingTool.Description,Use it to unmark planting areas.,Description of a tool that removes fields.
 CancelPlantingTool.Title,Clear planting area,Tool that removes fields so the beavers won't plant there.
 Carrying.Carry,Carries: {0} ({1} of {2} kg),{0} stands for Good.DisplayName {1} stands for carried good weight {2} stands for beaver lifting capacity. Tells player what the beaver is carrying and how much it weighs in comparison to the beaver's strength
 Carrying.Nothing,nothing,When beaver is carrying nothing.
 Clusters.SharesPower,Shares power with adjacent buildings.,Power is not an electrical but mechanical/kinetic energy. Notifies that the power is shared with buildings that touch this building.
+ConstructionSites.DisplayName,Construction site,
 ConstructionSites.NoMaterials,Can't get all required materials.,Shown in the building box when there are no available materials in the nearby storages or no storages nearby
 ConstructionSites.NoMaterialsShort,Construction lacks materials,Notification that the construction can't be finished; keep fairly short
+ConstructionSites.Priority,Construction priority,
 ConstructionSites.PriorityTitle,Construction priority:,Setting a priority for construction work on a construction site
-ConstructionSites.Progress,Build progress: {0}%{1},{0} stands for percentage {1} stands for ConstructionSites.Info. Percentage of building finished
+ConstructionSites.Progress,Progress: {0}%,{0} stands for percentage of construction progress
 ConstructionSites.Info.WaitingForMaterials,(waiting for materials),Awaiting new materials to build
 Core.BrowseDirectory,Browse directory ►,Opens file browser to either save folder or map folder. Please keep the arrow.
 Core.Cancel,Cancel,A button please keep short
@@ -376,7 +436,6 @@ Core.Save,Save,A button please keep short
 Core.SaveAs,Save as...,A button please keep short
 Core.Start,Start,A button please keep short
 Core.Yes,Yes,
-Cutting.Yield,Resources,Followed by colon and then a number and Good.DisplayName. Tells what resources a plant will yield when cut for examples 'Resources: Logs (4)'.
 Demolish.Mark,Demolish,Demolishing is removing with the use of builders. Must be different than 'Delete' which has a slightly different meaning in the game.
 Demolish.Cancel,Cancel demolishing,
 Demolish.PriorityTitle,Demolition priority:,Setting a priority for demolition work on demolition target
@@ -403,7 +462,7 @@ Distribution.PickDropOffPointTip,Choose the destination Drop-off Point. It must 
 Distribution.PickDropOffPointTitle,Select Drop-off Point,
 Distribution.PickDropOffPointWarning,Destination must be in a different district and connected by road.,
 Distribution.Routes,Routes,
-Distribution.RouteProblemAlert,Beavers can't distribute goods,
+Distribution.RouteProblemAlert,Can't distribute goods,"Alert that shows up when haulers can't move goods between districts."
 Distribution.RouteProblemPanel,Some routes are not functioning.,
 Distribution.RoutePaused,Paused,
 Distribution.SelectGood,Select good,
@@ -417,6 +476,8 @@ Dwelling.Dwellers,Dwellers,Header for the box of the inhabitants/tenants of this
 Dwelling.Newborn,{0} was born!,{0} stands for beaver name. Notification that shows when a new beaver is born.
 Dwelling.NoBeaverCanReach,No beaver can reach this dwelling.,Information that this building is unreachable for any beavers.
 Dwelling.NoUnemployedCanReach,No unemployed beaver can reach this dwelling.,Information that this building is unreachable for any unemployed beavers.
+Dwellings.FreeBeds,Free beds,Label before number of unoccupied beds
+Dwellings.OccupiedBeds,Occupied beds,Label before number of occupied beds
 Emptying.Empty,Empty storage,A command for beavers to empty this storage.
 Emptying.EmptyingInProgress,Building is being emptied and does not accept new goods.,
 EntityPanel.ChangeName,Enter a new name:,Shown when renaming a beaver or a building
@@ -432,6 +493,7 @@ ExceptionPanel.SendReport,Send error report to the Timberborn team,
 ExceptionPanel.SendSuccess,"We received your report, thank you!",
 ExceptionPanel.Sending,Sending...,
 ExceptionPanel.Title,Uh oh... a bug :'(,
+Explosions.BlownInExplosionMessage,{0} was blown up by an explosion.,"{0} stands for character name. Notification that shows when a character (Beaver/Golem) is killed/destroyed by an explosion (another golem or dynamite)"
 Faction.Folktails.Description,"Easygoing but hardworking, Folktails are expert farmers. They respect nature and it rewards them with plentiful bounties.
 Their motto: <i>Comfort, food, and sturdy wood.</i>",Description of a beaver faction
 Faction.Folktails.DisplayName,Folktails,Name of a faction
@@ -441,37 +503,33 @@ Their motto: <i>Work hard, work hard.</i>",Description of a beaver faction
 Faction.IronTeeth.DisplayName,Iron Teeth,Name of a faction
 FactionSelection.Header,Select faction,
 FactionSelection.NewFactionUnlocked,New faction unlocked:,Followed by the name of a faction in new line
-FactionSelection.WellbeingCondition,To unlock reach average well being of {0} while playing {1}.,{0} stands for a number {1} stand for Faction.DisplayName
+FactionSelection.WellbeingCondition,To unlock reach average well-being of {0} while playing {1}.,{0} stands for a number {1} stand for Faction.DisplayName
 Fields.Harvesting,Harvesting,Preceded by Fields.PriorityAction
 Fields.Planting,Planting,Preceded by Fields.PriorityAction
 Fields.PriorityAction,Prioritized action:,Which of the actions is prioritized.
-Fields.Yield,Resources,"Followed by colon and amount of goods, for example 'Resources: Wheat (5)'. Shows what is yielded from this field when beaver harvests it."
 GameExitPanel.Exit,Exit,A button please keep short
 GameExitPanel.Message,"Before you go, help us make the game better by sharing your feedback.",
 GameExitPanel.ShareFeedback,Share feedback,A button please keep short
 GameExitPanel.Title,Thanks for playing Timberborn Early Access!,
-GameStatistics.BeaversAlive,Beavers alive,
-GameStatistics.BeaversBorn,Beavers born,How many beavers were born in this playthrough.
-GameStatistics.BeaversDied,Beavers died,How many beavers died in this playthrough.
-GameStatistics.Consumed,Consumed: {0},{0} stands for name of a good
-GameStatistics.Produced,Produced: {0},{0} stands for name of a good
-GameStatistics.CropsPlanted,Crops planted,
-GameStatistics.Gathered,Gathered: {0},{0} stands for name of a good
-GameStatistics.Header,Statistics:,
-GameStatistics.LengthOfTeethGrown,Length of teeth grown,
-GameStatistics.TreesCut,Trees cut,
-GameStatistics.Used,Used: {0},{0} stands for name of a good
 Gathering.GathererFlag.Action,Gathers:,"Followed by a list of goods, like Gathers: Berries"
 Gathering.Nothing,Nothing,Nothing is prioritized to be gathered.
 Gathering.Prioritize,Prioritize:,Which resource is prioritized to be gathered.
-Gathering.Yield,Resources (gathering),"Followed by colon and amount of goods, for example 'Resources (gathering): Potatoes (3)'. Gathering as in hunter-gatherer."
-Gathering.YieldGrowthProgress,{0}: {1}%,{0} stands for a fruit or other thing that can be gathered (e.g. berries or chestnuts) {1} stands for a percentage number. It tells the player how long it is until a plant produces fruit or other thing that can be gathered. Final effect looks like this: Berries: 75% or Chestnuts: 20%
 Goals.Button,Goals,A button please keep short
 Goals.NotEligible,not eligible while playing this faction!,Preceded by Goals.Progress
 Goals.Unlocked,unlocked!,Preceded by Goals.Progress
 Goals.Progress,Progress:,
+Golem.Created,{0} was created!,{0} stands for golem name. Notification that shows when production of a new golem finishes.
+Golem.Dead,Destroyed.,This shows up when a golem has been destroyed
+Golem.DeadNameSuffix,(destroyed),Preceded by golem name and age
+Golem.DisplayName.Folktails,"Barrelbot {0}","{0} stands for a golem serial number. Name of golems from the Folktails faction. Named after the fact their chassis is barrel-shaped."
+Golem.DisplayName.IronTeeth,"Coghead {0}","{0} stands for a golem serial number. Name of golems from the Iron Teeth faction. Named after a distinct cog shape on their head."
+Golem.Durability,Durability,Label before a progress bar showing amount of durability left
+Golem.PluralDisplayName,Golems,"Golems are autonomous robots, who assist beavers in their everyday tasks. They are constructed in factories."
+Golem.PrefabName,Golem,A golem is an animated anthropomorphic being which is created from inanimate matter. Timberborn golems are depicting beavers and are made of wood and metal.
 Good.Berries.DisplayName,Berries,Resource name
 Good.Berries.PluralDisplayName,Berries,Resource name
+Good.Biofuel.DisplayName,Biofuel,Fuel made out of natural resources like plants.
+Good.Biofuel.PluralDisplayName,Biofuel,Fuel made out of natural resources like plants.
 Good.Book.DisplayName,Book,Resource name
 Good.Book.PluralDisplayName,Books,Resource name
 Good.Bread.DisplayName,Bread,Resource name
@@ -486,12 +544,20 @@ Good.CattailRoot.DisplayName,Cattail root,"Root of plant of a genus Typha, keep 
 Good.CattailRoot.PluralDisplayName,Cattail roots,"Root of plant of a genus Typha, keep plant name same as NaturalResource.Cattail.DisplayName"
 Good.Chestnut.DisplayName,Chestnut,"Fruit of a Aesculus hippocastanum tree, also known as conkers"
 Good.Chestnut.PluralDisplayName,Chestnuts,"Fruit of a Aesculus hippocastanum tree, also known as conkers"
+Good.Dandelion.DisplayName,Dandelion,"Healing plant"
+Good.Dandelion.PluralDisplayName,Dandelions,"Healing plant"
 Good.Explosives.DisplayName,Explosives,Resource name. Not to be confused with the Dynamite building.
 Good.Explosives.PluralDisplayName,Explosives,Resource name. Not to be confused with the Dynamite building.
 Good.Flour.DisplayName,Flour,Resource name
 Good.Flour.PluralDisplayName,Flour,Resource name
 Good.Gear.DisplayName,Gear,Resource name
 Good.Gear.PluralDisplayName,Gears,Resource name
+Good.GolemChassis.DisplayName,Golem chassis,A big golem part that holds most of the machinery inside. Golem should be the same as Golem.PrefabName.
+Good.GolemChassis.PluralDisplayName,Golem chassis,A big golem part that holds most of the machinery inside. Golem should be the same as Golem.PrefabName.
+Good.GolemHead.DisplayName,Golem head,A head of a golem. Golem should be the same as Golem.PrefabName.
+Good.GolemHead.PluralDisplayName,Golem heads,A head of a golem. Golem should be the same as Golem.PrefabName.
+Good.GolemLimb.DisplayName,Golem limb,An unspecified limb of a golem. Golem should be the same as Golem.PrefabName.
+Good.GolemLimb.PluralDisplayName,Golem limbs,An unspecified limb of a golem. Golem should be the same as Golem.PrefabName.
 Good.GrilledChestnut.DisplayName,Grilled chestnut,"Grilled fruit of a Aesculus hippocastanum tree, also known as conkers, keep plant name same as Good.Chestnut.DisplayName."
 Good.GrilledChestnut.PluralDisplayName,Grilled chestnuts,"Grilled fruit of a Aesculus hippocastanum tree, also known as conkers, keep plant name same as Good.Chestnut.DisplayName."
 Good.GrilledPotato.DisplayName,Grilled potato,Resource name
@@ -504,6 +570,8 @@ Good.MaplePastry.DisplayName,Maple pastry,"A baked good filled with maple syrup.
 Good.MaplePastry.PluralDisplayName,Maple pastries,"A baked good filled with maple syrup."
 Good.MapleSyrup.DisplayName,Maple syrup,"Sweet syrup created from maple sap"
 Good.MapleSyrup.PluralDisplayName,Maple syrup,"Sweet syrup created from maple sap"
+Good.Medicine.DisplayName,Medicine,Medicine made out of natural resources.
+Good.Medicine.PluralDisplayName,Medicine,Medicine made out of natural resources.
 Good.MetalBlock.DisplayName,Metal block,Resource name
 Good.MetalBlock.PluralDisplayName,Metal blocks,Resource name
 Good.Paper.DisplayName,Paper,Resource name
@@ -518,6 +586,8 @@ Good.ScrapMetal.DisplayName,Scrap metal,Resource name
 Good.ScrapMetal.PluralDisplayName,Scrap metal,Resource name
 Good.Spadderdock.DisplayName,Spadderdock,"A plant formally called Nuphar Lutea"
 Good.Spadderdock.PluralDisplayName,Spadderdock,"A plant formally called Nuphar Lutea"
+Good.SunflowerSeeds.DisplayName,Sunflower seeds,
+Good.SunflowerSeeds.PluralDisplayName,Sunflower seeds,
 Good.TreatedPlank.DisplayName,Treated plank,"Plank impregnated with resin. Use the same word for plank as in Good.Plank."
 Good.TreatedPlank.PluralDisplayName,Treated planks,"Plank impregnated with resin. Use the same word for plank as in Good.Plank."
 Good.Water.DisplayName,Water,Resource name
@@ -529,15 +599,17 @@ Good.WheatFlour.PluralDisplayName,Wheat flour,"Flour made out of wheat. Use the 
 GoodConsuming.SupplyDescription,Uses: {0},{0} stands for resource name and amount per hour.
 GoodConsuming.SupplyRemaining,Supply will last for {0} hours,"{0} stands for hours. Describes a building which requires a certain resources to operate, such as water."
 Goods.Nothing,Nothing,
-Growing.Progress,Growth progress: {0}%,{0} stands for a percentage number. How much has this plant grown.
+Growing.GrowsWhenMature,Grows when mature,"Information about fruits and other resources, that grows when plant is mature and not when it is in seedling stage"
 Growing.Time,Days to grow: {0},{0} stands for a number of days. How many days left does this plant have to fully grow.
 Hauling.Prioritize,Prioritize building by haulers,building is a noun in this sentence. This building will be prioritized by haulers.
-Homelessness.StrandedStatusMessage,Beaver is stranded,This status is activated after a beaver got stranded and cut off from the village.
+Homelessness.StrandedAlert,Stranded,This alert is activated after a beaver or a golem got stranded and cut off from the village.
+Homelessness.StrandedStatusMessage,Stranded.,This status is activated after a beaver or a golem got stranded and cut off from the village.
 Inventory.All,All,A button please keep short
 Inventory.Allowed,Allowed:,Please keep short. What types of resources are allowed in storage.
 Inventory.Capacity,Capacity:,How much space there is in the storage
 Inventory.Default,Default,A button please keep short. The default resources will be desired.
 Inventory.Desired,Desired:,Please keep short. Which resources will be desired in the storage.
+Inventory.InStock,In stock:,Please keep short. Header above a list of resources in stock of the storage.
 Inventory.IsEmpty,No goods in stock,
 Inventory.Full,Building is full.,Building full of items.
 Inventory.Goods,Goods:,
@@ -546,6 +618,7 @@ Inventory.Header.Name,Name,Please keep short. Header above a column with names o
 Inventory.Header.Stock,Stock,Please keep short. Header above a column with amounts of resource in stock of the storage.
 Inventory.None,None,A button please keep short. No resources are allowed/desired
 Inventory.StartingInventory,Starting goods,
+Inventory.Undesired,Undesired:,Please keep short. Which resources are not desired in the storage.
 KeyBindingsPanel.Bindings,"<b>Time</b>
 Change speed: ~, 1, 2, 3
 Pause: SPACE
@@ -564,9 +637,14 @@ Toggle water visibility: T
 Rotate building: R / SHIFT + R
 Delete building: DEL
 Force delete building: SHIFT + DEL
-Pause / unpause building: P",Description of available key bindings
+Pause / unpause building: P
+
+<b>Other</b>
+Open Settlement panel: G",Description of available key bindings
 KeyBindingsPanel.Header,Key bindings,Header of the key bindings box
-Labor.TransportWhenIdle,Transport goods between warehouses when idle.,Next to a toggle. Transport is a verb here.
+Labor.TransportWhenIdle,Transport goods between warehouses when idle,Next to a toggle. Transport is a verb here.
+LoadMapPanel.Delete,Delete map,"A button. Please keep short."
+LoadMapPanel.DeleteMapPrompt,Are you sure you wish to delete {0}?,{0} stands for map name
 LoadMapPanel.Header,Edit map,
 MainMenu.WelcomeScreenStart,Start!,A button please keep short
 MainMenu.WelcomeScreenText,"Greetings settler!
@@ -583,6 +661,11 @@ Manufactory.CurrentRecipe,Recipe:,"Text before a dropdown for changing factory r
 Manufactory.NoRecipeOption,None,"Text shown in a dropdown when no recipe is selected. Keep below 15 characters."
 Manufactory.NoRecipeStatus,No recipe is selected.,"A warning that no recipe is selected for crafting"
 Manufactory.NoRecipeStatusShort,No recipe selected,"A warning that no recipe is selected for crafting. Please keep short."
+Manufactory.Recipe.BiofuelCarrot,Biofuel (Carrots),"Recipe for making Biofuel out of Carrots. Keep consistent with Good.Biofuel.DisplayName and Good.Carrot.PluralDisplayName."
+Manufactory.Recipe.BiofuelPotato,Biofuel (Potatoes),"Recipe for making Biofuel out of Potatoes. Keep consistent with Good.Biofuel.DisplayName and Good.Potato.PluralDisplayName."
+Manufactory.Recipe.BiofuelSpadderdock,Biofuel (Spadderdock),"Recipe for making Biofuel out of Spadderdock. Keep consistent with Good.Biofuel.DisplayName and Good.Spadderdock.PluralDisplayName."
+Manufactory.Recipe.BiofuelSunflowerSeed,Biofuel (Sunflower seeds),"Recipe for making Biofuel out of Sunflower seeds. Keep consistent with Good.Biofuel.DisplayName and Good.SunflowerSeeds.PluralDisplayName."
+Manufactory.Recipe.EfficientScrapMetal,"Scrap Metal (Efficient)","A more efficient way of getting scrap metal using explosives. The metal scrap itself is not more efficient. Scrap Metal is Good.ScrapMetal.DisplayName"
 Manufactory.Recipe.FlowingWater,Flowing water,"Water brought in buckets from other places is discharged in a building (Water dump) creating freely flowing water. This freely flowing water is the recipe product."
 MapEditor.Brush.AbsoluteTerrainHeight,Terrain height (absolute),A tool that changes terrain height to an absolute value.
 MapEditor.Brush.Density,Density,Density of objects.
@@ -619,12 +702,16 @@ MapSelection.CustomMap,Custom,Meaning map is custom created by players. Keep sho
 MapSelection.Header,Select map,
 MapSelection.Recommended,Recommended,This map is recommended for new players.
 Mechanical.BlockedConnection,Power connection is blocked!,Power is not an electrical but mechanical/kinetic energy.
+Mechanical.Charge,Charge,Current battery charge (how much power a battery has left)
 Mechanical.Efficiency,Efficiency: {0}%,{0} stands for efficiency percentage number. How efficient workshop is at using the energy.
 Mechanical.NetworkPower,Network power supply / demand: {0} / {1},{0} stands for supply amount {1} stands for demand amount followed by PowerSymbol
 Mechanical.NoPower,Building needs power to operate. Connect it to a power generator.,
 Mechanical.NoPowerShort,Building lacks power,Power is not an electrical but mechanical/kinetic energy.
+Mechanical.PowerCapacity,Capacity,Stands for battery capacity.
+Mechanical.PowerCapacityPerMeter,hph / m,Stands for horse power hour per meter - used to describe battery capacity. hph should be same as Mechanical.PowerCapacitySymbol.
+Mechanical.PowerCapacitySymbol,hph,Please keep short. Stands for horse power hour (as in kilowatt-hour); should keep similar.
 Mechanical.PowerInput,Power input: {0},{0} stands for power amount followed by PowerSymbol
-Mechanical.PowerInputMaximum,Power input / maximum: {0} / {1},{0} stands for input amount {1} stands for maximum amount followed by PowerSymbol
+Mechanical.PowerInputMaximum,Power input / maximum: {0} / {1} ({2}%),{0} stands for input amount {1} stands for maximum amount followed by PowerSymbol {2} stands for efficency ratio in percent
 Mechanical.PowerOutput,Power output: {0},{0} stands for power amount
 Mechanical.PowerSymbol,hp,Please keep short. Stands for horse power; should keep similar.
 Mechanical.PowerSymbolPerFlow,hp/cms,Please keep short. Stands for horse power per cubic metre per second; hp should be the same as Mechanical.PowerSymbol.
@@ -647,14 +734,8 @@ Menu.NewMap,Create new map,A button please keep short
 Menu.ResumeGame,Resume game,A button please keep short
 Menu.SaveGame,Save game,A button please keep short
 Menu.Settings,Settings,A button please keep short
-Migration.Adults,Adults,Field label please keep short
-Migration.Children,Children,Field label please keep short
-Migration.FromDistrict,From:,
-Migration.Header,Migrate population,
-Migration.Migrate,Migrate,Button please keep short
 Migration.MigratePopulation,Migrate population,Button please keep short
-Migration.NoDistrictInRange,There is no other district in range.,
-Migration.ToDistrict,To:,
+Migration.Minimum,"Minimum","Label shown in front of input field, with desired minimum amount of population in district"
 NaturalResource.Birch.DisplayName,Birch,Tree of the genus Betula.
 NaturalResource.Birch.FlavorDescription,"""Remember, kits, do not peel too much bark off! It harms the tree!"" —Ma' Ngonel","Peeling stripes of birch bark is oddly satisfying. Ma' Ngonel is an almost legendary figure - a beaver grandma, known for her stern hand, cooking skills and respect among both kits and adult beavers. Her name is an inside joke, as our community constantly demands an addition of catapults, mangonels etc."
 NaturalResource.Cattail.FlavorDescription,"""I know all about tails but what is a cat?"" —Pina","Makes sense only in english, feel free to adapt. Pina is a younger beaver figure that's exploring the world and isn't related to any faction in particular. Pina as a name relates to the pine tree, the translated name shouldn't suggest a gender if possible."
@@ -665,6 +746,7 @@ NaturalResource.Carrot.DisplayName,Carrot,Daucus carota subspecies sativus
 NaturalResource.Carrot.FlavorDescription,Raw carrots help beavers balance their diet without giving up on the joy of crunching.,
 NaturalResource.Cattail.DisplayName,Cattail,"Plant of a genus Typha"
 NaturalResource.ChestnutTree.DisplayName,Chestnut Tree,"A Aesculus hippocastanum tree"
+NaturalResource.Dandelion.DisplayName,Dandelion,"A flower used as a medicine ingredient. It looks like a yellow flower dandelion. Must be the same as Good.Dandelion.DisplayName"
 NaturalResource.Maple.DisplayName,Maple,Tree of the genus Sapindaceae
 NaturalResource.Maple.FlavorDescription,Tapped maple produces syrup but high quality timber is an even sweeter reward.,
 NaturalResource.Pine.DisplayName,Pine,Tree of the genus Pinus
@@ -673,6 +755,8 @@ NaturalResource.Potato.DisplayName,Potato,Plant Solanum tuberosum
 NaturalResource.Potato.FlavorDescription,"""There's more than one way to cook a potato."" —Beaver proverb",
 NaturalResource.Spadderdock.DisplayName,Spadderdock,"Plant Nuphar Lutea"
 NaturalResource.Spadderdock.FlavorDescription,"The nature sends its message through the leaves' shape.","Spadderdock has heart-shaped leaves, and it can be seen in the game."
+NaturalResource.Sunflower.DisplayName,Sunflower,
+NaturalResource.Sunflower.FlavorDescription,"Beavers grow these to show they’re not afraid of the burning sun.","It's a reference to drought being the main threat in the game."
 NaturalResource.Wheat.DisplayName,Wheat,Plant Triticum aestivum
 NaturalResource.Wheat.FlavorDescription,"""You'll forget the sun in the cloudless sky as we walk in fields of gold."" —Beaver ballad","Adapted from ""Fields of Gold"" by Sting."
 NaturalResources.Aquatic,<SolidHighlight>Aquatic</SolidHighlight>: this plant must be partially submerged in water.,"Aquatic is a keyword. Shown after selecting an aquatic plant. Examples of aquatic plants include spadderdock or water lilies." 
@@ -689,31 +773,47 @@ NaturalResources.Seedling,{0} (seedling),{0} stands for NaturalResource.DisplayN
 NaturalResources.Visibility.Hide,Hide natural resources,Tooltip for button hiding natural resources
 NaturalResources.Visibility.Show,Show natural resources,Tooltip for button showing natural resources
 NaturalResources.Watered,It's watered and alive.,
-Need.Hunger.CriticalDescription,Starving,
+Need.BeeSting.DisplayName,"Bee sting",Title of an effect that shows up when a beaver has been stung by a bee.
+Need.Biofuel.CriticalDescription,Out of fuel.,"This shows up when a golem runs out of fuel."
+Need.Biofuel.CriticalDescriptionShort,Golem is out of fuel,"This shows up when a golem runs out of fuel. Please keep short. Golem should be the same as Golem.PrefabName."
+Need.BrokenTeeth.CriticalDescription,"Broken teeth.","This shows up when a beaver has broken teeth."
+Need.BrokenTeeth.CriticalDescriptionShort,"Broken teeth","This shows up when a beaver has broken teeth. Please keep short."
+Need.BrokenTeeth.DisplayName,"Broken teeth",Title of an effect that shows up when a beaver has broken its teeth
+Need.Energy.CriticalDescription,Out of energy.,"This shows up when a golem runs out of energy."
+Need.Energy.CriticalDescriptionShort,Golem is out of energy,"This shows up when a golem runs out of energy. Please keep short. Golem should be the same as Golem.PrefabName."
+Need.Energy.DisplayName,Energy,A need satisfied when a golem recharges.
+Need.Hunger.CriticalDescription,Starving.,This shows up when a beaver's hunger reaches critical levels. Please keep short.
 Need.Hunger.DeathMessage,died of hunger.,Preceded by beaver name
-Need.Hunger.DisplayName,Hunger,
+Need.Hunger.DisplayName,Hunger,Title of a beaver need related to its hunger
+Need.HammerAndSaw.DisplayName,Hammer and saw,"A passive need that is always active and provides bonus to woodworking and metalworking."
+Need.Injury.CriticalDescription,"Injured.","This shows up in the selected beaver's panel when it has an injury."
+Need.Injury.CriticalDescriptionShort,"Beaver is injured","This shows up as an alert when a beaver has an injury."
+Need.Injury.DisplayName,"Injury",Title of an effect that shows up when a beaver has been injured
+Need.Overheat.DisplayName,Overheat,An effect that occurs when a beaver spends too much time outside during drought.
 Need.Roof.DisplayName,Roof,"Same as Building.Roof2x2.DisplayName without the size. It refers to roofs as one of the available decorations, do not confuse with Shelter which is a separate need."
 Need.Shelter.DisplayName,Shelter,"A need that is fulfilled when a beaver has a house."
-Need.Sleep.CriticalDescription,Exhausted,
+Need.ShovelAndPan.DisplayName,Shovel and pan,"A passive need that is always active and provides bonus to farming and cooking."
+Need.Sleep.CriticalDescription,Exhausted.,
 Need.Sleep.DisplayName,Sleep,A need satisfied when a beaver sleeps.
-Need.Thirst.CriticalDescription,Thirsty,
+Need.Thirst.CriticalDescription,Dehydrated.,This shows up on the entity panel when a beaver is extremely thirsty
 Need.Thirst.DeathMessage,died of thirst.,Preceded by beaver name
 Need.Thirst.DisplayName,Thirst,A need satisfied by providing water.
+Need.WetFur.DisplayName,Wet fur,An effect that occurs when a beaver enters water and is wet. It's a positive effect and it stays for a time after the beaver leaves water.
 NeedGroup.Aesthetics.DisplayName,Aesthetics,"Name of a need group where needs are satisfied by decorating your settlement, previously Need.Esthetics.DisplayName"
 NeedGroup.Awe.DisplayName,Awe,"Same as the Need named Awe"
 NeedGroup.BasicNeeds.DisplayName,Basic needs,"A group of needs which includes needs such as Hunger, Water, Shelter etc."
+NeedGroup.Boosts.DisplayName,Boosts,"Name of a group containing boosting effects for golems like Need.BoostCooking.DisplayName"
 NeedGroup.Fun.DisplayName,Fun,"Name of a need group where needs are satisfied by building attractions for the beavers, previously Need.Fun.DisplayName"
 NeedGroup.Happiness.DisplayName,Happiness,"General happiness of the populace"
 NeedGroup.Knowledge.DisplayName,Knowledge,"Name of a need group where needs are satisfied when beavers learn new stuff, previously Need.Knowledge.DisplayName"
 NeedGroup.Nutrition.DisplayName,Nutrition,"Same as the need named Nutrition"
+NeedGroup.Passive.DisplayName,Passive,"Name of a group containing passive effects, that are always active, like Need.HammerAndSaw.DisplayName"
+NeedGroup.Temporary.DisplayName,Temporary effects,"Name of a need group containing temporary effects, both positive and negative."
 NeedGroup.SocialLife.DisplayName,Social life,"Name of a need group where needs are satisfied by letting beavers be social and chat with other beavers, previously Need.SocialLife.DisplayName"
 NeedGroup.Spirituality.DisplayName,Spirituality,"Name of a need group where needs are satisfied by places of worship such as temples, previously Need.Spirituality.DisplayName"
-Needs.Critical.Beaver,"The beaver will die.",
+Needs.HeatProtection,Protects from: {0},"Shown on a tooltip, when need protects from heat effects. {0} stands for heat effect name."
 Needs.InRange,within {0} tiles,"{0} stands for radius size (area of effect), text is shown after Need.DisplayName to indicate its radius"
 Needs.SatisfiesInRange,Satisfies {0} within {1} tiles,{0} stands for Need.DisplayName {1} stands for radius size (area of effect)
-Needs.NoEffects,No effects,
-Needs.SatisfiedEffects,Effects when satisfied,
-Needs.UnsatisfiedEffects,Effects when unsatisfied,
 NewGameConfigurationPanel.Aged,aged,"Describing age of beavers, between text fields, example: 'Starting beavers: [20] aged [10]'"
 NewGameConfigurationPanel.Custom,Custom,Game mode keep short
 NewGameConfigurationPanel.Cycles,cycles,"Cycle is a unit of time shown after a number, example usage: '10 cycles'. Must be consistent with Weather.CycleAndDayLong."
@@ -755,6 +855,9 @@ NewGameConfigurationPanel.SubHeader,Game Mode,
 NewGameConfigurationPanel.WaterConsumption,Water consumption,"Label of a setting, how much water beavers consume during a game, for example 'Water consumption: 60%'."
 NewGameFactionPanel.Header,NEW GAME,Top header of menu window keep short and capitalized
 NewGameFactionPanel.SubHeader,Choose Your Faction,
+NewGameMapPanel.IncompatibleMapVersion,"This map version ({0}) is not compatible with the current game version ({1}). Starting the game on this map may result in a crash, you may encounter game-breaking bugs, and some critical new resources may be missing. We strongly recommend updating the map to fully enjoy the new features. 
+
+Are you sure you want to start the game?","{0} is the map version (e.g. 0.1.15.1), {1} is the game version (in the same format). This message is shown after a player tries to start game on an incompatible map."
 NewGameMapPanel.SubHeader,Select Map,
 NewMapPanel.Header,Create new map,
 Planting.NoPriorityOption,None,No resource is prioritized
@@ -769,6 +872,8 @@ Priorities.High,High,Please keep short
 Priorities.VeryHigh,Very high,Please keep short
 PriorityTool.Description,Use this tool to set priority for construction and demolition.,
 PriorityTool.Tip,Click an item to set its priority or hold the button to select a bigger area.,
+RangedEffects.Boost,Boost:,"Label above the list that shows available boosts to choose. Should be the same as a singular form of NeedGroup.Boosts.DisplayName"
+Resources.GatheredBy,Gathered by:,"Header above list of buildings that can gather certain resource. Gathered is meant as general term, containing resource gathering of gatherers, farmers, lumberjacks, tappers."
 Ruins.ShuffleModel,Shuffle model,Shuffle as in Randomize.
 Ruins.Yield,Remaining resources,Followed by colon and then Good and a number in parentheses.DisplayName
 Saving.DeleteSave,Delete save,"A button. Please keep short."
@@ -776,17 +881,21 @@ Saving.DeleteSavePrompt,Are you sure you wish to delete {0}?,{0} stands for save
 Saving.DeleteSettlement,Delete settlement,"A button. Please keep short."
 Saving.DeleteSettlementPrompt,Are you sure you wish to delete settlement {0}? This will delete all saves of the settlement.,{0} stands for settlement name
 Saving.Error,Saving failed! Make sure there are no illegal characters in the name and there is enough disk space.,Message shown to player when saving game or map failed
-Saving.IncompatibleVersion,"This save is not compatible with the current game version. Loading the save may result in a crash and you may encounter game-breaking bugs. We strongly recommend starting a new game to fully enjoy the new features.
+Saving.IncompatibleSaveVersion,"This save version ({0}) is not compatible with the current game version ({1}). Loading the save may result in a crash and you may encounter game-breaking bugs. We strongly recommend starting a new game to fully enjoy the new features. 
 
-Are you sure you want to load it?","This message is shown after a player tries to load an incompatible save."
+Are you sure you want to load it?","{0} is the save version (e.g. 0.1.15.1), {1} is the game version (in the same format). This message is shown after a player tries to load an incompatible save."
 Saving.InvalidName,Invalid name. Make sure there are no illegal characters in the name.,"Error message shown after inputting a settlement name with illegal characters such > < ?."
 Saving.LoadGamePanelHeader,Load game,
+Saving.MissingMacOSPermissionsLocKey,"Timberborn needs permission to store saved games on your hard drive. The game will now close and open your privacy settings where you can grant it the necessary permissions.","A message shown to players if they did not grant the necessary permissions on macOS."
 Saving.NameSettlement,What would you like to call your settlement?,"A prompt in the box for naming your settlement after starting a new game."
+Saving.SaveExists,"Save ""{0}"" already exists.",{0} stands for save name
 Saving.SaveGamePanelHeader,Save game,
 Saving.Saves,Saves,"One of the two headers in the load game panel. Shown above a list of saves assigned to a settlement."
 Saving.Settlements,Settlements,"One of the two headers in the load game panel. Shown above a list of settlements."
 Saving.TakenName,A settlement with this name already exists.,"Error message shown after inputting a settlement name that is already used."
 Saving.UnnamedSettlements,Unnamed settlements,"A label used for a group of saves without assigned settlement names."
+Science.NotEnoughScience,Not enough Science Points to operate.,Shown when the player doesn't have enough Science Points to power a building. Science Points should be the same as Science.SciencePoints
+Science.NotEnoughScienceShort,Not enough Science Points,Prompt when player doesn't have enough science points to unlock something. Please keep it short. Science Points should be the same as Science.SciencePoints
 Science.SciencePoints,Science Points,The name of a resource which can be spent to unlock new technology
 SelectionTool.HoldTip,Hold the button to select an area.,
 SelectionTool.ClickOrHoldTip,Click a single tile or hold the button to select an area.,
@@ -828,6 +937,9 @@ Settings.UI.RelaxedCameraRestrictions,Unlock camera,
 Settings.UI.RunInBackground,Run in background,A settings which controls whether the game should run when minimized or out of focus.
 Settings.UI.ShowFps,Show FPS counter,
 Settings.UI.UIScaleFactor,UI scale,
+Time.DaysShort,{0}d,"{0} stands for days, for example 16d. Please keep very short."
+Time.HourShort,"h","Hour abbreviation"
+Time.HoursShort,{0}h,"{0} stands for hours, for example 16h. Please keep very short. (renamed from Work.WorkingHoursShort)"
 ToolGroups.Decoration,Decoration,Buildings and objects that are for decoration
 ToolGroups.Demolishing,Demolish buildings and resources,
 ToolGroups.FieldsPlanting,Plant crops,This is in active voice as in 'to plant crops'
@@ -836,7 +948,6 @@ ToolGroups.ForestryPlanting,Plant trees and bushes,This is in active voice
 ToolGroups.Housing,Housing,Buildings that beavers can live in
 ToolGroups.Labor,Labor,Buildings that employ general workers like builders or haulers
 ToolGroups.Landscaping,Landscaping,Buildings that allow changes to land such as Dams or Dynamite
-ToolGroups.Leisure,Leisure,Buildings that beavers use in their free time such as campfire or temple
 ToolGroups.MapEditor,Map editor,Objects specific to map editor such as starting point or water source
 ToolGroups.Metal,Metal,Buildings that allow to collect and produce with metal
 ToolGroups.Monuments,Monuments,Awe-inspiring statues and fantastic contraptions
@@ -856,6 +967,9 @@ TopBar.Materials,Materials,A group of resources. Please keep short.
 TopBar.Nothing,Nothing,A group of resources. Please keep short.
 TopBar.Science,Science,A group of resources. Please keep short.
 TopBar.Water,Water,A group of resources. Please keep short.
+Toggle.State.On,on,"Indication in tooltip about toggle state. For example 'Prioritize building by haulers: on'"
+Toggle.State.Off,off,"Indication in tooltip about toggle state. For example 'Prioritize building by haulers: off'"
+Toggle.Selected,(selected),"Indication in tooltip about selected item. Fore example: 'Planting (selected)'"
 TreeCuttingSelectionTool.Description,Use this tool to mark areas where trees will be cut down.,Doesn't have to use a personal verb
 TreeCuttingSelectionTool.Title,Mark tree cutting area,
 TreeCuttingUnselectionTool.Description,Use this tool to unmark areas where trees will be cut down.,Doesn't have to use a personal verb
@@ -943,28 +1057,41 @@ Weather.Forecast.DroughtInProgress,Forecast: Drought in progress,
 Wellbeing.AverageWellbeing,Average well-being:,Please keep short. Well-being is how good the beavers feel in general. Could also be welfare or prosperity
 Wellbeing.DisplayName,Well-being,How good the beavers feel. Could also be welfare or prosperity
 Wellbeing.HighscoreReached,Your beavers are happier than ever! You have reached a new well-being highscore:,A congratulation message when a settlement reaches a new well-being record
-Wellbeing.OnlyAdults,* This need can only be satisfied by adults,The asterisk is a part of the text. Please leave it
-Wellbeing.OnlyChildren,** This need can only be satisfied by children,The asterisk is a part of the text. Please leave it
+Wellbeing.OnlyAdults,* This need is adults only,The asterisk is a part of the text. Please leave it
+Wellbeing.OnlyChildren,** This need is children only,The asterisk is a part of the text. Please leave it
 Wellbeing.PopulationWellbeing,Population well-being,Please keep short. How good the beavers feel. Could also be welfare or prosperity
+Wellbeing.PopulationWellbeingTooltip.FavorableCount,Favorable: {0},Shown on a tooltip with wellbeing summary - {0} stands for number of points
+Wellbeing.PopulationWellbeingTooltip.None,No influence,Shown on a tooltip when need does not influence wellbeing.
+Wellbeing.PopulationWellbeingTooltip.UnfavorableCount,Unfavorable: {0},Shown on a tooltip with wellbeing summary - {0} stands for number of points
 Wellbeing.ShowPopulation,Show population well-being,How good the beavers feel. Could also be welfare or prosperity
 Wellbeing.UnlockedFactions,Unlocked factions,Header of a section that tells about factions that can be unlocked
+Work.BeaverOnly,<SolidHighlight>Beaver-only:</SolidHighlight> Only beavers are allowed to work in this workplace.,Shown on a tooltip at workplaces where only beavers can work in
 Work.Bonus.BonusDescription,Worker bonus: {0},For example 'Worker bonus: Strength +30%'. Used in building description if a building grants a bonus to its workers.
 Work.Bonus.PenaltyDescription,Worker penalty: {0},For example 'Worker penalty: Strength -20%'. Used in building description if a building grants a penalty to its workers.
-Work.ConsumptionItem,Consumes: {0},Followed by a name of item this building consumes such as 'Consumes: Paper'. This is a verb.
 Work.CurrentWorkers,Workers: {0} / {1},Please keep short. {0} stands for the desired number of workers. {1} stands for max number of workers that can work in building.
-Work.FuelItem,Fuel: {0},Followed by a name of item this building uses as fuel such as 'Fuel: Logs'.
+Work.DefaultAllowedWorker,Workers allowed in new buildings:,Global setting for who is allowed to work in a new building: beavers or golems
+Work.DefaultAllowedWorker.Tooltip,Allowed workers in new buildings in this district will be set according to this setting.,Shown on a tooltip for a toggle deciding the default worker setting between beavers and golems.
 Work.FuelRemaining,Fuel remaining: {0}%,"{0} stands for a number between 0 and 100, for example 10% means that most of the fuel has been depleted."
+Work.GolemOnly,<SolidHighlight>Golem-only:</SolidHighlight> Only golems are allowed to work in this workplace.,Shown on a tooltip at workplaces where only golems can work in. Golems should be the same as Golem.PluralDisplayName.
+Work.Incapacitated,Incapacitated,Label before a number of characters unfit for work (for example injured beavers or broken golems)
 Work.LackOfResources,Unable to get all required materials.,
 Work.LackOfResourcesShort,Building lacks materials,
 Work.MaxDepth,Maximum depth: {0},"Explains how deep a building can reach, for example how deep it can pump water from. {0} stands for a number. Example usage: 'Depth: 5'"
-Work.NoUnemployed,No unemployed beavers in district.,Shown when there are no unemployed beavers available in a district to work in this building.
+Work.MaximumWorkers,Maximum workers: {0},{0} stands for max number of workers that can work in building.
+Work.NoUnemployed,No available workers in district.,Shown when there are no unemployed workers available in a district to work in this building.
 Work.NoUnemployedShort,Building lacks workers,A shorter notification that lets players know that the building has no workers
-Work.ProductionItem,Produces: {0},Followed by a name of item this building produces such as 'Produces: Explosives'. This is a verb.
+Work.PriorityTitle,Workplace priority,Setting a priority on workplace building
 Work.Productivity,Productivity:,How productive a workplace is. Followed by a percentage.
 Work.ProductivityTip,Percentage of time spent on production as opposed to downtime such as carrying materials.,Tooltip of how productivity works
-Work.Workers,Workers: {0},{0} stands for number of workers
-Work.WorkingHoursShort,{0}h,"{0} stands for hours of working time, for example 16h. The amount of time beavers are working during a day. Please keep short"
-Work.WorkingHoursTooltip,Working hours,Tooltip explaining Work.WorkingHoursShort
 Work.Vacant,Vacant,Denotes an empty workplace slot without a worker.
+Work.VacantPlural,Vacancies,Label before number of vacant work slots
+Work.Workers,Workers: {0},{0} stands for number of workers
+Work.WorkersLabel,Workers,Label before number of workers
+Work.WorkingHoursTooltip,Working hours,Tooltip explaining Work.WorkingHoursShort
+Work.Workplace.DisplayName,Workplace,"Header of a section where various aspects of a workplace can be changed (working priority, number of workers). Please keep short."
+Work.WorkRefusalWarning,Refuses to work,Please keep short. A warning inside a tooltip that a beaver or a golem won't work if certain circumstances occur (like beaver is sick or golem is out of energy).
+Work.WorkplaceUnlock.CantUnlock,"Can't unlock this workplace for golems, not enough Science Points.","Prompt when the player doesn't have enough science points to unlock a workplace for golems. Golems should be the same as Golem.PluralDisplayName."
+Work.WorkplaceUnlock.Prompt,"Are you sure you want to unlock this workplace for golems? It costs {0} Science Points.","{0} stands for amount. Prompt when the  player presses to unlock a workplace for golems. Science Points must be the same as Science.SciencePoints, Golems as Golem.PluralDisplayName"
+Work.WorkplaceUnlock.Tooltip,"Unlock this workplace for golems.","Shown on a blocked workplace's tooltip. Golems should be the same as Golem.PluralDisplayName."
 Yielding.NoStorageInRange,No storage in range,
 Yielding.NothingToDoInRange,Nothing to do in range,
