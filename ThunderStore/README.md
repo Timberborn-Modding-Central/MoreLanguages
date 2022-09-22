@@ -48,3 +48,7 @@ This mod removes the debugging message when a key is missing due experimental ga
 - Added language Türkçe (Turkish)
 - Changed README
 - Build replaces ThunderStore DLL
+### 1.2.0
+- Removed old language Türkçe (Turkish)
+- Updated to Timberborn 0.2.8.1
+- Updated language wanguage(UWU)

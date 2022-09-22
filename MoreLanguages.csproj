@@ -14,7 +14,7 @@
     <PackageReference Include="BepInEx.Core" Version="5.4.16" />
     <PackageReference Include="BepInEx.PluginInfoProps" Version="1.1.0" />
     <PackageReference Include="Newtonsoft.Json" Version="13.0.1" />
-    <PackageReference Include="Timberborn.GameLibs" Version="2021.12.17-r.0" />
+    <PackageReference Include="Timberborn.GameLibs" Version="0.2.8.1-r.0" />
     <PackageReference Include="UnityEngine.Modules" Version="2021.2.7" IncludeAssets="compile" />
     <PackageReference Include="System.Collections.Immutable" Version="6.0.0" />
     <PackageReference Include="Threenine.LinqToCsv" Version="1.6.0" />
@@ -22,6 +22,10 @@
   
   <ItemGroup Condition="'$(TargetFramework.TrimEnd(`0123456789`))' == 'net'">
     <PackageReference Include="Microsoft.NETFramework.ReferenceAssemblies" Version="1.0.2" PrivateAssets="all" />
+  </ItemGroup>
+  
+  <ItemGroup>
+    <Folder Include="ThunderStore\MoreLanguages\plugins\lang" />
   </ItemGroup>
 
   <Target Name="AutomaticUpdateThunderstoreDLL" BeforeTargets="AfterBuild">
