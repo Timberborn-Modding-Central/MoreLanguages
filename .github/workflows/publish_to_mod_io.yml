@@ -81,7 +81,7 @@ jobs:
         run: mkdir ModIoPackage
         
       - name: Copy Mod
-        run: cp ./bin/Release/netstandard2.1/${{env.mod_name}}.dll ModIoPackage
+        run: cp ./bin/RELEASE/netstandard2.1/${{env.mod_name}}.dll ModIoPackage
         
       - name: Copy Package files
         run: cp -r Package/* ModIoPackage/
