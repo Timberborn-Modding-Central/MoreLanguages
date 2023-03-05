@@ -2,18 +2,19 @@ name: Publish to mod.io
 
 on:
   workflow_dispatch:
-    update_type:
-      type: choice
-      default: feature
-      description: Update type
-      required: true
-      options:
-        - major
-        - feature
-        - bug
-        - alpha
-        - beta
-        - rc
+    inputs:
+      update_type:
+        type: choice
+        default: feature
+        description: Update type
+        required: true
+        options:
+          - major
+          - feature
+          - bug
+          - alpha
+          - beta
+          - rc
 
 env:
   mod_name: MoreLanguages
