@@ -2,19 +2,55 @@ name: Publish to mod.io
 
 on:
   workflow_dispatch:
-    inputs:
-      mod_version:
-        type: string
-        description: Mod version
-        required: true
+    update_type:
+      type: choice
+      default: feature
+      description: Update type
+      required: true
+      options:
+        - major
+        - feature
+        - bug
+        - alpha
+        - beta
+        - rc
 
 env:
   mod_name: MoreLanguages
   mod_id: 2843420
 
 jobs:
+  versions:
+    name: Parse project versions
+    runs-on: ubuntu-latest
+    outputs:
+      mod_version: ${{ steps.mod_version.outputs.match || steps.bump_mod_version.outputs.next-version }}
+    steps:
+      - uses: actions/checkout@v3
+        
+      # Loading versioning file
+      - name: Read versions.txt
+        id: read_versions_file
+        uses: juliangruber/read-file-action@v1
+        with:
+          path: ./version.txt
+
+      # TimberAPI versioning
+      - id: mod_version
+        uses: actions-ecosystem/action-regex-match@v2
+        with:
+          text: ${{ steps.read_versions_file.outputs.content }}
+          regex: '(?<=MOD_VERSION=).*'
+
+      - id: bump_mod_version
+        uses: christian-draeger/increment-semantic-version@1.0.2
+        with:
+          current-version: ${{ steps.mod_version.outputs.match }}
+          version-fragment: ${{ github.event.inputs.update_type }}
+  
   create_modio_package:
     runs-on: ubuntu-latest
+    needs: [versions]
     steps:
       - uses: actions/checkout@v3
       
@@ -28,17 +64,17 @@ jobs:
         uses: jacobtomlinson/gha-find-replace@v2
         with:
           find: "MOD_VERSION_PLACEHOLDER"
-          replace: ${{ github.event.inputs.mod_version }}
+          replace: ${{ needs.versions.outputs.mod_version }}
           regex: false
         
       - name: Build Mod
-        run: dotnet build --no-restore --configuration RELEASE -p:Version=${{ github.event.inputs.mod_version }}
+        run: dotnet build --no-restore --configuration RELEASE -p:Version=${{ needs.versions.outputs.mod_version }}
         
       - name: Create ModFolder folder
         run: mkdir ModIoPackage
         
       - name: Copy Mod
-        run: cp ./${{env.mod_name}}/bin/Release/netstandard2.1/${{env.mod_name}}.dll ModIoPackage
+        run: cp ./bin/Release/netstandard2.1/${{env.mod_name}}.dll ModIoPackage
         
       - name: Copy Package files
         run: cp -r Package/* ModIoPackage/
@@ -46,13 +82,13 @@ jobs:
       - name: Upload mod to Artifact
         uses: actions/upload-artifact@v3.0.0
         with:
-          name: ${{env.mod_name}}_${{ github.event.inputs.mod_version }}
+          name: ${{env.mod_name}}_${{ needs.versions.outputs.mod_version }}
           path: ModIoPackage
         
       - name: Zip Release
         uses: TheDoctor0/zip-release@0.6.2
         with:
-          filename: ${{env.mod_name}}_${{ github.event.inputs.mod_version }}.zip
+          filename: ${{env.mod_name}}_${{ needs.versions.outputs.mod_version }}.zip
           path: "./"
           directory: ModIoPackage
           
@@ -60,14 +96,35 @@ jobs:
         uses: actions/upload-artifact@v3.0.0
         with:
           name: Test
-          path: ModIoPackage/${{env.mod_name}}_${{ github.event.inputs.mod_version }}.zip
+          path: ModIoPackage/${{env.mod_name}}_${{ needs.versions.outputs.mod_version }}.zip
           
       - uses: nickelc/upload-to-modio@v2.0.0
         with:
           token: ${{ secrets.MODIO_TOKEN }}
           game: 3659
           mod: ${{env.mod_id}}
-          version: ${{ github.event.inputs.mod_version }}
-          path: ModIoPackage/${{env.mod_name}}_${{ github.event.inputs.mod_version }}.zip
+          version: ${{ needs.versions.outputs.mod_version }}
+          path: ModIoPackage/${{env.mod_name}}_${{ needs.versions.outputs.mod_version }}.zip
           active: true
           changelog: "-"
+          
+          
+  update_version:
+    runs-on: ubuntu-latest
+    needs: [ versions, create_modio_package ]
+    steps:
+      - uses: actions/checkout@v2
+
+      - name: Modify mod version
+        if: needs.create_timber_api_modio_pack.result == 'success'
+        uses: mingjun97/file-regex-replace@v1
+        with:
+          regex: '(?<=MOD_VERSION=).*'
+          replacement: '${{ needs.versions.outputs.mod_version }}'
+          include: 'version.txt'
+          
+      - name: Commit updated version
+        uses: EndBug/add-and-commit@v9
+        with:
+          message: "Updated version"
+          default_author: github_actions
