@@ -1,0 +1,73 @@
+name: Publish to mod.io
+
+on:
+  workflow_dispatch:
+    inputs:
+      mod_version:
+        type: string
+        description: Mod version
+        required: true
+
+env:
+  mod_name: MoreLanguages
+  mod_id: 2843420
+
+jobs:
+  create_modio_package:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v3
+      
+      - name: Setup .NET
+        uses: actions/setup-dotnet@v2
+        
+      - name: Restore dependencies
+        run: dotnet restore
+        
+      - name: Find and Replace MOD_VERSION_PLACEHOLDER
+        uses: jacobtomlinson/gha-find-replace@v2
+        with:
+          find: "MOD_VERSION_PLACEHOLDER"
+          replace: ${{ github.event.inputs.mod_version }}
+          regex: false
+        
+      - name: Build Mod
+        run: dotnet build --no-restore --configuration RELEASE -p:Version=${{ github.event.inputs.mod_version }}
+        
+      - name: Create ModFolder folder
+        run: mkdir ModIoPackage
+        
+      - name: Copy Mod
+        run: cp ./${{env.mod_name}}/bin/Release/netstandard2.1/${{env.mod_name}}.dll ModIoPackage
+        
+      - name: Copy Package files
+        run: cp -r Package/* ModIoPackage/
+        
+      - name: Upload mod to Artifact
+        uses: actions/upload-artifact@v3.0.0
+        with:
+          name: ${{env.mod_name}}_${{ github.event.inputs.mod_version }}
+          path: ModIoPackage
+        
+      - name: Zip Release
+        uses: TheDoctor0/zip-release@0.6.2
+        with:
+          filename: ${{env.mod_name}}_${{ github.event.inputs.mod_version }}.zip
+          path: "./"
+          directory: ModIoPackage
+          
+      - name: Test
+        uses: actions/upload-artifact@v3.0.0
+        with:
+          name: Test
+          path: ModIoPackage/${{env.mod_name}}_${{ github.event.inputs.mod_version }}.zip
+          
+      - uses: nickelc/upload-to-modio@v2.0.0
+        with:
+          token: ${{ secrets.MODIO_TOKEN }}
+          game: 3659
+          mod: ${{env.mod_id}}
+          version: ${{ github.event.inputs.mod_version }}
+          path: ModIoPackage/${{env.mod_name}}_${{ github.event.inputs.mod_version }}.zip
+          active: true
+          changelog: "-"
