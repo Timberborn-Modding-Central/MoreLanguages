@@ -25,7 +25,7 @@ jobs:
     name: Parse project versions
     runs-on: ubuntu-latest
     outputs:
-      mod_version: ${{ steps.mod_version.outputs.match || steps.bump_mod_version.outputs.next-version }}
+      mod_version: ${{ steps.bump_mod_version.outputs.next-version }}
     steps:
       - uses: actions/checkout@v3
         
