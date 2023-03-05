@@ -1,9 +1,0 @@
-{
-    "name": "MoreLanguages",
-    "version_number": "1.2.0",
-    "website_url": "https://github.com/Timberborn-Modding-Central/MoreLanguages",
-    "description": "Adds custom language packs into the game!!",
-    "dependencies": [
-        "BepInEx-BepInExPack_Timberborn-5.4.19"
-    ]
-}

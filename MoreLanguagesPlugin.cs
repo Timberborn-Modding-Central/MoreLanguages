@@ -8,13 +8,12 @@ using BepInEx;
 using BepInEx.Configuration;
 using HarmonyLib;
 using Timberborn.Localization;
-using UnityEngine;
 
 namespace MoreLanguages
 {
 
 [HarmonyPatch]
-[BepInPlugin("com.timbercentral.morelanguages", "MoreLanguages", "1.1.0")]
+[BepInPlugin("com.timbercentral.morelanguages", "MoreLanguages", "MOD_VERSION_PLACEHOLDER")]
 public class MoreLanguagesPlugin : BaseUnityPlugin
 {
     private static ConfigEntry<bool> _missingKeyLogging;
