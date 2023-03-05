@@ -21,12 +21,9 @@ Send a message in the **\#modding-and-whatnot** channel.
 #### Option 2: Github issue
 [Create a issue](https://github.com/Timberborn-Modding-Central/MoreLanguages/issues) include the 2 files for the language pack and name for credits.
 #### Option 3: Github pull request
-- place the new language pack in `ThunderStore > plugins > lang`
-- Update minor version in `MoreLanguages.csproj` (1.0.0 -> 1.1.0)
-- Update minor version in `MoreLanguagesPlugin.cs` (1.0.0 -> 1.1.0)
-- Update minor version in `ThunderStore > manifest.json` (1.0.0 -> 1.1.0)
-- Update change logs, Included language packs & Credits in `README.md` & `ThunderStore > README.md`
-- Build project
+- Place the new language pack in Package > lang
+- Start game and test the language pack out
+- Create a PR
 
 **NOTE: No foul language packs will be added in the mod**
 
@@ -37,8 +34,8 @@ This mod is enabled while in experimental mode, but is not updated for the exper
 This mod removes the debugging message when a key is missing due experimental game keys. This can be disabled with a config file that will be generated with bepinex.
 
 ## Credits
-- BiGaripAdam (Creation Türkçe update 1)
-- TheBloodEyes (Creation wanguage update 1)
+- BiGaripAdam (Creation Türkçe)
+- TheBloodEyes (Creator, Added uwu)
 
 ## Changelogs
 ### 1.0.0
@@ -48,3 +45,8 @@ This mod removes the debugging message when a key is missing due experimental ga
 - Added language Türkçe (Turkish)
 - Changed README
 - Build replaces ThunderStore DLL
+### 1.2.0
+- Moved to mod.io
+- Automated uploading/versioning
+- Removed complexity for adding new languages
+- Updated uwu to update 3
