@@ -123,7 +123,6 @@ jobs:
       - uses: actions/checkout@v2
 
       - name: Modify mod version
-        if: needs.create_timber_api_modio_pack.result == 'success'
         uses: mingjun97/file-regex-replace@v1
         with:
           regex: '(?<=MOD_VERSION=).*'
