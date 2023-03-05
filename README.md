@@ -4,6 +4,7 @@ This mod makes it possible to add new custom translations with corresponding bea
 ## Included language packs
 - wanguage(UWU)
 - Türkçe (Turkish)
+- 正體中文 (Traditional Chinese)
 
 ## Creating a custom language pack
 Want to make a new language for yourself? No biggy it's very simple! Just copy the files (xxXX.txt, xxXX_names.txt) from an existing language pack and start translating.  
@@ -36,6 +37,7 @@ This mod removes the debugging message when a key is missing due experimental ga
 ## Credits
 - BiGaripAdam (Creation Türkçe)
 - TheBloodEyes (Creator, Added uwu)
+- ALiangLiang (Creation 正體中文)
 
 ## Changelogs
 ### 1.0.0
