@@ -71,6 +71,12 @@ jobs:
       - name: Build Mod
         run: dotnet build --no-restore --configuration RELEASE -p:Version=${{ needs.versions.outputs.mod_version }}
         
+      - name: Upload mod to Artifact
+        uses: actions/upload-artifact@v3.0.0
+        with:
+          name: Test
+          path: ./
+        
       - name: Create ModFolder folder
         run: mkdir ModIoPackage
         
