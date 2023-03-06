@@ -38,6 +38,7 @@ This mod removes the debugging message when a key is missing due experimental ga
 - BiGaripAdam (Creation Türkçe)
 - TheBloodEyes (Creator, Added uwu)
 - ALiangLiang (Creation 正體中文)
+- MPfromNL (Creation Nederlands)
 
 ## Changelogs
 ### 1.0.0
