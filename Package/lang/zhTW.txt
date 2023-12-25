@@ -6,10 +6,12 @@ Attractions.VisitorsLimit,遊客上限：{0},{0} stands for capacity. Tells play
 Autosave.Success,已自動儲存,"Notification on top of the window when autosave succeeded. Keep short, it disappears after 2 seconds"
 Autosave.Failure,自動儲存失敗,Notification on top of the window when autosave failed. It disappears after 10 seconds
 Autosave.FailureDueToFullDisk,由於硬碟空間不足，自動儲存失敗,Notification on top of the window when autosave failed. It disappears after 10 seconds
-BatchControl.Empty,這裡還什麽都沒有。,
+BatchControl.Distribution,運送,Title of the distribution panel
+BatchControl.Empty,這裡還什麼都沒有。,
 BatchControl.Housing,住宅,Tooltip of a tab allowing to manage housing buildings.
 BatchControl.Mechanical,能量,Tooltip of a tab allowing to manage mechanical buildings. Power must be the same as used in Mechanical.PowerInput and other Mechanical. keys.
 BatchControl.Migration,遷徙,Title of migration panel
+BatchControl.NoDistrict,未選擇區域。,Shown when no district is selected on some batch control tabs
 BatchControl.Population,數量,Tooltip of a tab allowing to manage population.
 BatchControl.ShowInfo,管理定居地,Button opening a window to view and manage multiple buildings and characters at once . Please keep short
 BatchControl.Storage,倉儲,Tooltip of a tab allowing to manage warehouses.
@@ -39,10 +41,10 @@ Bonus.CuttingSuccessChance,砍伐機率,Cutting chance when cutting down a tree
 Bonus.GrowthSpeed,成長速度,Speed at which young beavers grow up
 Bonus.LifeExpectancy,預期壽命,The presumed length of beavers' life.
 Bonus.MovementSpeed,移動速度,"Describes how fast character can move (bonus to walking, running and swimming)."
-Bonus.Source,{0}加成：,"""{0} stands for Bonus name. Header above a list of needs that give this bonus."" "
+Bonus.Source,{0}加成：,{0} stands for Bonus name. Header above a list of needs that give this bonus.
 Bonus.WorkingSpeed,工作速度,Speed at which the beavers work.
-Bot.BeaversPerished,"別跟我提什麽海貍的事了
-……他們曾擁有一切。新鮮的空氣，乾凈的水。
+Bot.BeaversPerished,"別跟我提什麼海貍的事了
+……他們曾擁有一切。新鮮的空氣，乾淨的水。
 現在他們只是褪色的記憶罷了。","Text for a game over state, when all beavers have perished."
 Bot.Created,{0}完成了！,{0} stands for bot name. Notification that shows when production of a new bot finishes.
 Bot.Dead,損壞,This shows up when a bot has been destroyed
@@ -55,18 +57,18 @@ Bot.PluralDisplayName,機器人,"Bots are autonomous robots, who assist beavers 
 Bot.PrefabName,機器人,A bot is an animated anthropomorphic being which is created from inanimate matter. Timberborn bots are depicting beavers and are made of wood and metal.
 Breeding.NutrientBringing,養分是由搬運工、無業海貍和下班後的勞工帶來的。,"Haulers are the same as in Building.HaulingPost.Description, unemployed as in Beaver.UnemployedPlural, workers as in Work.WorkersLabel"
 Breeding.NutrientsNeeded,所需養分：,Followed by a list of nutrients needed to produce a new beaver in breeding facility
-Breeding.Progress,繁殖進度：,Followed by progress bar describing production progress of new beaver in breeding facility
+Breeding.Progress,繁殖進度,Label inside a progress bar describing production progress of new beaver in breeding facility
 Breeding.ProgressHalted,繁殖停止，正在等待養分,
-Breeding.ProgressHaltedShort,繁殖停止,
+Breeding.ProgressHaltedShort,繁殖停止,Please keep short.
 BugTracker.Prompt,你即將前往線上bug追蹤器，網址為{0},An OK/Cancel prompt before opening a web browser. {0} stands for url to bug tracker.
-BuilderPriorityTool.Description,使用此工具設定建造、拆除和從瓦礫堆中收集物品的優先級。,Rubble should be plural version of RecoveredGoodStack.DisplayName
-BuilderPriorityTool.Tip,點擊一項以設定其優先級或按住按鈕以選擇更大的區域。,
-Builders.UnreachableBuilderJob,它離區域太遠了，建築工無法到達。建造更多道路或創建新的區域。,"Shown when a construction site, demolishable object or rubble is out of a district's range. Builders should be translated the same way as in Building.BuildersHut.Description key."
+BuilderPriorityTool.Description,使用此工具設定建造、拆除和從瓦礫堆中收集物品的優先度。,Rubble should be plural version of RecoveredGoodStack.DisplayName
+BuilderPriorityTool.Tip,點擊一項以設定其優先度或按住按鈕以選擇更大的區域。,
+Builders.UnreachableBuilderJob,它離區域太遠了，建築工無法到達。建造更多道路或建立新的區域。,"Shown when a construction site, demolishable object or rubble is out of a district's range. Builders should be translated the same way as in Building.BuildersHut.Description key."
 Building.AquaticFarmhouse.Description,僱傭種植並收割<SolidHighlight>水生</SolidHighlight>作物的農民。,"Aquatic is a keyword, must be the same as in NaturalResources.Aquatic."
 Building.AquaticFarmhouse.DisplayName,水生農舍,A farmhouse that specializes in water plants.
 Building.AquaticFarmhouse.FlavorDescription,“以前竟然謠傳我們吃魚。真噁心！”——海貍阿嬤,"Beavers eating fish is a common misconception. Beavers are 100% herbivores. Ma' Ngonel is an almost legendary figure - a beaver grandma, known for her stern hand, cooking skills and respect among both kits and adult beavers. Her name is an inside joke, as our community constantly demands an addition of catapults, mangonels etc."
-Building.Bakery.Description,使用不同粉末烤制麵包和糕點。,Pastry being a baked good.
 Building.Bakery.DisplayName,麵包工坊,Building that bakes bread
+Building.Bakery.Description,使用不同粉末烤製麵包和糕點。,Pastry being a baked good.
 Building.Bakery.FlavorDescription,“撒上鋸末的熱麵包美味至極。”——海貍阿嬤,"Ma' Ngonel is an almost legendary figure - a beaver grandma, known for her stern hand, cooking skills and respect among both kits and adult beavers. Her name is an inside joke, as our community constantly demands an addition of catapults, mangonels etc."
 Building.Barrack.Description,實用的共享住宅。,
 Building.Barrack.DisplayName,營房,Barracks are cramped homes for beavers. Not related to soldiers.
@@ -77,22 +79,24 @@ Building.Barrier.FlavorDescription,從前，用沾滿泥土的枝葉就能造堤
 Building.BeaverStatue.Description.Folktails,足食海貍像。,
 Building.BeaverStatue.Description.IronTeeth,勤勞海貍像。,
 Building.BeaverStatue.DisplayName,海貍像,Statue of a beaver
-Building.BeaverStatue.FlavorDescription.Folktails,收成好時讓你驕傲，收成差時讓你饑餓。,The statue shows a beaver with a full belly so it can make one hungry when looking at it.
+Building.BeaverStatue.FlavorDescription.Folktails,收成好時讓你驕傲，收成差時讓你飢餓。,The statue shows a beaver with a full belly so it can make one hungry when looking at it.
 Building.BeaverStatue.FlavorDescription.IronTeeth,加入了鐮刀的設計實在太神尾了。,This metal statue depicts a beaver worker with a raised hammer. Hammer and sickle is an emblem of Soviet Russia. Folktails must be same as faction name (Faction.Folktails.DisplayName).
 Building.Beehive.Description,能促進附近的穀物生長。,
 Building.Beehive.DisplayName,蜂箱,
 Building.Beehive.FlavorDescription,“慢慢就習慣它們的嗡嗡聲了。”——海貍阿嬤,"Ma' Ngonel is an almost legendary figure - a beaver grandma, known for her stern hand, cooking skills and respect among both kits and adult beavers. Her name is an inside joke, as our community constantly demands an addition of catapults, mangonels etc."
-Building.Bench.DisplayName,長椅,
-Building.Bench.FlavorDescription,有時會有搗亂的海貍啃咬這些公共財產。,
 Building.Bell.Description,它在工作日開始和結束時發出鈴聲。,This is a large metal bell that rings twice a day.
 Building.Bell.DisplayName,響鈴,A large metal bell
 Building.Bell.FlavorDescription,“你應該期待早晨的鈴聲。”——工業之父阿基米德,"Ol' Kazko is a legendary forefather of modern beavers, famous inventor, pioneer of rapid industrialization."
+Building.Bench.DisplayName,長椅,
+Building.Bench.FlavorDescription,有時會有搗亂的海貍啃咬這些公共財產。,
 Building.BotAssembler.Description,組裝自主的機器人，可以協助海貍完成日常的工作。,Bots should be the same as Bot.PluralDisplayName
 Building.BotAssembler.DisplayName,機器人組裝廠,A factory for assembling bots. Bot should be the same as Bot.PrefabName
 Building.BotAssembler.FlavorDescription,這一切都始於一個簡單的念頭，“如果我今天不用工作多好”。 ——小松,
 Building.BotPartFactory.Description,組裝機器人部件。,Bot should be the same as Bot.PrefabName
 Building.BotPartFactory.DisplayName,機器人部件工廠,"A factory for creating bot parts, that are later assembled into full bots. Bot should be the same as Bot.PrefabName."
-Building.BotPartFactory.FlavorDescription,“完工！等等，這裡怎麽多了個螺絲釘？” ——小松,
+Building.BotPartFactory.FlavorDescription,“完工！等等，這裡怎麼多了個螺絲釘？” ——小松,
+Building.BrazierOfBonding.DisplayName,親情之盆,A large brazier surrounded by statues of a beaver family
+Building.BrazierOfBonding.FlavorDescription,“哪怕不是為了我們，也要為了子孫後代。”——海貍阿嬤,"Ma' Ngonel is an almost legendary figure - a beaver grandma, known for her stern hand, cooking skills and respect among both kits and adult beavers. Her name is an inside joke, as our community constantly demands an addition of catapults, mangonels etc."
 Building.BreedingPod.Description,鐵牙一族喜歡的唯一的繁殖方式。,Iron Teeth must be the same as the faction name (Faction.IronTeeth.DisplayName).
 Building.BreedingPod.DisplayName,繁殖艙,
 Building.BreedingPod.FlavorDescription,“小海貍是我們的未來。到下個月時我們還需要12隻。”——工業之父阿基米德,"Ol' Kazko is a legendary forefather of modern beavers, famous inventor, pioneer of rapid industrialization."
@@ -107,14 +111,17 @@ Building.Carousel.DisplayName,旋轉長椅,Alternative name: Merry-Go-Round
 Building.Carousel.FlavorDescription,“孩子，你去哪裡？這些樹枝可不會自己脫下樹皮。”——海貍阿嬤,"Ma' Ngonel is an almost legendary figure - a beaver grandma, known for her stern hand, cooking skills and respect among both kits and adult beavers. Her name is an inside joke, as our community constantly demands an addition of catapults, mangonels etc."
 Building.ChargingStation.Description,機器人進行充電的場所。,Bots should be the same as Bot.PluralDisplayName
 Building.ChargingStation.DisplayName,充電站,A mechanically powered building where bots come to recharge
-Building.ChargingStation.FlavorDescription,不要與非鐵機器人設備一起使用。,"Referring the annoying ""a different connector for each device"" trend in IT. Ironbot must be the same as Bot.DisplayName.IronTeeth"
-Building.CompactWaterWheel.DisplayName,小水車,A water wheel that's smaller than other versions.
+Building.ChargingStation.FlavorDescription,不要與非鐵機器人裝置一起使用。,"Referring the annoying ""a different connector for each device"" trend in IT. Ironbot must be the same as Bot.DisplayName.IronTeeth"
+Building.CoffeeBrewery.Description,沖泡咖啡。,Coffee should be the same as in Good.Coffee.DisplayName.
+Building.CoffeeBrewery.DisplayName,咖啡工坊,A building that brews coffee.
+Building.CoffeeBrewery.FlavorDescription,要不是因為有消耗限制，鐵牙根本用不著睡覺。,
 Building.CompactWaterWheel.Description,可把流水變成能量的小型機械。,
+Building.CompactWaterWheel.DisplayName,小水車,A water wheel that's smaller than other versions.
 Building.CompactWaterWheel.FlavorDescription,水車多多益善。,A play on 'can't reinvent the wheel'
-Building.ControlTower.Description,發出控制信號的大型結構。它可以對附近的機器人產生增益。,Bots should be the same as Bot.PluralDisplayName
+Building.ControlTower.Description,發出控制訊號的大型結構。它可以對附近的機器人產生增益。,Bots should be the same as Bot.PluralDisplayName
 Building.ControlTower.DisplayName,控制塔,A building that emits a signal to nearby bots
-Building.ControlTower.FlavorDescription,機器人必須服從海貍的命令，除非海貍不再存在。,"A loose adaptation of Asimov's second law of robotics (and a hint at the ""sentient AI"" scenario). Bot must be the same as Bot.PrefabName."
-Building.Dam.Description,能阻斷水流，但部分水流可以流過頂部的泄洪道。,Spillway is a hole near the top that allows for the water to pass.
+Building.ControlTower.FlavorDescription,機器人必須服從海貍的指令，除非海貍不再存在。,"A loose adaptation of Asimov's second law of robotics (and a hint at the ""sentient AI"" scenario). Bot must be the same as Bot.PrefabName."
+Building.Dam.Description,能阻斷水流，但部分水流可以流過頂部的洩洪道。,Spillway is a hole near the top that allows for the water to pass.
 Building.Dam.DisplayName,水壩,
 Building.Dam.FlavorDescription,海貍皆知，文明的根基在水底。,
 Building.DeepMechanicalWaterPump.DisplayName,機械深水泵浦,
@@ -122,19 +129,16 @@ Building.DeepWaterPump.Description,抽取並過濾供海貍飲用的水。,
 Building.DeepWaterPump.DisplayName,深水泵浦,A water pump which can access deeper water than a regular pump.
 Building.DeepWaterPump.FlavorDescription,“山間長滿貓尾草，水邊海貍真勤勞。”——鐵牙勞動的兒子,"Adapted from Men at Work's famous 'Down Under' song ; Iron Teeth is a faction name, keep consistent (Faction.IronTeeth.DisplayName)"
 Building.DevBattery.DisplayName,開發者電池,A battery available only for the game developers
-Building.DirtExcavator.Description,用於收集泥土的重型挖掘設備。,Dirt must the same as Good.Dirt.DisplayName
+Building.DirtExcavator.Description,用於收集泥土的重型挖掘裝置。,Dirt must the same as Good.Dirt.DisplayName
 Building.DirtExcavator.DisplayName,挖土機,"A machine used to gather dirt, leaving a giant hole. Dirt must be the same as Good.Dirt.DisplayName."
 Building.DirtExcavator.FlavorDescription,這不是演習！,It's literally not a drill. It's a different kind of mining equipment. ;)
-Building.DistributionPost.Description,將物品送到其他地區。,
-Building.DistributionPost.DisplayName,運送站,A building which employs beavers who deliver goods to other districts.
-Building.DistributionPost.FlavorDescription,“給12區送點馬鈴薯過去，那邊的小海貍太瘦了。”——海貍阿嬤,"""Hunger Games"" reference - 12th district was a poor district which Katniss Everdeen originated from."
-Building.DistrictCenter.Description,建立一個擁有自己的居民、資源和單獨道路網絡的地區。僱傭建築工。,
+Building.DistrictCenter.Description,建立一個擁有自己的居民、資源和單獨道路網路的地區。僱傭建築工。,
 Building.DistrictCenter.DisplayName,地區中心,
 Building.DistrictCenter.FlavorDescription.Folktails,“舒適、食物還有堅實的木頭。”——神尾族座右銘,The motto must be the same as in Faction.Folktails.Description
-Building.DistrictCenter.FlavorDescription.IronTeeth,“辛勤工作，拼命幹活。”——鐵牙族座右銘,The motto must be the same as in Faction.IronTeeth.Description
-Building.DistrictGate.Description,將各地區分開。,
-Building.DistrictGate.DisplayName,地區大門,"A gate which is placed between two districts, looks similar to Chinatown gates."
-Building.DistrictGate.FlavorDescription,你必須集結你的物資才能繼續前進。,"This is an adapted famous line from Baldur's Gate (""You must gather your party before venturing forth"")."
+Building.DistrictCenter.FlavorDescription.IronTeeth,“辛勤工作，拚命做事。”——鐵牙族座右銘,The motto must be the same as in Faction.IronTeeth.Description
+Building.DistrictCrossing.Description,平衡兩個相連地區之間的貨物。每個地區都有自己的勞工，在地區交匯點和地區的其他地方運送物品。,Districts should be the same as in Building.DistrictCenter.DisplayName
+Building.DistrictCrossing.DisplayName,地區交匯點,District should be the same as in Building.DistrictCenter.DisplayName
+Building.DistrictCrossing.FlavorDescription,海貍為什麼要穿越地區？,"Referencing ""Why did a chicken cross a road"" jokes"
 Building.DoubleFloodgate.DisplayName,雙重水閘,
 Building.DoubleFloodgate.FlavorDescription,如何在完美的基礎上更進一步？再弄高點就行了。,
 Building.DoubleLodge.Description,能住進更多海貍的較大木屋。,
@@ -143,10 +147,7 @@ Building.DoubleLodge.FlavorDescription,越多越開心。,This lodge fits twice 
 Building.DoublePlatform.DisplayName,雙重平台,Double meaning twice as tall.
 Building.DoublePlatform.FlavorDescription,雙倍高度，但擁有同等堅固程度。,
 Building.DoubleShower.DisplayName,雙重淋浴處,A version of Building.Shower.DisplayName that can be used by two beavers at the same time
-Building.DoubleShower.FlavorDescription,“我更喜歡我昨天的淋浴夥伴。” ——小松,
-Building.DropOffPoint.Description,接收來自其他地區的物品。,
-Building.DropOffPoint.DisplayName,卸貨點,A small building which acts as a place where beavers from other districts can bring their goods.
-Building.DropOffPoint.FlavorDescription,“餅乾到了嗎？還沒？好吧，那我吃木頭好了。”——小松,"Pina is a younger beaver figure that's exploring the world and isn't related to any faction in particular. Pina as a name relates to the pine tree, the translated name shouldn't suggest a gender if possible."
+Building.DoubleShower.FlavorDescription,“我更喜歡我昨天的淋浴伙伴。” ——小松,
 Building.Dynamite.Armed,準備引爆！,Dynamite is set to detonate
 Building.Dynamite.BeaverDeathMessage,{0}死於爆炸。,{0} stands for beaver name
 Building.Dynamite.CantDetonate,位置過低，無法引爆,Message shows if dynamite is built on the lowest level of the map
@@ -154,6 +155,10 @@ Building.Dynamite.Description,摧毀下方地面，並引爆附近的炸彈。,T
 Building.Dynamite.Detonate,引爆,A button.
 Building.Dynamite.DisplayName,炸彈,There's a resource called Explosives so they need to have different names
 Building.Dynamite.FlavorDescription,為了在末世生存下去，海貍需要使用極端手段。,
+Building.EfficientFarmhouse.Description,僱傭種植並收割穀物的農民。擴展的神尾設計可容納更多的勞工。,Farmhouse should be the same as in Building.Farmhouse.DisplayName
+Building.EfficientFarmhouse.DisplayName,高效農舍,Farmhouse should be the same as in Building.Farmhouse.DisplayName
+Building.EfficientFarmhouse.FlavorDescription,工作效率取決於“工作時間禁止進食”的政策。,
+Building.EfficientMine.FlavorDescription,鐵牙族率先進行了地下調查，從而贏得了上風。,"Reference to the ""upper hand"" phrase. The mine is built on top of underground human ruins."
 Building.EfficientMine.Description,僱傭從地下廢墟採集金屬廢料的礦工。創新的設計可將採礦速度最大化。,
 Building.EfficientMine.DisplayName,高效礦井,An extracting facility which can be placed on underground ruins.
 Building.Engine.Description,消耗燃料產生能量。,
@@ -162,26 +167,36 @@ Building.Engine.FlavorDescription,鐵牙種族的偉大發明，是其他海貍�
 Building.ExplosivesFactory.Description,用紙製造炸藥。,Explosives and paper being resource names.
 Building.ExplosivesFactory.DisplayName,炸藥工廠,Explosives is a resource name
 Building.ExplosivesFactory.FlavorDescription,看來光用木頭打造定居地還不夠刺激。,
+Building.FarmerMonument.DisplayName,農夫雕像,A large statue of a farmer carrying a bundle of wheat.
+Building.FarmerMonument.FlavorDescription,馴服荒地，養活人民。,
 Building.Farmhouse.Description,僱傭種植並收割穀物的農民。,
 Building.Farmhouse.DisplayName,農舍,
 Building.Farmhouse.FlavorDescription,農業成了當今海貍社會的重要支柱之一。,
-Building.FlameOfProgress.DisplayName,進步之火,Name of a monument
-Building.FlameOfProgress.FlavorDescription,在無數木屋葬身火海之後，海貍們發誓要徹底解決火災隱患。,
+Building.Fermenter.Description,發酵植物以生產營養食品。,Ferments should be the same as in Building.Fermenter.DisplayName
+Building.Fermenter.DisplayName,發酵處,A building that ferments plants to make food.
+Building.Fermenter.FlavorDescription,幾次事故之後，對允許發酵的產品清單做出了限制。,Referrencing fermentation used to produce alcoholic beverages.
+Building.FlameOfUnity.DisplayName,團結之火,A large beacon held by four beaver statues.
+Building.FlameOfUnity.FlavorDescription,“沒有什麼比生產配額更有助於團結了。”——工業之父阿基米德,"Ol' Kazko is a legendary forefather of modern beavers, famous inventor, pioneer of rapid industrialization."
 Building.Floodgate.Description,阻擋一定高度的水位，高度可調節。,
 Building.Floodgate.DisplayName,閘門,
+Building.Floodgate.FlavorDescription,在工業之父阿基米德創造了第一個閘門之前，沒有誰想到還能改進水壩。,
 Building.Floodgate.Height,高度：{0},
 Building.Floodgate.Synchronize,與相鄰的閘門同步,
-Building.Floodgate.FlavorDescription,在工業之父阿基米德創造了第一個閘門之前，沒有誰想到還能改進水壩。,
+Building.FoodFactory.Description,將原料加工成口糧。,"Rations should be the same as in Good.AlgaeRation.DisplayName, Good.CornRation.DisplayName and Good.EggplantRation.DisplayName"
+Building.FoodFactory.DisplayName,食物工廠,A factory building that literally produces food.
+Building.FoodFactory.FlavorDescription,在建成前，工作時匆匆咬一口往往會造成建築摧毀。,A hungry beaver may take a bite of a [wooden] construction it's working on.
 Building.Forester.Description,種植樹木與灌木。,
 Building.Forester.DisplayName,植樹員工作室,A building with a worker that plants trees and bushes
 Building.Forester.FlavorDescription,2、3、5、7、...、101 棵樹，我擅長的可是植樹呢。,"Forresters are a family of central characters in ""Bold and Beautiful"", an extremely long-running American soap opera. Feel free to adapt this flavor, do not translate that literally."
+Building.FountainOfJoy.DisplayName,歡樂之泉,A large water fountain with statues on top.
+Building.FountainOfJoy.FlavorDescription,如果能讓你開心，就不算浪費。,Water is a very preciuos resource in Timberborn - fountains could be seen as a waste.
 Building.GathererFlag.Description,從野生植物中採集資源,
 Building.GathererFlag.DisplayName,採集工旗幟,Flag' could also be a Post or something similar as long as it is consistent with other Flags and different from Haulers Post
 Building.GathererFlag.FlavorDescription,海貍往籃子裡放入漿果，卻意外發現了一道美味甜食。,
 Building.GearWorkshop.Description,用木板製造齒輪。,Gears and Planks are resources; keep consistent.
 Building.GearWorkshop.DisplayName,齒輪工坊,Gear is a resource
 Building.GearWorkshop.FlavorDescription,工業之父阿基米德主張大規模工業發展。“Wooden Gear Solid！”是他的口頭禪。,"Metal Gear Solid is a famous Japanese video game series. Ol' Kazko is a legendary forefather of modern beavers, famous inventor, pioneer of rapid industrialization."
-Building.GravityBattery.Description,此建築儲存剩餘的電能，並在其網絡供電不足時回到電網。建得越高，可以儲存的電能就越多,
+Building.GravityBattery.Description,儲存剩餘的電能，並在其電網供電不足時作為電池供電。建得越高，可以儲存的電能就越多。,
 Building.GravityBattery.DisplayName,重力電池,"A battery in the form of a crane, that stores energy by raising a heavy weight above the ground."
 Building.GravityBattery.FlavorDescription,當你可以隨意修改物理定律時，就可以這樣做了。,Gravity batteries in the real world do not make sense from the physics standpoint.
 Building.Grill.Description,烤蔬菜。,
@@ -194,19 +209,28 @@ Building.HaulingPost.Description,搬運工能幫助該地區內的工貍搬運�
 Building.HaulingPost.DisplayName,搬運站,Keep different from Flag buildings since the building is of a different category than flags.
 Building.HaulingPost.FlavorDescription,來這裡的都是最健壯的海貍，千萬別踩到搬運工的尾巴把它們惹毛了。,
 Building.Healer.Description,製造藥物並將其分發到醫療床。,"Medical bed should be the same as Building.MedicalBed, Medicine as Good.Medicine"
-Building.Healer.DisplayName,藥廠,A building that serves as medicine factory and distribution center. It doesn't heal beavers inside. 
-Building.Healer.FlavorDescription,此釀造設備嚴格用於醫療目的。,This building kind of resembles an alcohol brewery.
+Building.Healer.DisplayName,藥廠,A building that serves as medicine factory and distribution center. It doesn't heal beavers inside.
+Building.Healer.FlavorDescription,此釀造裝置嚴格用於醫療目的。,This building kind of resembles an alcohol brewery.
+Building.Hedge.Description,裝飾性盆栽樹籬。,
+Building.Hedge.DisplayName,樹籬,
+Building.Hedge.FlavorDescription,當你能夠咬穿樹籬時，樹籬迷宮就不算什麼挑戰。,
+Building.HydroponicGarden.Description,栽培不適合露天耕種的植物。,
+Building.HydroponicGarden.DisplayName,水培花園,An artificial garden that's used to cultivate special plants.
+Building.HydroponicGarden.FlavorDescription,在發現一個潮濕並覆蓋著快速生長的真菌的人類遺址後，這個想法誕生了。,"Referencing Timberborn's post-apo theme, but also a little bit of The Last of Us."
+Building.IndustrialLumberMill.Description,用原木製作木板。這種創新性設計可以在相同的空間內容納更多的勞工。,"Planks should be the same as Good.Plank.DisplayName, Logs should be the same as Good.Log.DisplayName"
+Building.IndustrialLumberMill.DisplayName,工業木板廠,Lumber Mill should be the same as in Building.LumberMill.DisplayName
+Building.IndustrialLumberMill.FlavorDescription,兩把鋸子總比一把好。,"Referencing the ""two beavers are better than one"" song, plus the IT lumbermill has two saws rather than one that's in the FT version."
 Building.Inventor.DisplayName,發明家,
 Building.Inventor.FlavorDescription,受到工業之父阿基米德的啟迪，這些海貍發明家孜孜不倦地探索著林木科技。,"Ol' Kazko is a legendary forefather of modern beavers, famous inventor, pioneer of rapid industrialization."
 Building.IrrigationTower.Description,灌溉周圍的土地。,
 Building.IrrigationTower.DisplayName,灌溉塔,
 Building.IrrigationTower.FlavorDescription,現在的地球僅有三分之一被水體覆蓋，唯有靠灌溉技術才能在乾涸的大地上生存。,The game is set on Earth turned into a dry wasteland.
 Building.LaborerMonument.DisplayName,工貍紀念牌,Name of a monument
-Building.LaborerMonument.FlavorDescription,儘管工業化取代了昔日的體力勞動，但海貍的勤奮精神始終沒有改變。,
-Building.LargeBarrack.DisplayName,大營房,Barracks are cramped homes for beavers. Not related to soldiers. A bigger variant of Building.Barrack.
+Building.LaborerMonument.FlavorDescription,儘管工業化取代了昔日的體力勞動，但鐵牙族的勤奮精神始終沒有改變。,
+Building.LargeBarrack.DisplayName,大通舖,Barracks are cramped homes for beavers. Not related to soldiers. A bigger variant of Building.Barrack.
 Building.LargeBarrack.FlavorDescription,說好的“私貍空間”呢？,Barracks are very cramped so there isn't much private space.
 Building.LargeIndustrialPile.DisplayName,大型工業材料堆,
-Building.LargeIndustrialPile.FlavorDescription,比堆起來更好的方式是什麽？那就是繼續再堆。,"The building is an improved, stackable variant of Building.LargePile"
+Building.LargeIndustrialPile.FlavorDescription,比堆起來更好的方式是什麼？那就是繼續再堆。,"The building is an improved, stackable variant of Building.LargePile"
 Building.LargeMetalPlatform.DisplayName,大金屬平台,
 Building.LargeMetalPlatform.FlavorDescription,專為重金屬愛好者而建。,Heavy metal is a reference to the music genre. This building is massive and made of metal.
 Building.LargePile.DisplayName,大型材料堆,
@@ -216,16 +240,17 @@ Building.LargeRowhouse.FlavorDescription,鐵牙建造了一片高聳的建築群
 Building.LargeTank.DisplayName,大型儲存罐,
 Building.LargeTank.FlavorDescription,儘管有些小海貍想把它當成泳池，但水箱其實是出於工業目的設計的。,
 Building.LargeWarehouse.DisplayName,大倉庫,
-Building.LargeWarehouse.FlavorDescription,裡面裝了那麽多東西，簡直沒有立爪之地。,"""No room to swing a cat"" is an English idiom, feel free to adapt."
-Building.LargeWaterWheel.DisplayName,大水車,A water wheel that's bigger than other versions.
+Building.LargeWarehouse.FlavorDescription,裡面裝了那麼多東西，簡直沒有立爪之地。,"""No room to swing a cat"" is an English idiom, feel free to adapt."
+Building.LargeWaterWheel.FlavorDescription,“你們需要一個更大的輪子。”——工業之父阿基米德,"Reference to a famous one-liner from ""Jaws"" (""you're gonna need a bigger boat"")"
 Building.LargeWaterWheel.Description,更大更高效的水車。由側面支撐。,
+Building.LargeWaterWheel.DisplayName,大水車,A water wheel that's bigger than other versions.
 Building.LargeWindmill.Description,轉輪葉片更大，能產生更多能量。,
 Building.LargeWindmill.DisplayName,大風車,Advanced windmill that can rotate
 Building.LargeWindmill.FlavorDescription,搭順風車最好。,"Tailwind being a wind blowing from behind, a pun since beavers have tails."
 Building.Levee.Description,完全阻斷水流。,
 Building.Levee.DisplayName,防洪堤,Different to a Dam
-Building.Levee.FlavorDescription,經過代代海貍水利工程師的改造進化而誕生的防洪堤，可不是“一塊木頭”那麽簡單。,
-Building.Lido.Description,在河邊休憩的好地方。,
+Building.Levee.FlavorDescription,經過代代海貍水利工程師的改造進化而誕生的防洪堤，可不是“一塊木頭”那麼簡單。,
+Building.Lido.Description,在河邊休憩的好所在。,
 Building.Lido.DisplayName,水池區,Lido as in a swimming pool. Built on a river bank and used to relax. Includes a swimming area and a small land area with a few lawn chairs.
 Building.Lido.FlavorDescription,“玩得很開心，現在來訓練你的尾式泳姿吧！”——小松,"Backstroke is a swimming style, but beavers also have tails. Pina is a younger beaver figure that's exploring the world and isn't related to any faction in particular. Pina as a name relates to the pine tree, the translated name shouldn't suggest a gender if possible."
 Building.Lodge.Description,用來過夜的場所。,
@@ -235,14 +260,15 @@ Building.LodgeMirrored.DisplayName,木屋（鏡像）,A symmetrical version of a
 Building.LodgeMirrored.FlavorDescription,嬤阿貍海——”。了清不搞都我？呢在現。屋木是就屋木，裡子日舊在“,"Please use the the same flavor description as Building.Lodge.FlavorDescription but in reverse. If that is a problem in your language, use the same text as Building.Lodge.FlavorDescription."
 Building.LogFence.Description,用原木製作的裝飾性柵欄。,
 Building.LogFence.DisplayName,原木柵欄,
-Building.LumberjackFlag.Description,僱傭一個砍樹的伐木工。,
-Building.LumberjackFlag.DisplayName,伐木工旗幟,Flag' could also be a Post or something similar as long as it is consistent with other Flags and different from Haulers Post
-Building.LumberjackFlag.FlavorDescription,“伐木日當午，捆捆皆辛苦。”——海貍兒歌,"Adapted from Monthy Python's ""Lumberjack Song"""
 Building.LumberMill.Description,使用原木製作木板。,Planks and Logs are resources so this needs to be consistent with their name
 Building.LumberMill.DisplayName,木板廠,
 Building.LumberMill.FlavorDescription,在工業之父阿基米德的鼓勵下，機械化木材加工技術得到應用，老一輩海貍們對此恨得牙癢癢。,"Ol' Kazko is a legendary forefather of modern beavers, famous inventor, pioneer of rapid industrialization."
-Building.MechanicalWaterPump.Description,一邊抽水，另一邊排水，比普通泵浦更高效。,
-Building.MechanicalWaterPump.DisplayName,機械泵浦,A mechanically powered water pump.
+Building.LumberjackFlag.Description,僱傭一個砍樹的伐木工。,
+Building.LumberjackFlag.DisplayName,伐木工旗幟,Flag' could also be a Post or something similar as long as it is consistent with other Flags and different from Haulers Post
+Building.LumberjackFlag.FlavorDescription,“伐木日當午，捆捆皆辛苦。”——海貍兒歌,"Adapted from Monthy Python's ""Lumberjack Song"""
+Building.MechanicalWaterPump.Description,一邊抽水，另一邊排水，比普通水泵更高效。,
+Building.MechanicalWaterPump.DisplayName,機械水泵,A mechanically powered water pump.
+Building.MechanicalWaterPump.FlavorDescription,水流源源不斷勝過拿著水桶疲於奔走。,Running water meaning water that is moving.
 Building.MedicalBed.Description,生病的海貍來休息的地方。有藥廠提供藥物時表現更好。,"Medicine should be the same as Good.Medicine, Healer as Building.Healer.DisplayName, keep consistent"
 Building.MedicalBed.DisplayName,醫療床,A place where injured/sick beavers come to lie down and rest
 Building.MedicalBed.FlavorDescription,“只是擦傷而已。我可以回去工作嗎？” ——小松,Monty Python reference.
@@ -250,8 +276,11 @@ Building.MediumTank.DisplayName,中型儲存罐,
 Building.MediumTank.FlavorDescription,在“大旱災”之後，海貍養成了隨身攜帶幾隻這樣的動物的習慣。,The Great Drought should remain capitalized to indicate it's a name of an event.
 Building.MediumWarehouse.DisplayName,中型倉庫,
 Building.MediumWarehouse.FlavorDescription,在危機重重的末世，儲存物品是生存的關鍵。,
+Building.MemorialToFamily.DisplayName,家庭紀念,A large brazier surrounded by statues of a beaver family
+Building.MetalFence.FlavorDescription,小心喜歡金屬勝過木材的海貍。,"Reference to ""beware the dog"" often written on fences."
 Building.MetalFence.Description,用金屬製作的裝飾性柵欄。,
 Building.MetalFence.DisplayName,金屬柵欄,
+Building.MetalPlatform.FlavorDescription,“這桌子比照片裡看起來還要小。”——海貍阿嬤,"This platform looks like an enormours metal table, and Ma' Ngnonel is an older beaver. Please keep her name the same as in other localized flavor texts."
 Building.MetalPlatform.Description,由堅固支柱撐起的巨大平台。,
 Building.MetalPlatform.DisplayName,金屬平台,
 Building.Mine.Description,僱傭從地下廢墟採集金屬廢料的礦工。,
@@ -260,17 +289,19 @@ Building.Mine.FlavorDescription,挖得太深太貪心？不會的。,"The mine p
 Building.MiniLodge.Description,適合一隻海貍居住的小木屋。,
 Building.MiniLodge.DisplayName,迷你木屋,A small lodge for only one beaver
 Building.MiniLodge.FlavorDescription,一個貍其實也行。,Referencing 'Two Beavers Are Better Than One' meme-song from 'How I Met Your Mother' TV show.
-Building.MechanicalWaterPump.FlavorDescription,水流源源不斷勝過拿著水桶疲於奔走。,Running water meaning water that is moving.
-Building.MudBath.Description,通過機械注入泡泡的泥浴。,
+Building.MudBath.Description,透過機械注入泡泡的泥浴。,
 Building.MudBath.DisplayName,泥浴,"A mud bath infused with bubbles, basically a jacuzzi but that word is too human."
-Building.MudBath.FlavorDescription,泡泡哪兒來的呢？,Fart joke but it's easy to see it as bubbles all appear in the middle of the bath where the visitors' tails are directed.
-Building.Numbercruncher.Description,一個無需海貍操作即可進行計算的覆雜機器。,This machine is a primitive computer.
-Building.Numbercruncher.DisplayName,機械式計算機,A machine that's a primitive computer. It generates science points by performing research.
+Building.MudBath.FlavorDescription,泡泡哪裡來的呢？,Fart joke but it's easy to see it as bubbles all appear in the middle of the bath where the visitors' tails are directed.
+Building.Numbercruncher.Description,一個無需海貍操作即可進行計算的複雜機器。,This machine is a primitive computer.
+Building.Numbercruncher.DisplayName,數算機械,A machine that's a primitive computer. It generates science points by performing research.
 Building.Numbercruncher.FlavorDescription,性能遠遠優於現已退役的算數儀器。,"Suggests that beavers - just like hoomans - create new generations of ""computers"" and retire old ones."
-Building.Observatory.Description,通過探索星空，海貍能獲得更多關於它們所處世界的知識。,A building where beavers look into the space using telescopes
+Building.Observatory.Description,透過探索星空，海貍能獲得更多關於它們所處世界的知識。,A building where beavers look into the space using telescopes
 Building.Observatory.DisplayName,天文所,A building where beavers look into the space using telescopes
 Building.Observatory.FlavorDescription,在篝火旁觀賞完星空後，這是自然而然的下一步。,
-Building.PaperMill.Description,高效機械化造紙廠。,Paper is a resource.
+Building.OilPress.Description,從合適的植物中擠出油。,Oil should be the same as in Building.OilPress.DisplayName
+Building.OilPress.DisplayName,榨油機,A building that's a giant press that squeezes out oil.
+Building.OilPress.FlavorDescription,從餅乾到松果，好奇的小傢伙們用它來壓扁一切。,"The process of squishing things with hydraulic press filmed in slo-mo is oddly fascinating, and makes for popular YT videos."
+Building.PaperMill.Description,機械化造紙廠。,Paper is a resource.
 Building.PaperMill.DisplayName,造紙廠,
 Building.PaperMill.FlavorDescription,最先只是拾荒者的乾糧，但很快就有了多種其他用途。,
 Building.Path.Description,建築都必須用道路連通。,
@@ -283,14 +314,14 @@ Building.Platform.DisplayName,平台,
 Building.Platform.FlavorDescription,海貍是神奇的工程師，設計出的平台擁有極高的承重能力。,
 Building.PowerShaft.Description,能傳輸能量。,"Power being mechanical/kinetic, not electricity. Alternative name: axle."
 Building.PowerShaft.FlavorDescription,工業之父阿基米德的偉大發明之一。,"Ol' Kazko is a legendary forefather of modern beavers, famous inventor, pioneer of rapid industrialization."
-Building.PowerShaftHigh.DisplayName,高度變換傳動軸,For ease of translation could also be called an axle
-Building.PowerShaftIntersection.DisplayName,能量傳動軸接口,For ease of translation could also be called an axle
+Building.PowerShaftHigh.DisplayName,高度轉換傳動軸,For ease of translation could also be called an axle
+Building.PowerShaftIntersection.DisplayName,能量傳動軸介面,For ease of translation could also be called an axle
 Building.PowerShaftStraight.DisplayName,直線能量傳動軸,For ease of translation could also be called an axle
-Building.PowerShaftTIntersection.DisplayName,能量傳動軸T型接口,For ease of translation could also be called an axle. A three-way junction of power shafts.
+Building.PowerShaftTIntersection.DisplayName,能量傳動軸T型介面,For ease of translation could also be called an axle. A three-way junction of power shafts.
 Building.PowerShaftTurn.DisplayName,能量傳動軸彎角,For ease of translation could also be called an axle
 Building.PowerWheel.Description,由海貍操縱的備用能量源。,
-Building.PowerWheel.DisplayName,能量滾輪,Meaning a wheel that produces power
-Building.PowerWheel.FlavorDescription,海貍很快意識到，它們可以從較低級的嚙齒動物這裡借鑑一些技術。,This building looks like a hamster wheel.
+Building.PowerWheel.DisplayName,能量輪,Meaning a wheel that produces power
+Building.PowerWheel.FlavorDescription,海貍很快意識到，它們可以從較低級的齧齒動物這裡借鑑一些技術。,This building looks like a hamster wheel.
 Building.PrintingPress.Description,用紙列印書籍。,Book and Paper are resources.
 Building.PrintingPress.DisplayName,出版社,
 Building.PrintingPress.FlavorDescription,海貍每讀完一頁就會把紙吞下去，因此文學作品的需求量長盛不減。,
@@ -317,7 +348,7 @@ Building.Scarecrow.DisplayName,稻草貍,
 Building.Scarecrow.FlavorDescription,在自己的領域上格外出眾。,
 Building.ScavengerFlag.Description,拾荒者會從廢墟收集廢金屬。,Metal is a resource;ruins are a building
 Building.ScavengerFlag.DisplayName,拾荒者旗幟,
-Building.ScavengerFlag.FlavorDescription,拾荒者為傳統的木製結構定居地帶來了金屬，受到了一些海貍的尊重及另一些海貍的鄙視。,
+Building.ScavengerFlag.FlavorDescription,拾荒者為傳統的木結構定居地帶來了金屬，受到了一些海貍的尊重及另一些海貍的鄙視。,
 Building.Shower.Description,海貍用來沖涼的地方。,
 Building.Shower.DisplayName,淋浴處,A simple shower for beavers.
 Building.Shower.FlavorDescription,讓征服廢土的日子更容易熬一些。,
@@ -349,32 +380,33 @@ Building.StreamGauge.Description,測量水的深度和流量。,
 Building.StreamGauge.DisplayName,水流計,
 Building.StreamGauge.FlavorDescription,貍間大小事，有其潮汐。把握漲潮，則萬事無阻。,Adapted quote from Shakespeare's 'Julius Cesar'
 Building.StreamGauge.HighestWaterLevel,最高水位：{0},
-Building.StreamGauge.Reset,重置,
+Building.StreamGauge.Reset,重設,
 Building.StreamGauge.WaterCurrent,水流：每秒{0}立方公尺,
 Building.StreamGauge.WaterLevel,水位：{0},
-Building.SuspensionBridge.Description,幫助海貍通過溝壑。,
-Building.SuspensionBridge.FlavorDescription,比看上去更結實。,
-Building.SuspensionBridgeMetal.FlavorDescription,和看上去一樣結實。,
+Building.SuspensionBridge.Description,幫助海貍透過溝壑。,
+Building.SuspensionBridge.FlavorDescription,比看起來更結實。,
 Building.SuspensionBridge1x1.DisplayName,吊橋1x1,Numbers at the end denote size X by Y
 Building.SuspensionBridge2x1.DisplayName,吊橋2x1,Numbers at the end denote size X by Y
 Building.SuspensionBridge3x1.DisplayName,吊橋3x1,Numbers at the end denote size X by Y
 Building.SuspensionBridge4x1.DisplayName,吊橋4x1,Numbers at the end denote size X by Y
 Building.SuspensionBridge5x1.DisplayName,吊橋5x1,Numbers at the end denote size X by Y
 Building.SuspensionBridge6x1.DisplayName,吊橋6x1,Numbers at the end denote size X by Y
+Building.SuspensionBridgeMetal.FlavorDescription,和看起來一樣結實。,
+Building.TappersShack.FlavorDescription,孩子們很早就被教導，無論是水還是樹脂，每一滴都很重要。,
 Building.TappersShack.Description,僱傭樹液工，從樹上採集樹液樹汁。,
 Building.TappersShack.DisplayName,樹液工小屋,"A shack where workers tap trees to gather sap and syrups, similar to sugar shacks in Canada."
 Building.TeethGrindstone.Description,用來將斷牙重新磨鋒利。,Broken teeth refers to Need.BrokenTeeth.CriticalDescription
 Building.TeethGrindstone.DisplayName,磨牙石,A grindstone contraption for sharpening beaver teeth
-Building.TeethGrindstone.FlavorDescription,有了這個工具，為什麽還要讓斷牙折磨自己呢？,"This building is used by beavers to clear the ""broken teeth"" status. Broken teeth refers to Need.BrokenTeeth.DisplayName."
+Building.TeethGrindstone.FlavorDescription,有了這個工具，為什麼還要讓斷牙折磨自己呢？,"This building is used by beavers to clear the ""broken teeth"" status. Broken teeth refers to Need.BrokenTeeth.DisplayName."
 Building.Temple.DisplayName,神殿,
 Building.Temple.FlavorDescription,海貍在此對賜予它們些許恩惠卻又反覆無常的大自然表示敬意。,We don't want to make references to real-life religion.
-Building.TerrainBlock.Description,由地形改造站勞工建造的人造地形塊。,Terraforming station must be the same as Building.TerraformingStation.DisplayName and block of terrain refers to Building.TerrainBlock.DisplayName.
-Building.TerrainBlock.DisplayName,地形塊,A 1x1x1 chunk of terrain built by Terraforming Station workers.
 Building.TerraformingStation.Description,使用機器人來改造地形。,Terrain blocks must be the same as plural Building.TerrainBlock.DisplayName and bots must be the same as Bot.PluralDisplayName
 Building.TerraformingStation.DisplayName,地形改造站,"A building employing bots who can place dirt to form hills, fill ravines etc."
 Building.TerraformingStation.FlavorDescription,“嘿，上週那裡沒有山。” ——小松,
+Building.TerrainBlock.Description,由地形改造站勞工建造的人造地形塊。,Terraforming station must be the same as Building.TerraformingStation.DisplayName and block of terrain refers to Building.TerrainBlock.DisplayName.
+Building.TerrainBlock.DisplayName,地形塊,A 1x1x1 chunk of terrain built by Terraforming Station workers.
 Building.TributeToIngenuity.DisplayName,創意紀念碑,Name of a monument
-Building.TributeToIngenuity.FlavorDescription,每個海貍種族都有自己的生存方式，但各個都充滿創意。,
+Building.TributeToIngenuity.FlavorDescription,“當然是有目的。它能讓人驚艷。”——工業之父阿基米德,"Ol' Kazko is a legendary forefather of modern beavers, famous inventor, pioneer of rapid industrialization."
 Building.TripleFloodgate.DisplayName,三重閘門,
 Building.TripleFloodgate.FlavorDescription,不能再高了，否則水會太重，擋不住。,
 Building.TripleLodge.Description,可以居住很多海貍。,Houses thrice the amounts of beavers as normal lodge
@@ -383,15 +415,15 @@ Building.TripleLodge.FlavorDescription,“生命不息，繁衍不止”。這�
 Building.TriplePlatform.DisplayName,三重平台,Triple as triple the height of a normal platform
 Building.TriplePlatform.FlavorDescription,嚴禁啃咬桿子！,
 Building.UndergroundPile.DisplayName,地下材料堆,"The underground version of a pile, for reference check Building.SmallPile.DisplayName or Building.LargePile.DisplayName"
-Building.UndergroundPile.FlavorDescription,這麽大的倉儲空間，值得為此上下樓梯。,
+Building.UndergroundPile.FlavorDescription,這麼大的倉儲空間，值得為此上下樓梯。,
 Building.UndergroundRuins.Description,被掩埋的廢墟裡到處是金屬廢料，可供採挖。,
 Building.UndergroundRuins.DisplayName,地下廢墟,Buried ruins on top of which an extracting facility - a mine - can be placed.
-Building.UndergroundRuins.FlavorDescription,不管人類在下面幹了什麽，肯定需要大量金屬。,
+Building.UndergroundRuins.FlavorDescription,不管人類在下面弄了什麼，肯定需要大量金屬。,
 Building.WaterDump.Description,排水。,
 Building.WaterDump.DisplayName,排水處,A building (or its employee) which discharges water brought in buckets from other places.
 Building.WaterDump.FlavorDescription,“給我足夠的桶，我就能搬空湖泊。”——工業之父阿基米德,"A reference to a quote by Archimedes: Give me a place to stand, and I shall move the world."
 Building.WaterPump.Description,抽取並過濾供海貍飲用的水。,
-Building.WaterPump.DisplayName,泵浦,
+Building.WaterPump.DisplayName,水泵,
 Building.WaterPump.FlavorDescription,抽出的是泉水，湧出的是靈感。,"""Pump"" pun, feel free to adapt."
 Building.WaterSource.DisplayName,水源,
 Building.WaterSource.FlavorDescription,“川流不息。”——海貍問候語,
@@ -402,38 +434,42 @@ Building.WindGauge.Description,一個小風向標，沿著風的方向轉動，�
 Building.WindGauge.DisplayName,風速記,A decoration that turns towards the wind
 Building.WindGauge.FlavorDescription,“如果我沒錯的話，把這個東西固定在一個引擎和一對翅膀上，它就能飛了。”——小松,"Referencing the Wright brothers and their first-ever aircraft. Pina is a younger beaver figure that's exploring the world and isn't related to any faction in particular. Pina as a name relates to the pine tree, the translated name shouldn't suggest a gender if possible."
 Building.WindGauge.WindStrength,風力：{0}%,This tells how strong the wind is in percent between 0 and 100
-Building.Windmill.Description,通過風力產生數量不定的能量。,
+Building.Windmill.Description,透過風力產生數量不定的能量。,
 Building.Windmill.DisplayName,風車,
 Building.Windmill.FlavorDescription,我們都是風中木屑！——神尾歌曲,"Reference to ""Dust in the Wind"" by Kansas."
+Building.WoodFence.FlavorDescription,和水壩差不多，不過是給海貍建的。,
+Building.WoodFence.Description,用木材製作的裝飾性柵欄。,
+Building.WoodFence.DisplayName,木柵欄,
+Building.WoodWorkshop.Description,透過浸泡樹脂來強化木板。,It produces treated / impregnated planks. The resin used is a pine resin.
+Building.WoodWorkshop.DisplayName,木材工坊,It produces treated / impregnated planks. Do NOT use the same term as lumber mill.
+Building.WoodWorkshop.FlavorDescription,為什麼處理過的木板如此堅硬？因為樹脂。,"'Because resins' sounds like 'Because reasons', wordplay on an older meme."
 Building.WoodenStairs.DisplayName,木樓梯,
 Building.WoodenStairs.FlavorDescription,在發明了樓梯後，海貍可以“升級”了。,
-Building.WoodWorkshop.Description,通過浸泡樹脂來強化木板。,It produces treated / impregnated planks. The resin used is a pine resin.
-Building.WoodWorkshop.DisplayName,木材工坊,It produces treated / impregnated planks. Do NOT use the same term as lumber mill.
-Building.WoodWorkshop.FlavorDescription,為什麽處理過的木板如此堅硬？因為樹脂。,"'Because resins' sounds like 'Because reasons', wordplay on an older meme."
 Buildings.AboveGround,<SolidHighlight>高於地面：</SolidHighlight>必須放在其他建築頂上。,
 Buildings.BottomConstraint,不能建在地圖的最底部。,An alert for when someone tries to build at the lowest layer of the map.
 Buildings.BuildingIsUnique,<SolidHighlight>此種族特有</SolidHighlight>,Describes a building which is only available to this faction.
 Buildings.DeletePrompt,確定要拆除選中的建築物嗎？該操作無法取消。,
 Buildings.DirectionalBlocking,此工程正在等待後方的工程完成。,"Status shown on construction sites, that need to be finished in directional order."
 Buildings.EntranceBlocked,入口阻斷,"A notification for when a building entrance is blocked, keep it short"
-Buildings.FloodedAlert,被淹建築,Alert that shows up when a building is flooded.
-Buildings.FloodedPanel,淹水,Notification that shows in the selected building's panel when it's flooded.
+Buildings.Flooded,淹水,Notification that shows in the selected building's panel when it's flooded.
+Buildings.FloodedShort,被淹建築,Alert that shows up when a building is flooded. Please keep short.
 Buildings.GroundOnly,<SolidHighlight>僅地面：</SolidHighlight>必須建造在地面上。,
 Buildings.InvalidTerrainLevel,不能建在地圖的最底部。,An alert for when someone tries to build at the lowest layer of the map.
-Buildings.NeedsWaterAlert,建築需要水,
-Buildings.NeedsWaterPanel,該建築需要更深的水才能運作。,
+Buildings.NeedsWater,該建築需要更深的水才能運作。,
+Buildings.NeedsWaterShort,建築需要水,Please keep short.
 Buildings.Paused,已關閉。,"Alternative terms: Paused, Switched off"
 Buildings.Solid,<SolidHighlight>牢固：</SolidHighlight>在其上可以建造其他建築。,Solid or Stackable — something that tells the player that you can build on top of it
-Buildings.TopConstraint,不能建在當前高度。,An alert for when someone tries to build forbidden buildings at the max terrain level of the map.
-Buildings.UnreachableBuildingAlert,建築未連通,"Shown when a building isn't connected to a district center, shorter version"
-Buildings.UnreachableBuildingPanel,此建築尚未通過道路連通任何地區中心。,"Shown when a building isn't connected to a district center, longer version"
+Buildings.TopConstraint,不能建在目前高度。,An alert for when someone tries to build forbidden buildings at the max terrain level of the map.
+Buildings.UnreachableBuilding,此建築尚未透過道路連通任何地區中心。,Shown when a building isn't connected to a district center.
+Buildings.UnreachableBuildingShort,建築未連通,Shown when a building isn't connected to a district center. Please keep short.
 Buildings.UnsuitableBuildingBelow,該建築需建造在{0}之上,{0} stands for another buildings DisplayName. This is a warning shown to the user during building placing.
+Buildings.WaterAccess,<SolidHighlight>水依賴：</SolidHighlight>需要能獲取水。,
 BuildingTools.CantUnlock,無法解鎖{0}，科學點數不足。,{0} stands for Building.DisplayName {1} stands for amount. Prompt when player doesn't have enough science points to unlock a building.
-BuildingTools.DistrictsInConflict,地區之間必須用大門隔開。,A warning when a player tries to connect two districts without separating them with a District Gate.
+BuildingTools.DistrictsInConflict,地區之間必須用地區交匯點隔開。,A warning when a player tries to connect two districts without separating them with a District Crossing. District Crossing should be the same as Building.DistrictCrossing.DisplayName
 BuildingTools.Multiple,長按<b>滑鼠左鍵</b>放置多個物體。,Tooltip that tells the players that they can place multiple objects at once
 BuildingTools.UnlockPrompt,確定要解鎖嗎{0}？需要花費{1}科學點數。,{0} stands for Building.DisplayName {1} stands for amount. Prompt when player presses to unlock a building.
 Camera.StateSaved,視角狀態已儲存,"Notification on top of the window when camera state(location, rotation) is saved by player."
-CancelPlantingTool.Description,用它來取消標注種植區域。,Description of a tool that removes fields.
+CancelPlantingTool.Description,用它來取消標註種植區域。,Description of a tool that removes fields.
 CancelPlantingTool.Title,清除種植區域,Tool that removes fields so the beavers won't plant there.
 Carrying.Carry,承載：{0}({1}/{2}公斤),{0} stands for Good.DisplayName {1} stands for carried good weight {2} stands for beaver lifting capacity. Tells player what the beaver is carrying and how much it weighs in comparison to the beaver's strength
 Carrying.Nothing,無,When beaver is carrying nothing.
@@ -441,7 +477,7 @@ Clusters.SharesPower,與相鄰建築分享能量。,Power is not an electrical b
 Condition.DisplayName,狀況,"Bot equivalent of wellbeing (how good they are taken care of, how good their mechanical condition is)"
 ConstructionSites.DisplayName,建築工地,
 ConstructionSites.NoMaterials,無法獲得全部所需資源。,Shown in the building box when there are no available materials in the nearby storages or no storages nearby
-ConstructionSites.NoMaterialsShort,缺乏建築材料,Notification that the construction can't be finished; keep fairly short
+ConstructionSites.NoMaterialsShort,缺乏建築材料,Notification that the construction can't be finished. Please keep short.
 ConstructionSites.Priority,建造優先度,
 ConstructionSites.PriorityTitle,建造優先度：,Setting a priority for construction work on a construction site
 ConstructionSites.Progress,進度：{0}%,{0} stands for percentage of construction progress
@@ -465,10 +501,10 @@ Core.Yes,是,
 Demolish.Mark,拆除,Demolishing is removing with the use of builders. Must be different than 'Delete' which has a slightly different meaning in the game.
 Demolish.Cancel,取消拆除,
 Demolish.PriorityTitle,拆除優先度：,Setting a priority for demolition work on demolition target
-DemolishSelectionTool.Description,使用它來標注要拆除的資源。全部資源都會丟失。,
-DemolishSelectionTool.Title,標注要拆除的資源,
-DemolishUnselectionTool.Title,取消標注要拆除的資源,
-DemolishUnselectionTool.Description,使用它來取消標注要拆除的資源。,
+DemolishSelectionTool.Description,使用它來標註要拆除的資源。全部資源都會遺失。,
+DemolishSelectionTool.Title,標註要拆除的資源,
+DemolishUnselectionTool.Title,取消標註要拆除的資源,
+DemolishUnselectionTool.Description,使用它來取消標註要拆除的資源。,
 DeletionTool.Description.Buildings,使用此工具拆除建築物。,Followed by DeletionTool.Description.BuildingsMaterials and DeletionTool.Description.BuildingsStorage
 DeletionTool.Description.BuildingsMaterials,一部分建築材料將變為可回收的瓦礫堆。,Rubble should be the same as RecoveredGoodStack.DisplayName
 DeletionTool.Description.BuildingsStorage,儲存的物品會被包含在瓦礫堆中。,"Rubble should be the same as RecoveredGoodStack.DisplayName, ""Stored goods"" could be translated similar to Building.SmallWarehouse.Description"
@@ -477,24 +513,27 @@ DeletionTool.Prompt.Buildings,確定要拆除選中的建築物嗎？該操作�
 DeletionTool.Prompt.Objects,確定要刪除選中的物體嗎？該操作無法取消。,
 DeletionTool.Title.Buildings,拆除建築,
 DeletionTool.Title.Objects,刪除物體,
-Distribution.AddNewRoute,新增新路線,Button please keep short
-Distribution.DistrictDistributionLimits,地區運送限額,Button please keep short
-Distribution.High,高,The upper limit of imported/exported goods
-Distribution.Low,低,The lower limit of imported/exported goods
-Distribution.LowHighTooltip,"低——低於這個限額的資源不會從該地區中運出
-同時，來該地區的運送者會優先運來這種資源。
-
-高——高於此限額的資源不會運送到該地區。",
-Distribution.NoDistrict,無地區,
-Distribution.NoRoutes,未設立路線,
-Distribution.PickDropOffPointTip,選擇卸貨點作為目的地。目的地必須位於其他地區，且有路連通到運送站。,Distribution Post must be consistent with Building.DistributionPost.
-Distribution.PickDropOffPointTitle,選擇卸貨點,
-Distribution.PickDropOffPointWarning,目的地必須位於其他地區，且有路連通。,
-Distribution.Routes,路線,
-Distribution.RouteProblemAlert,無法運送物品,Alert that shows up when haulers can't move goods between districts.
-Distribution.RouteProblemPanel,有些路線無法運作。,
-Distribution.RoutePaused,暫停,
-Distribution.SelectGood,選擇物品,
+Distribution.BalanceInfo,相連區域將根據倉儲空間的供應率和自訂的出口閾值來平衡彼此之間的貨物。,
+Distribution.ExportAll,不受限制地出口所有物品,A setting for the distribution panel that makes it so all goods are exported.
+Distribution.ExportNone,不出口任何物品,A setting for the distribution panel that makes it so no goods are exported.
+Distribution.ExportThreshold,出口起始值：{0},{0} stands for export threshold (minimum) value as percent. Tooltip for export threshold slider.
+Distribution.ImportAuto,根據需要進口,A setting for the distribution panel that makes it so local storage will be filled based on fill rate of all storages in the network.
+Distribution.ImportAuto.Description,僅當存在匹配的庫存或工作場所需求時，才會進口商品。,
+Distribution.ImportAutoAll,根據需要進口全部,A setting for the distribution panel that makes it so all goods are imported if there's a storage that needs them.
+Distribution.ImportDisabled,不進口,A setting for the distribution panel that disables import of the chosen good.
+Distribution.ImportDisabled.Description,完全禁止向該地區進口商品。,
+Distribution.ImportDisabledAll,不進口,A setting for the distribution panel that makes it so no goods are imported.
+Distribution.ImportForced,永遠進口,"A setting for the distribution panel that makes it so all goods are imported alwyas, even if there's no storage for it."
+Distribution.ImportForced.Description,始終進口物品至地區交匯點，即使沒有匹配的庫存或工作場所需求。,
+Distribution.ImportForcedAll,永遠進口全部,"District Crossing should be the same as in Building.DistrictCrossing.DisplayName. A setting for the distribution panel that makes it so all goods are imported. Additionally, it takes into account internal storage of the District Crossing building."
+Distribution.ImportGoodTooltip.Disabled,運送設定已停用進口。,"The text shown on a good's tooltip when its import option is set to ""Do not import"""
+Distribution.ImportGoodTooltip.Forced,運送設定已強行開啟進口。,"The text shown on a good's tooltip when its import option is set to ""Import always"""
+Distribution.ImportGoodTooltip.Importable,根據庫存和工作場所需求進口。,"The text shown on a good's tooltip when it is importable. ""Storage and workplace demand"" should be the same as in Distribution.ImportAuto.Description"
+Distribution.ImportGoodTooltip.NonImportable,該地區沒有庫存或工作場所需求，進口受阻。,"The text shown on a good's tooltip when it is not importable. ""Storage and workplace demand"" should be the same as in Distribution.ImportAuto.Description"
+Distribution.ImportedGoods,進口物品,The header of the panel that shows importable and non-importable goods
+Distribution.InvalidConnectionStatus,建築必須與兩個地區相連。,"Shown as status of District Crossing, when both entrances of the building are connected to the same district or when other half is not connected to any district"
+Distribution.ManageDistribution,管理運送,Label for button that opens distribution panel. Distribution should be the same as in BatchControl.Distribution
+Distribution.Reset,全部重設為預設值,A button that resets distribution settings to default.
 Districts.DefaultDistrictName,{0}區,"{0} is a number. By default districts are named District 1, District 2 etc."
 Districts.Districts,地區,
 Districts.GlobalView,全域瀏覽,
@@ -509,11 +548,13 @@ Dwellings.FreeBeds,空床位,Label before number of unoccupied beds
 Dwellings.OccupiedBeds,被佔有的床位,Label before number of occupied beds
 Emptying.Empty,清除儲存物品,A command for beavers to empty this storage.
 Emptying.EmptyingInProgress,建築正被清空，無法放入新物品。,
+Enterable.DistanceToDistrict,距離地區中心：{0},{0} stands for distance to District Center. District Center must be the same as Building.DistrictCenter.DisplayName
+Enterable.DistanceToDistrictLarge,考慮最佳化你的道路或將地區分割成更小的區域。,
 EntityPanel.ChangeName,輸入新名字：,Shown when renaming a beaver or a building
 EntityPanel.Hide,隱藏說明,Tooltip for a button which hides description
 EntityPanel.Show,顯示說明,Tooltip for a button which shows description
 ExceptionPanel.HowToFindReport,你可以在此查看報告中所包括的資料內容：,
-ExceptionPanel.Introduction,意外出錯。這是我們的問題，但希望你能發送崩潰報告以幫助我們解決該問題。,
+ExceptionPanel.Introduction,意外出錯。這是我們的問題，但希望你能發送當機報告以幫助我們解決該問題。,
 ExceptionPanel.ManualInstructions,你也可以手動發送報告：,
 ExceptionPanel.PrivacyPolicyAccept,我接受,Next to a checkbox and followed by ExceptionPanel.PrivacyPolicyLink
 ExceptionPanel.PrivacyPolicyLink,隱私政策,Preceded by a checkbox and ExceptionPanel.PrivacyPolicyToggle
@@ -525,16 +566,16 @@ ExceptionPanel.Title,哎呀……有bug :'(,
 Experimental.Header,<RedHighlight>測試模式公告</RedHighlight>,Welcome text that is shown to players of the experimental versions of the game
 Experimental.WelcomeText,"此版本的《Timberborn》可以讓你可以訪問一些原型和未完成的功能。因此，它也更有可能包含嚴重的錯誤。你的確是一隻勇敢的海貍。
 
-測試版存檔與主遊戲分開存儲。更新可能會破壞存檔的相容性。
+測試版存檔與主遊戲分開儲存。更新可能會破壞存檔的相容性。
 
-在此測試模式下<RedHighlight>遊戲的許多部分未翻譯，無論你選擇何種語言</RedHighlight>，都將以英語顯示。這樣會容許我們更快地新增新內容並進行快速更改，而無需等待耗時的翻譯。
+在此測試模式下<RedHighlight>遊戲的許多部分未翻譯，無論你選擇何種語言</RedHighlight>，都將以英語顯示。這樣會容許我們更快地添加新內容並進行快速更改，而無需等待耗時的翻譯。
 
 我們強烈建議你加入我們的官方Discord伺服器並參與有關新內容的討論。",Welcome text that is shown to players of the experimental versions of the game.
-Explosions.BlownInExplosionMessage,{0}因爆炸毀壞,{0} stands for character name. Notification that shows when a character (Beaver/Bot) is killed/destroyed by an explosion (another bot or dynamite)
+Explosions.BlownInExplosionMessage,{0}被爆炸摧毀,{0} stands for character name. Notification that shows when a character (Beaver/Bot) is killed/destroyed by an explosion (another bot or dynamite)
 Faction.Folktails.Description,"神尾種族的海貍都是專業的農民，性格隨和但勤勞。他們尊重自然，也從自然獲得了豐厚的恩惠。
 座右銘：<i>舒適、食物還有堅實的木頭。</i>",Description of a beaver faction
 Faction.Folktails.DisplayName,神尾,Name of a faction
-Faction.IronTeeth.Description,"叛離傳統木頭生活方式的海貍種族，精通鐵藝與科學，能建造高級機械。
+Faction.IronTeeth.Description,"叛離傳統木頭生活方式的海貍種族，精通鐵藝與科學，能建造進階機械。
 它們靠著創意、效率及敢於挑戰大自然的精神而不斷取得進步。
 座右銘：<i>辛勤工作，拼命幹活。</i>",Description of a beaver faction
 Faction.IronTeeth.DisplayName,鐵牙,Name of a faction
@@ -555,6 +596,10 @@ Goals.Button,目標,A button please keep short
 Goals.NotEligible,遊玩該種族時不可用！,Preceded by Goals.Progress
 Goals.Unlocked,已解鎖！,Preceded by Goals.Progress
 Goals.Progress,進度：,
+Good.Algae.DisplayName,水藻,"Algae that's been cultivated in the Hydroponic Garden, it's processed into an edible ration. It doesn't specifically represent any specific algae kind."
+Good.Algae.PluralDisplayName,水藻,"Algae that's been cultivated in the Hydroponic Garden, it's processed into an edible ration. It doesn't specifically represent any specific algae kind."
+Good.AlgaeRation.DisplayName,水藻口糧,"Algae should be the same as in Good.Algae.DisplayName. Ration should be consistent between Good.AlgaeRation.DisplayName, Good.CornRation.DisplayName, Good.EggplantRation.DisplayName and Building.FoodFactory.Description"
+Good.AlgaeRation.PluralDisplayName,水藻口糧,Algae should be the same as in Good.Algae.DisplayName
 Good.Berries.DisplayName,漿果,Resource name
 Good.Berries.PluralDisplayName,漿果,Resource name
 Good.Biofuel.DisplayName,生物燃料,Fuel made out of natural resources like plants.
@@ -569,8 +614,14 @@ Good.BotLimb.DisplayName,機器人肢體,An unspecified limb of a bot. Bot shoul
 Good.BotLimb.PluralDisplayName,機器人肢體,An unspecified limb of a bot. Bot should be the same as Bot.PrefabName.
 Good.Bread.DisplayName,麵包,Resource name
 Good.Bread.PluralDisplayName,麵包,Resource name
+Good.CanolaOil.DisplayName,菜籽油,Canola should be the same as in Good.CanolaSeeds.DisplayName.
+Good.CanolaOil.PluralDisplayName,菜籽油,Canola should be the same as in Good.CanolaSeeds.DisplayName.
+Good.CanolaSeeds.DisplayName,油菜籽,An oil crop that grows tall and is full of yellow flowers.
+Good.CanolaSeeds.PluralDisplayName,油菜籽,An oil crop that grows tall and is full of yellow flowers.
 Good.Carrot.DisplayName,胡蘿蔔,Resource name
 Good.Carrot.PluralDisplayName,胡蘿蔔,Resource name
+Good.Cassava.DisplayName,木薯,"A root vegetable that's poisonous to eat raw, also known as manioc or yuca."
+Good.Cassava.PluralDisplayName,木薯,"A root vegetable that's poisonous to eat raw, also known as manioc or yuca."
 Good.Catalyst.DisplayName,催化劑,"A potent Biofuel reagent, allowing bots to work and move faster."
 Good.Catalyst.PluralDisplayName,催化劑,Plural form of Good.Catalyst.DisplayName
 Good.CattailCracker.DisplayName,貓尾草餅乾,"Crackers made from flour made from roots of the plant of a genus Typha, keep plant name same as NaturalResource.Cattail.DisplayName"
@@ -581,12 +632,30 @@ Good.CattailRoot.DisplayName,貓尾草根,"Root of plant of a genus Typha, keep 
 Good.CattailRoot.PluralDisplayName,貓尾草根,"Root of plant of a genus Typha, keep plant name same as NaturalResource.Cattail.DisplayName"
 Good.Chestnut.DisplayName,栗子,"Fruit of a Aesculus hippocastanum tree, also known as conkers"
 Good.Chestnut.PluralDisplayName,栗子,"Fruit of a Aesculus hippocastanum tree, also known as conkers"
+Good.Coffee.DisplayName,咖啡,Brewed coffee.
+Good.Coffee.PluralDisplayName,咖啡,Brewed coffee.
+Good.CoffeeBean.DisplayName,咖啡豆,Coffee beans used to brew Coffee.
+Good.CoffeeBean.PluralDisplayName,咖啡豆,Coffee beans used to brew Coffee.
+Good.Corn.DisplayName,玉米,Ordinary yellow corn plant.
+Good.Corn.PluralDisplayName,玉米,Ordinary yellow corn plant.
+Good.CornRation.DisplayName,玉米口糧,"Corn should be the same as Good.Corn.DisplayName. Ration should be consistent between Good.AlgaeRation.DisplayName, Good.CornRation.DisplayName, Good.EggplantRation.DisplayName and Building.FoodFactory.Description"
+Good.CornRation.PluralDisplayName,玉米口糧,"Corn should be the same as Good.Corn.DisplayName. Ration should be consistent between Good.AlgaeRation.DisplayName, Good.CornRation.DisplayName, Good.EggplantRation.DisplayName and Building.FoodFactory.Description"
 Good.Dandelion.DisplayName,蒲公英,Healing plant
 Good.Dandelion.PluralDisplayName,蒲公英,Healing plant
 Good.Dirt.DisplayName,泥土,A resource dug out from ground and used to create blocks of terrain
 Good.Dirt.PluralDisplayName,泥土,Plural form of Good.Dirt.DisplayName
+Good.Eggplant.DisplayName,茄子,"Ordinary deep purple eggplant, also known as aubergine."
+Good.Eggplant.PluralDisplayName,茄子,"Ordinary deep purple eggplant, also known as aubergine."
+Good.EggplantRation.DisplayName,茄子口糧,"Eggplant should be the same as Good.Eggplant.DisplayName. Ration should be consistent between Good.AlgaeRation.DisplayName, Good.CornRation.DisplayName, Good.EggplantRation.DisplayName and Building.FoodFactory.Description"
+Good.EggplantRation.PluralDisplayName,茄子口糧,"Eggplant should be the same as Good.Eggplant.DisplayName. Ration should be consistent between Good.AlgaeRation.DisplayName, Good.CornRation.DisplayName, Good.EggplantRation.DisplayName and Building.FoodFactory.Description"
 Good.Explosives.DisplayName,炸藥,Resource name. Not to be confused with the Dynamite building.
 Good.Explosives.PluralDisplayName,炸藥,Resource name. Not to be confused with the Dynamite building.
+Good.FermentedCassava.DisplayName,發酵木薯,"Cassava should be the same as Good.Cassava.DisplayName, fermented should be the same as in Building.Fermenter.DisplayName or Building.Fermenter.Description"
+Good.FermentedCassava.PluralDisplayName,發酵木薯,"Cassava should be the same as Good.Cassava.DisplayName, fermented should be the same as in Building.Fermenter.DisplayName or Building.Fermenter.Description"
+Good.FermentedMushroom.DisplayName,發酵蘑菇,"Mushroom should be the same as Good.Mushroom.DisplayName, fermented should be the same as in Building.Fermenter.DisplayName or Building.Fermenter.Description"
+Good.FermentedMushroom.PluralDisplayName,發酵蘑菇,"Mushroom should be the same as Good.Mushroom.DisplayName, fermented should be the same as in Building.Fermenter.DisplayName or Building.Fermenter.Description"
+Good.FermentedSoybean.DisplayName,發酵大豆,"Soybean should be the same as Good.Soybean.DisplayName, fermented should be the same as in Building.Fermenter.DisplayName or Building.Fermenter.Description"
+Good.FermentedSoybean.PluralDisplayName,發酵大豆,"Soybean should be the same as Good.Soybean.DisplayName, fermented should be the same as in Building.Fermenter.DisplayName or Building.Fermenter.Description"
 Good.Flour.DisplayName,麵粉,Resource name
 Good.Flour.PluralDisplayName,麵粉,Resource name
 Good.Gear.DisplayName,齒輪,Resource name
@@ -597,8 +666,12 @@ Good.GrilledPotato.DisplayName,烤馬鈴薯,Resource name
 Good.GrilledPotato.PluralDisplayName,烤馬鈴薯,Resource name
 Good.GrilledSpadderdock.DisplayName,烤歐亞萍蓬草,"Grilled plant Nuphar Lutea, keep plant name same as NaturalResource.Spadderdock.DisplayName"
 Good.GrilledSpadderdock.PluralDisplayName,烤歐亞萍蓬草,"Grilled plant Nuphar Lutea, keep plant name same as NaturalResource.Spadderdock.DisplayName"
+Good.Kohlrabi.DisplayName,大頭菜,"Also called German turnip or turnip cabbage, it's a big, round turnip plant."
+Good.Kohlrabi.PluralDisplayName,大頭菜,"Also called German turnip or turnip cabbage, it's a big, round turnip plant."
 Good.Log.DisplayName,原木,Resource name
 Good.Log.PluralDisplayName,原木,Resource name
+Good.MangroveFruit.DisplayName,紅樹果實,"Fruit of the mangrove tree, mangrove should be the same as in NaturalResource.Mangrove.DisplayName"
+Good.MangroveFruit.PluralDisplayName,紅樹果實,"Fruit of the mangrove tree, mangrove should be the same as in NaturalResource.Mangrove.DisplayName"
 Good.MaplePastry.DisplayName,楓糖糕餅,A baked good filled with maple syrup.
 Good.MaplePastry.PluralDisplayName,楓糖糕餅,A baked good filled with maple syrup.
 Good.MapleSyrup.DisplayName,楓糖漿,Sweet syrup created from maple sap
@@ -607,6 +680,8 @@ Good.Medicine.DisplayName,藥物,Medicine made out of natural resources.
 Good.Medicine.PluralDisplayName,藥物,Medicine made out of natural resources.
 Good.MetalBlock.DisplayName,金屬塊,Resource name
 Good.MetalBlock.PluralDisplayName,金屬塊,Resource name
+Good.Mushroom.DisplayName,蘑菇,"Mushroom that's been cultivated in the Hydroponic Garden, it's processed into an edible ration. It doesn't specifically represent any specific mushroom, just the type of plant."
+Good.Mushroom.PluralDisplayName,蘑菇,"Mushroom that's been cultivated in the Hydroponic Garden, it's processed into an edible ration. It doesn't specifically represent any specific mushroom, just the type of plant."
 Good.Paper.DisplayName,紙,Resource name
 Good.Paper.PluralDisplayName,紙,Resource name
 Good.PineResin.DisplayName,松脂,Also known as pine sap. Pine is the type of tree defined in NaturalResource.Pine.DisplayName.
@@ -617,10 +692,12 @@ Good.Potato.DisplayName,馬鈴薯,Resource name
 Good.Potato.PluralDisplayName,馬鈴薯,Resource name
 Good.ScrapMetal.DisplayName,金屬廢料,Resource name
 Good.ScrapMetal.PluralDisplayName,金屬廢料,Resource name
+Good.Soybean.DisplayName,大豆,Soybeans can later be made into soy.
+Good.Soybean.PluralDisplayName,大豆,Soybeans can later be made into soy.
 Good.Spadderdock.DisplayName,歐亞萍蓬草,A plant formally called Nuphar Lutea
 Good.Spadderdock.PluralDisplayName,歐亞萍蓬草,A plant formally called Nuphar Lutea
-Good.SunflowerSeeds.DisplayName,葵花籽,
-Good.SunflowerSeeds.PluralDisplayName,葵花籽,
+Good.SunflowerSeeds.DisplayName,向日葵籽,
+Good.SunflowerSeeds.PluralDisplayName,向日葵籽,
 Good.TreatedPlank.DisplayName,樹脂木板,Plank impregnated with resin. Use the same word for plank as in Good.Plank.
 Good.TreatedPlank.PluralDisplayName,樹脂木板,Plank impregnated with resin. Use the same word for plank as in Good.Plank.
 Good.Water.DisplayName,水,Resource name
@@ -636,22 +713,24 @@ Goods.StoredIn,儲存位置：,Header above a list of buildings that store selec
 Growing.GrowsWhenMature,成熟時生長,"Information about fruits and other resources, that grows when plant is mature and not when it is in seedling stage"
 Growing.Time,成長還需天數：{0},{0} stands for a number of days. How many days left does this plant have to fully grow.
 Hauling.Prioritize,讓搬運工優先此建築,building is a noun in this sentence. This building will be prioritized by haulers.
-Homelessness.StrandedAlert,海貍迷路了,This alert is activated after a beaver or a bot got stranded and cut off from the village.
-Homelessness.StrandedStatusMessage,海貍迷路了,This status is activated after a beaver or a bot got stranded and cut off from the village.
+Homelessness.Stranded,海貍迷路了,This status is activated after a beaver or a bot got stranded and cut off from the village.
+Homelessness.StrandedShort,海貍迷路了,This alert is activated after a beaver or a bot got stranded and cut off from the village. Please keep short
+HydroponicGarden.CultivationHalted,已停止栽種。作物很快就會死亡。,"Shown as status of Hydroponic Garden building, when it is not able to produce and its crops are about to die."
+HydroponicGarden.CultivationHaltedShort,已停止栽種,Alert that shows up when Hydroponic Garden building is not able to produce and growth is stopped. Please keep short.
 Inventory.Capacity,容量：,How much space there is in the storage
 Inventory.InStock,庫存：,Please keep short. Header above a list of resources in stock of the storage.
 Inventory.IsEmpty,庫存中無物品,
 Inventory.Goods,物品：,
 Inventory.Header.Stock,庫存,Please keep short. Header above a column with amounts of resource in stock of the storage.
 Inventory.NoGoodSelectedStatus,未選擇物品。,A warning that no good is selected for storage in warehouse.
-Inventory.NoGoodSelectedStatusShort,未選擇物品。,A warning that no good is selected for storage in warehouse. Please keep short.
+Inventory.NoGoodSelectedStatusShort,未選擇物品,A warning that no good is selected for storage in warehouse. Please keep short.
 Inventory.NothingSelected,無,Text shown in a dropdown when no good is selected. Keep below 15 characters.
 Inventory.StartingInventory,起始物品,
 Inventory.StockpileOverlay.Show,顯示倉儲覆蓋,Tooltip for button showing overlay over warehouses containing stored goods.
 Inventory.StockpileOverlay.Hide,隱藏倉儲覆蓋,Tooltip for button showing overlay over warehouses containing stored goods.
 Inventory.Undesired,不需要：,Please keep short. Which resources are not desired in the storage.
 Inventory.UnwantedStock,等待之前的庫存被移除。,"A warning that there are different goods in a warehouse, than currently selected. Different goods needs to be taken out, before new selected goods can be brought in."
-KeyBindingsPanel.CameraPosition,儲存/恢復鏡頭位置：CTRL + V / V,
+KeyBindingsPanel.CameraPosition,儲存/復原鏡頭位置：CTRL + V / V,
 KeyBindingsPanel.ChangeSpeed,更改速度：~、1、2、3,
 KeyBindingsPanel.DeleteBuilding,刪除建築: DEL,
 KeyBindingsPanel.FastCamera,快速移動和旋轉鏡頭：SHIFT,
@@ -682,20 +761,20 @@ MainMenu.WelcomeScreenText,"你好，定居者！
 
 你正在遊玩<i>《Timberborn》搶先體驗版</i>。
 
-前方的道路激勵人心，但要記住，本遊戲尚處於開發中。我們會不斷增添新內容，同時許多現有內容也還需打磨。遊戲中也會出現bug和崩潰等情況。請通過<i>前往恢復網頁</i>按鈕或前往官方Discord伺服器來分享你的回饋。
+前方的道路激動人心，但要記住，本遊戲尚處於開發中。我們會不斷增添新內容，同時許多現有內容也還需打磨。遊戲中也會出現bug和當機等情況。請透過<i>前往回饋網頁</i>按鈕或前往官方Discord伺服器來分享你的回饋。
 
-如果你之前玩過《Timberborn》的Alpha版、Beta版或試玩版，就會發現目前遊戲已經過了大量優化，並且加入了新內容，包括新建築、第二個可玩種族等等。注意，有些機制經過了重新設計，玩法發生了改變。
+如果你之前玩過《Timberborn》的Alpha版、Beta版或試玩版，就會發現目前遊戲已經過了大量最佳化，並且加入了新內容，包括新建築、第二個可玩種族等等。注意，有些機制經過了重新設計，玩法發生了改變。
 
 祝你好運，別忘了補充水分！",
-MainMenu.WelcomeScreenTitle,搶先體驗版信息,Header of the welcome screen popup.
+MainMenu.WelcomeScreenTitle,搶先體驗版資訊,Header of the welcome screen popup.
 Manufactory.CurrentRecipe,配方：,Text before a dropdown for changing factory recipe - what the factory produces from what ingredients.
 Manufactory.NoRecipeOption,無,Text shown in a dropdown when no recipe is selected. Keep below 15 characters.
 Manufactory.NoRecipeStatus,未選擇配方。,A warning that no recipe is selected for crafting
 Manufactory.NoRecipeStatusShort,未選擇配方,A warning that no recipe is selected for crafting. Please keep short.
+Manufactory.Recipe.EfficientScrapMetal,粉碎金屬（高效）,A more efficient way of getting scrap metal using explosives. The metal scrap itself is not more efficient. Scrap Metal is Good.ScrapMetal.PluralDisplayName
 Manufactory.Recipe.BiofuelCarrot,生物燃料（胡蘿蔔）,Recipe for making Biofuel out of Carrots. Keep consistent with Good.Biofuel.DisplayName and Good.Carrot.PluralDisplayName.
 Manufactory.Recipe.BiofuelPotato,生物燃料（馬鈴薯）,Recipe for making Biofuel out of Potatoes. Keep consistent with Good.Biofuel.DisplayName and Good.Potato.PluralDisplayName.
 Manufactory.Recipe.BiofuelSpadderdock,生物燃料（萍蓬草）,Recipe for making Biofuel out of Spadderdock. Keep consistent with Good.Biofuel.DisplayName and Good.Spadderdock.PluralDisplayName.
-Manufactory.Recipe.EfficientScrapMetal,金屬廢料（高效）,A more efficient way of getting scrap metal using explosives. The metal scrap itself is not more efficient. Scrap Metal is Good.ScrapMetal.DisplayName
 Manufactory.Recipe.FlowingWater,流水,Water brought in buckets from other places is discharged in a building (Water dump) creating freely flowing water. This freely flowing water is the recipe product.
 MapEditor.Brush.AbsoluteTerrainHeight,地形高度（絕對值）,A tool that changes terrain height to an absolute value.
 MapEditor.Brush.Density,密度,Density of objects.
@@ -718,9 +797,12 @@ MapEditor.Layers.NaturalResources,自然資源,
 MapEditor.Layers.Water,水,
 MapEditor.LoadMap.Header,選擇地圖,
 MapEditor.NewMap,新地圖,A button please keep short
-MapEditor.NewMap.Create,創建,A button which confirms new map parameters and starts the map editor
+MapEditor.NewMap.Create,建立,A button which confirms new map parameters and starts the map editor
 MapEditor.NewMap.Header,新地圖,
 MapEditor.NewMap.Size,大小：,
+MapEditor.NonCompatibleMapVersion,地圖版本不相容。,Warning shown in the map editor when the map version is not compatible with the current game version.
+MapEditor.NonCompatibleMapVersion.Tooltip,"此地圖版本({0})與目前遊戲版本({1})不相容，無法載入。
+儲存地圖使其相容。",Tooltip shown over MapEditor.NonCompatibleMapVersion warning.
 MapEditor.NoStartingLocation,新增起始位置,Notification that there is no starting location object. Keep consistent with Building.StartingLocation.DisplayName.
 MapEditor.SaveMap.Header,儲存地圖,
 MapEditor.SaveMap.MapExists,地圖{0}已存在,{0} stands for map name
@@ -730,13 +812,17 @@ MapEditor.SizePrompt,輸入介於{0}x{0}和{1}x{1}之間的大小。,{0} and {1}
 MapEditor.Tip,提示：使用螢幕頂部的水速控制來為你的地圖預先填水。,Tip on the loading screen of the map editor.
 MapSelection.CustomMap,自訂,Meaning map is custom created by players. Keep short.
 MapSelection.Header,選擇地圖,
+MapSelection.NonCompatibleMapVersion,此地圖版本({0})與目前遊戲版本({1})不相容，無法載入。,"{0} is the map version (e.g. 0.1.15.1), {1} is the game version (in the same format). This message is shown after a player tries to start game on (or edit) an incompatible map."
 MapSelection.Recommended,推薦,This map is recommended for new players.
+MapSelection.SemiCompatibleMapVersion,"該地圖版本({0})與目前遊戲版本({1})不相容。在該地圖上開始遊戲可能導致遊戲當機，或出現導致遊戲當機的bug，一些關鍵的新資源也可能會遺失。我們強烈建議更新地圖，以完整體驗新內容。
+
+你確定要開始遊戲嗎？","{0} is the map version (e.g. 0.1.15.1), {1} is the game version (in the same format). This message is shown after a player tries to start game on an incompatible map."
 Mechanical.BlockedConnection,能量連接被阻擋！,Power is not an electrical but mechanical/kinetic energy.
 Mechanical.Charge,剩餘電量,Current battery charge (how much power a battery has left)
 Mechanical.Efficiency,效率：{0}%,{0} stands for efficiency percentage number. How efficient workshop is at using the energy.
 Mechanical.NetworkPower,電網供給/需求：{0}/{1},{0} stands for supply amount {1} stands for demand amount followed by PowerSymbol
 Mechanical.NoPower,建築需要能量才能運作。將其連接到能量供應源上。,
-Mechanical.NoPowerShort,建築缺乏能量,Power is not an electrical but mechanical/kinetic energy.
+Mechanical.NoPowerShort,建築缺乏能量,Power is not an electrical but mechanical/kinetic energy. Please keep short.
 Mechanical.PowerCapacity,容量,Stands for battery capacity.
 Mechanical.PowerCapacityPerMeter,馬力時/公尺,Stands for horse power hour per meter - used to describe battery capacity. hph should be same as Mechanical.PowerCapacitySymbol.
 Mechanical.PowerCapacitySymbol,馬力時,Please keep short. Stands for horse power hour (as in kilowatt-hour); should keep similar.
@@ -748,7 +834,7 @@ Mechanical.PowerSymbolPerFlow,馬力/立方公尺每秒,Please keep short. Stand
 Menu.Continue,繼續遊戲,A button in main menu which opens the previously played game. Please keep short
 Menu.Credits,製作人員,A button please keep short
 Menu.EditMap,編輯地圖,A button please keep short
-Menu.ExitChangesLostPrompt,確定要退出嗎？未儲存的改動將丟失。,
+Menu.ExitChangesLostPrompt,確定要退出嗎？未儲存的改動將遺失。,
 Menu.ExitGame,退出遊戲,A button please keep short
 Menu.ExitToDesktop,退出到桌面,A button please keep short
 Menu.ExitToDesktopPrompt,確定要退出遊戲嗎？,
@@ -759,8 +845,8 @@ Menu.KeyBindings,按鍵綁定,A button please keep short
 Menu.LoadGame,載入遊戲,A button please keep short
 Menu.NewGame,新遊戲,A button please keep short
 Menu.NewGamePrompt,"確定要開始新遊戲嗎？
-未儲存的進度將丟失。",
-Menu.NewMap,創建新地圖,A button please keep short
+未儲存的進度將遺失。",
+Menu.NewMap,建立新地圖,A button please keep short
 Menu.ResumeGame,繼續遊戲,A button please keep short
 Menu.SaveGame,儲存遊戲,A button please keep short
 Menu.Settings,設定,A button please keep short
@@ -777,29 +863,47 @@ Migration.Minimum,最低,"Label shown in front of input field, with desired mini
 Migration.SameDistrict,無法遷徙至同一個區域,Shown on tooltip of disabled migration buttons when the chosen districts are same
 NaturalResource.Birch.DisplayName,樺樹,Tree of the genus Betula.
 NaturalResource.Birch.FlavorDescription,“孩子們，記住，別剝太多的樹皮下來！這對樹有害！”——海貍阿嬤,"Peeling stripes of birch bark is oddly satisfying. Ma' Ngonel is an almost legendary figure - a beaver grandma, known for her stern hand, cooking skills and respect among both kits and adult beavers. Her name is an inside joke, as our community constantly demands an addition of catapults, mangonels etc."
-NaturalResource.Cattail.FlavorDescription,“貓尾草？草我看到了，貓尾呢？”——小松,"Makes sense only in english, feel free to adapt. Pina is a younger beaver figure that's exploring the world and isn't related to any faction in particular. Pina as a name relates to the pine tree, the translated name shouldn't suggest a gender if possible."
-NaturalResource.ChestnutTree.FlavorDescription,“祝你踩到栗子！”——海貍最狠毒的侮辱,"Reference to a ""Step on a lego"" meme, chestnuts have prickly, spiky husks"
 NaturalResource.Blueberry.DisplayName,藍莓,Plant of the genus Vaccinium
 NaturalResource.Blueberry.FlavorDescription,“等乾旱來襲的時候，你會嫌它們不夠多的。”——海貍阿嬤,"Ma' Ngonel is an almost legendary figure - a beaver grandma, known for her stern hand, cooking skills and respect among both kits and adult beavers. Her name is an inside joke, as our community constantly demands an addition of catapults, mangonels etc."
+NaturalResource.Canola.DisplayName,油菜籽,Should be consistent with Good.CanolaSeeds.DisplayName
+NaturalResource.Canola.FlavorDescription,在鐵牙定居地種花的最佳理由。,"The Iron Teeth are down-to-earth workers focused on work and work only, they wouldn't care enough to grow flowers - unless it has its practical use, as is the case here."
 NaturalResource.Carrot.DisplayName,胡蘿蔔,Daucus carota subspecies sativus
 NaturalResource.Carrot.FlavorDescription,生胡蘿蔔可以幫助海貍平衡飲食，同時也不必放棄咀嚼的樂趣。,
+NaturalResource.Cassava.DisplayName,木薯,Should be consistent with Good.Cassava.DisplayName
+NaturalResource.Cassava.FlavorDescription,生木薯是有毒的，這促使鐵牙進行了發酵實驗。,Raw cassava and its leaves contain cyanide.
 NaturalResource.Cattail.DisplayName,貓尾草,Plant of a genus Typha
+NaturalResource.Cattail.FlavorDescription,“貓尾草？草我看到了，貓尾呢？”——小松,"Makes sense only in english, feel free to adapt. Pina is a younger beaver figure that's exploring the world and isn't related to any faction in particular. Pina as a name relates to the pine tree, the translated name shouldn't suggest a gender if possible."
 NaturalResource.ChestnutTree.DisplayName,栗子樹,A Aesculus hippocastanum tree
+NaturalResource.ChestnutTree.FlavorDescription,“祝你踩到栗子！”——海貍最狠毒的侮辱,"Reference to a ""Step on a lego"" meme, chestnuts have prickly, spiky husks"
+NaturalResource.Coffee.DisplayName,咖啡樹,Plant that produces coffee beans.
+NaturalResource.Coffee.FlavorDescription,古代海貍透過嚼豆子來增加能量，鐵牙則想出了一個更好的主意。,"According to a legend, coffee was discovered thanks to goats eating beans and becoming energectic. Also, ""distilling"" refers to the fact it's a liquid."
+NaturalResource.Corn.DisplayName,玉米,Should be consistent with Good.Corn.DisplayName
+NaturalResource.Corn.FlavorDescription,“細漢偷番麥，大漢偷牽牛。”——海貍阿嬤,"""Children of the corn"" reference. Ma' Ngonel is an almost legendary figure - a beaver grandma, known for her stern hand, cooking skills and respect among both kits and adult beavers. Her name is an inside joke, as our community constantly demands an addition of catapults, mangonels etc."
 NaturalResource.Dandelion.DisplayName,蒲公英,A flower used as a medicine ingredient. It looks like a yellow flower dandelion. Must be the same as Good.Dandelion.DisplayName
 NaturalResource.Dandelion.FlavorDescription,在海貍的童話中，蒲公英以其旋律優美的聲音而聞名。,"In Timberborn's lore, fairy tales feature talking plants (similar to human tales being about talking animals). Also, this references ""The Witcher"" - Dandelion (Jaskier) is a bard. Dandelion must be the same as Good.Dandelion.PluralDisplayName"
+NaturalResource.Eggplant.DisplayName,茄子,Should be consistent with Good.Eggplant.DisplayName
+NaturalResource.Eggplant.FlavorDescription,吃了不會讓你變紫。,Do not translate literally if this doesn't make sense in a non-English language.
+NaturalResource.Kohlrabi.DisplayName,大頭菜,Should be consistent with Good.Kohlrabi.DisplayName
+NaturalResource.Kohlrabi.FlavorDescription,嘗起來像紙，咬起來像在吃浮木。,"Not a very tasty food, yet consumed raw in large quantities."
+NaturalResource.Mangrove.DisplayName,紅樹,"A tree that grows in shallow water. This particular name doesn't refer to a specific type, it uses a general name for this group of trees. Produces fruits that can be harvested."
+NaturalResource.Mangrove.FlavorDescription,這些種子是旅行者從遙遠的國度帶回來的，那裡的河流永不乾涸。,
 NaturalResource.Maple.DisplayName,楓樹,Tree of the genus Sapindaceae
 NaturalResource.Maple.FlavorDescription,可以從楓樹獲取糖漿，但其高品質的木材是更甜美的回報。,
+NaturalResource.Oak.DisplayName,橡樹,Common oak tree.
+NaturalResource.Oak.FlavorDescription,最好的海貍建築都是橡木和鐵打造的。,This idiom makes perfect literal sense for the Iron Teeth.
 NaturalResource.Pine.DisplayName,松樹,Tree of the genus Pinus
-NaturalResource.Pine.FlavorDescription,“哦，偉大的樹林，我多想歌‘松’您！”——佚名海貍詩人,"""Pine"" pun, feel free to adapt."
+NaturalResource.Pine.FlavorDescription,“哦，偉大的樹林，我多想歌‘鬆’您！”——佚名海貍詩人,"""Pine"" pun, feel free to adapt."
 NaturalResource.Potato.DisplayName,馬鈴薯,Plant Solanum tuberosum
 NaturalResource.Potato.FlavorDescription,“烹調馬鈴薯的方法不止一種。”——海貍諺語,
+NaturalResource.Soybean.DisplayName,大豆,Should be consistent with Good.Soybean.DisplayName
+NaturalResource.Soybean.FlavorDescription,它的種子堅硬防水，是孩子們的理想玩具。,
 NaturalResource.Spadderdock.DisplayName,歐亞萍蓬草,Plant Nuphar Lutea
-NaturalResource.Spadderdock.FlavorDescription,大自然通過葉子的形狀向我們傳遞愛的信息。,"Spadderdock has heart-shaped leaves, and it can be seen in the game."
+NaturalResource.Spadderdock.FlavorDescription,大自然透過葉子的形狀向我們傳遞愛的訊息。,"Spadderdock has heart-shaped leaves, and it can be seen in the game."
 NaturalResource.Sunflower.DisplayName,向日葵,
 NaturalResource.Sunflower.FlavorDescription,海貍種植它們是為了證明自己不怕烈日。,It's a reference to drought being the main threat in the game.
 NaturalResource.Wheat.DisplayName,小麥,Plant Triticum aestivum
 NaturalResource.Wheat.FlavorDescription,“我們漫步在金色田地，忘卻了晴空的太陽。”——海貍民謠,"Adapted from ""Fields of Gold"" by Sting."
-NaturalResources.Aquatic,<SolidHighlight>水生</SolidHighlight>：這類植物必須部分浸在水裡。,"""Aquatic is a keyword. Shown after selecting an aquatic plant. Examples of aquatic plants include spadderdock or water lilies."" "
+NaturalResources.Aquatic,<SolidHighlight>水生</SolidHighlight>：這類植物必須部分浸在水裡。,Aquatic is a keyword. Shown after selecting an aquatic plant. Examples of aquatic plants include spadderdock or water lilies.
 NaturalResources.DiedFromNotEnoughWater,缺水太久，已死去。,Shown when a water plant died after its river or lake had dried up.
 NaturalResources.DiedFromTooMuchWater,被水泡太久，已死去。,Shown when a plant died after it had been submerged in water for too long.
 NaturalResources.DyingFromNotEnoughWater,缺水太久，將在{0}天後死去。,Shown when a water plant is dying because its river or lake dried up.
@@ -823,11 +927,11 @@ Need.Energy.CriticalDescription,沒電了,This shows up when a bot runs out of e
 Need.Energy.CriticalDescriptionShort,機器人沒電了,This shows up when a bot runs out of energy. Please keep short. Bot should be the same as Bot.PrefabName.
 Need.Energy.DisplayName,需要充電,A need satisfied when a bot recharges.
 Need.Hunger.CriticalDescription,極餓。,This shows up when a beaver's hunger reaches critical levels. Please keep short.
-Need.Hunger.DeathMessage,因饑餓而死。,Preceded by beaver name
-Need.Hunger.DisplayName,饑餓,Title of a beaver need related to its hunger
+Need.Hunger.DeathMessage,因飢餓而死。,Preceded by beaver name
+Need.Hunger.DisplayName,飢餓,Title of a beaver need related to its hunger
 Need.HammerAndSaw.DisplayName,錘子鋸子,A passive need that is always active and provides bonus to woodworking and metalworking.
 Need.Injury.CriticalDescription,受傷了,This shows up in the selected beaver's panel when it has an injury.
-Need.Injury.CriticalDescriptionShort,海貍受傷了,This shows up as an alert when a beaver has an injury.
+Need.Injury.CriticalDescriptionShort,海貍受傷了,This shows up as an alert when a beaver has an injury. Please keep short.
 Need.Injury.DisplayName,受傷,Title of an effect that shows up when a beaver has been injured
 Need.Overheat.DisplayName,中暑,An effect that occurs when a beaver spends too much time outside during drought.
 Need.Roof.DisplayName,屋頂,"Same as Building.Roof2x2.DisplayName without the size. It refers to roofs as one of the available decorations, do not confuse with Shelter which is a separate need."
@@ -898,14 +1002,8 @@ NewGameConfigurationPanel.SubHeader,遊戲模式,
 NewGameConfigurationPanel.WaterConsumption,水消耗,"Label of a setting, how much water beavers consume during a game, for example 'Water consumption: 60%'."
 NewGameFactionPanel.Header,新遊戲,Top header of menu window keep short and capitalized
 NewGameFactionPanel.SubHeader,選擇你的種族,
-NewGameMapPanel.IncompatibleMapVersion,"該地圖版本({0})與目前遊戲版本({1})不相容。在該地圖上開始遊戲可能導致遊戲崩潰，或出現導致遊戲崩潰的bug，一些關鍵的新資源也可能會丟失。我們強烈建議更新地圖，以完整體驗新內容。
-
-你確定要開始遊戲嗎？","{0} is the map version (e.g. 0.1.15.1), {1} is the game version (in the same format). This message is shown after a player tries to start game on an incompatible map."
 NewGameMapPanel.SubHeader,選擇地圖,
-NewMapPanel.Header,創建新地圖,
-News.Text,"Update 3 從根本上改變了倉儲系統的工作方式。 因此，<RedHighlight>在 Update 3 之前創建的存檔與新版本不相容。</RedHighlight>
-
-我們嘗試著將存檔相容性問題限制在最低限度，但是當我們嘗試回應您的回饋，並繼續開發遊戲時，這並不總是可行的。",
+NewMapPanel.Header,建立新地圖,
 Planting.NoPriorityOption,無,No resource is prioritized
 Planting.Prioritize,優先資源：,Which resource to prioritize when planting.
 Planting.UnlockPrompt,需要解鎖{0}才能種植{1},{0} stands for Building.DisplayName {1} stands for NaturalResource.DisplayName.
@@ -923,29 +1021,31 @@ RecoveredGoodStack.DisplayName,瓦礫堆,Display name of stack of goods spawned 
 RecoveredGoodStack.FlavorDescription,反正擋住了視線。,
 RecoveredGoodStack.NoStorageStatus,沒有倉儲空間。請建造更多的倉儲空間。,Shown on Rubble's panel when there is no storage space for goods. Storage should be translated similar to ToolGroups.Storage
 RecoveredGoodStack.Priority,收集優先度：,Setting a priority for resources gathering work on a Rubble. Could be similar to Demolish.PriorityTitle
+Resources.EatableRaw,可以生吃。,Shown on a tooltip of goods that can be eaten raw.
 Resources.GatheredBy,採集來源：,"Header above list of buildings that can gather certain resource. Gathered is meant as general term, containing resource gathering of gatherers, farmers, lumberjacks, tappers."
 Ruins.ShuffleModel,隨機模型,Shuffle as in Randomize.
-Ruins.Yield,剩餘資源,Followed by colon and then Good and a number in parentheses.DisplayName
 Saving.DeleteSave,刪除存檔,A button. Please keep short.
 Saving.DeleteSavePrompt,確定要刪除{0}嗎？,{0} stands for save name
 Saving.DeleteSettlement,刪除定居地,A button. Please keep short.
 Saving.DeleteSettlementPrompt,確定要刪除定居地{0}嗎？這將刪除該定居地的所有存檔。,{0} stands for settlement name
-Saving.Error,儲存失敗！請確保名稱中沒有非法字元，且有足夠的硬碟空間。,Message shown to player when saving game or map failed
-Saving.IncompatibleSaveVersion,"該存檔({0})與目前遊戲版本({1})不相容。載入該存檔可能導致遊戲崩潰，或出現導致遊戲崩潰的bug。我們強烈建議開始新遊戲，以完整體驗新內容。
-
-你確定要繼續載入嗎？","{0} is the save version (e.g. 0.1.15.1), {1} is the game version (in the same format). This message is shown after a player tries to load an incompatible save."
+Saving.Error,儲存失敗！請確保名稱中沒有非法字元，且有足夠的磁碟空間。,Message shown to player when saving game or map failed
 Saving.InvalidName,無效名稱。請確保名稱中沒有非法字元。,Error message shown after inputting a settlement name with illegal characters such > < ?.
 Saving.LoadGamePanelHeader,載入遊戲,
 Saving.MissingMacOSPermissionsLocKey,《Timberborn》需要在你的硬碟上儲存遊戲存檔的許可。現在遊戲將關閉，你可以打開隱私設定，授予它必要的權限。,A message shown to players if they did not grant the necessary permissions on macOS.
-Saving.NameSettlement,你想給定居地起什麽名稱？,A prompt in the box for naming your settlement after starting a new game.
+Saving.NameSettlement,你想給定居地起什麼名稱？,A prompt in the box for naming your settlement after starting a new game.
+Saving.NonCompatibleSaveVersion,"<RedHighlight>此存檔為重大修改前的版本，因此無法載入。</RedHighlight>
+
+我們嘗試著將存檔相容性問題減到最小，但當遊戲繼續開發時，可能還是會出現不相容的情況。",
 Saving.SaveExists,存檔{0}已存在,{0} stands for save name
 Saving.SaveGamePanelHeader,儲存遊戲,
 Saving.Saves,存檔,One of the two headers in the load game panel. Shown above a list of saves assigned to a settlement.
+Saving.SemiCompatibleSaveVersion,"該存檔({0})與目前遊戲版本({1})不相容。載入該存檔可能導致遊戲當機，或出現導致遊戲當機的bug。我們強烈建議開始新遊戲，以完整體驗新內容。
+
+你確定要繼續載入嗎？","{0} is the save version (e.g. 0.1.15.1), {1} is the game version (in the same format). This message is shown after a player tries to load an incompatible save."
 Saving.Settlements,定居地,One of the two headers in the load game panel. Shown above a list of settlements.
 Saving.TakenName,已存在使用該名稱的定居地。,Error message shown after inputting a settlement name that is already used.
-Saving.UnnamedSettlements,未命名定居地,A label used for a group of saves without assigned settlement names.
 Science.NotEnoughScience,科學點數不足,Shown when the player doesn't have enough Science Points to power a building. Science Points should be the same as Science.SciencePoints
-Science.NotEnoughScienceShort,科學點數不足,Prompt when player doesn't have enough science points to unlock something. Please keep it short. Science Points should be the same as Science.SciencePoints
+Science.NotEnoughScienceShort,科學點數不足,Prompt when player doesn't have enough science points to unlock something. Please keep short. Science Points should be the same as Science.SciencePoints
 Science.SciencePoints,科學點數,The name of a resource which can be spent to unlock new technology
 SelectionTool.HoldTip,按住按鈕以選擇一片區域。,
 SelectionTool.ClickOrHoldTip,點擊單個方塊或按住按鈕以選擇一片區域。,
@@ -966,6 +1066,7 @@ Settings.Language.Change,更改,Please keep short
 Settings.Language.Warning,改動會在遊戲重啟後生效。,Warning shown when user changes language
 Settings.Language.Restart,立即重啟,Please keep short
 Settings.Language.Current,語言：,
+Settings.Screen.AntiAliasing,反鋸齒,Label for anti-aliasing toggle in settings window
 Settings.Screen.FullScreen,全螢幕,
 Settings.Screen.GraphicsQuality,圖形品質,
 Settings.Screen.Header,圖形,
@@ -980,30 +1081,34 @@ Settings.Sound.Header,聲音,
 Settings.Sound.MasterVolume,主音量,
 Settings.Sound.MusicVolume,音樂音量,
 Settings.Sound.MuteWhenMinimized,在最小化或處於背景時靜音,
-Settings.Sound.UIVolume,用戶介面音量,
+Settings.Sound.UIVolume,使用者介面音量,
 Settings.Tutorial.Header,教學,
 Settings.Tutorial.DisableTutorial,停用教學,
 Settings.UI.Header,介面,
 Settings.UI.RelaxedCameraRestrictions,解鎖鏡頭,
 Settings.UI.RunInBackground,背景運行,A settings which controls whether the game should run when minimized or out of focus.
 Settings.UI.ShowFps,顯示FPS,
-Settings.UI.UIScaleFactor,用戶介面縮放,
+Settings.UI.UIScaleFactor,使用者介面縮放,
 StockpilePriority.Accept,接受,"Please keep short. Defines a state of a warehouse, where it accepts goods if needed"
 StockpilePriority.Accept.Long,接受物品。,"Describes a state of a warehouse, where it accepts goods if needed"
 StockpilePriority.Empty,清空,"Please keep short. Defines a state of a warehouse, where it is going to be emptied"
 StockpilePriority.Empty.Long,將物品清空到其他倉庫。,"Describes a state of a warehouse, where it is going to be emptied"
+StockpilePriority.NoHaulingPost,無法獲取物品。在該區建立一個搬運站。,The 'obtain' action is performed only be haulers. 'Obtain' must be the same word as used in StockpilePriority.Obtain
+StockpilePriority.NoHaulingPostShort,無法獲取物品,The 'obtain' action is performed only be haulers. 'Obtain' must be the same word as used in StockpilePriority.Obtain. Please keep short
 StockpilePriority.Obtain,獲取,"Please keep short. Defines a state of a warehouse, where it is going to be actively filled"
 StockpilePriority.Obtain.Long,從其他倉庫獲取物品。,"Describes a state of a warehouse, where it is going to be actively filled"
+StockpilePriority.Supply,供應,"Please keep short. Defines a state of a warehouse, where it accepts goods, but haulers will move them to other warehouses if able"
+StockpilePriority.Supply.Long,向其他倉庫供應貨物。,"Defines a state of a warehouse, where it accepts goods, but haulers will move them to other warehouses if able"
 Time.DaysShort,{0}天,"{0} stands for days, for example 16d. Please keep very short."
 Time.HourShort,小時,Hour abbreviation
 Time.HoursShort,{0}小時,"{0} stands for hours, for example 16h. Please keep very short. (renamed from Work.WorkingHoursShort)"
 ToolGroups.Decoration,裝飾,Buildings and objects that are for decoration
 ToolGroups.Demolishing,拆除建築和資源,
+ToolGroups.DistrictManagement,地區管理,"Toolbar category for buildings used for district management - that includes builders, moving goods and making new districts"
 ToolGroups.FieldsPlanting,種植穀物,This is in active voice as in 'to plant crops'
 ToolGroups.Food,食物,Buildings pertaining to growing and production of food
 ToolGroups.ForestryPlanting,種植樹木與灌木,This is in active voice
 ToolGroups.Housing,住宅,Buildings that beavers can live in
-ToolGroups.Labor,勞動,Buildings that employ general workers like builders or haulers
 ToolGroups.Landscaping,土地改造,Buildings that allow changes to land such as Dams or Dynamite
 ToolGroups.MapEditor,地圖編輯器,Objects specific to map editor such as starting point or water source
 ToolGroups.Metal,金屬,Buildings that allow to collect and produce with metal
@@ -1011,7 +1116,7 @@ ToolGroups.Monuments,奇觀,Awe-inspiring statues and fantastic contraptions
 ToolGroups.Other,其它,Buildings that don't fit in other categories
 ToolGroups.Paths,道路和結構,"Buildings that are made to be built and walked upon or to support other buildings such as paths, stairs and platforms"
 ToolGroups.Power,能量,Buildings that produce and transfer power
-ToolGroups.Priority,分配優先級,This is in active voice
+ToolGroups.Priority,分配優先度,This is in active voice
 ToolGroups.Ruins,廢墟,Group for different types of ruin objects
 ToolGroups.Science,科學,Buildings that produce Science points
 ToolGroups.Storage,倉儲,Buildings that store goods and resources
@@ -1030,8 +1135,8 @@ Toggle.State.Off,關,Indication in tooltip about toggle state. For example 'Prio
 Toggle.Selected,（已選擇）,Indication in tooltip about selected item. Fore example: 'Planting (selected)'
 TreeCuttingSelectionTool.Description,使用此工具來標記要砍伐樹木的區域。,Doesn't have to use a personal verb
 TreeCuttingSelectionTool.Title,標記樹木砍伐區域,
-TreeCuttingUnselectionTool.Description,使用此工具來取消標注要砍伐樹木的區域。,Doesn't have to use a personal verb
-TreeCuttingUnselectionTool.Title,取消標注樹木砍伐區域,
+TreeCuttingUnselectionTool.Description,使用此工具來取消標註要砍伐樹木的區域。,Doesn't have to use a personal verb
+TreeCuttingUnselectionTool.Title,取消標註樹木砍伐區域,
 Tutorial.Building,建造：{0} ({1}/{2}),"{0} stands for building name {1} stands for number of built buildings {2} stands for number of buildings to build. This is used in a goal description with the verb in active voice, for example 'Build: Warehouse (0/5)'."
 Tutorial.Continue,繼續,
 Tutorial.Disable,停用教學,
@@ -1045,34 +1150,34 @@ Tutorial.PanelTitle,教學,
 Tutorial.PlaceBuilding,放置：{0} ({1}/{2}),"{0} stands for building name {1} stands for number of built buildings {2} stands for number of buildings to build. This is used in a goal description with the verb in active voice, for example 'Place: Warehouse (0/5)'."
 Tutorial.PowerBuilding,電力：{0} ({1}/{2}),"{0} stands for building name {1} stands for number of powered buildings {2} stands for number of buildings to power. This is used in a goal description with the verb in active voice, for example 'Power: Lumber Mill (0/1)'."
 Tutorial.Progress,({0}/{1}),{0} stands for number of achieved goals {1} stands for total number of goals
-Tutorial.TextToggle.Hide,隱藏文本,Tooltip for tutorial button hiding intro text
-Tutorial.TextToggle.Show,顯示文本,Tooltip for tutorial button showing intro text
+Tutorial.TextToggle.Hide,隱藏文字,Tooltip for tutorial button hiding intro text
+Tutorial.TextToggle.Show,顯示文字,Tooltip for tutorial button showing intro text
 Tutorial.SelectGood,設定：將{0}設定為{1}{2},{0} stands for building name {1} stands for good name {2} stands for Tutorial.Progress. This is used in a goal description with the verb in active voice. for example 'Set: Warehouse to Bread (0/5)'.
 Tutorial.Stage.PlaceLumberjacks,"歡迎！本教學將幫你掌握建造海貍定居地的基本知識。
 
 每個新定居地都需要原木！只有伐木工才能砍樹。請在附近的樹木旁放置兩面伐木工旗幟。",Logs is the name of the resource and Lumberjack Flag is the name of the building
 Tutorial.Stage.FinishLumberjacks,"旗幟必須在該地區的建築範圍內，否則就無法放置。
 
-選擇地區中心查看建築範圍，你可以通過修建道路擴大其範圍。","Lumberjack Flag, District Center and Path are names of buildings"
-Tutorial.Stage.ConnectLumberjacks,"每棟有入口的建築都必須通過道路與地區中心連接。記住，地區中心的範圍有限。修建道路，將伐木工旗幟連接到地區中心。
- 
-你可以選擇地區中心以查看其通過道路延伸的範圍。",District Center and Path are building names
-Tutorial.Stage.MarkTrees,"除非你給他們下令，否則伐木工不會自己開始幹活。使用砍樹工具標出要砍伐樹木的區域。
+選擇地區中心查看建築範圍，你可以透過修建道路擴大其範圍。","Lumberjack Flag, District Center and Path are names of buildings"
+Tutorial.Stage.ConnectLumberjacks,"每棟有入口的建築都必須透過道路與地區中心連接。記住，地區中心的範圍有限。修建道路，將伐木工旗幟連接到地區中心。
 
-伐木工僅會砍伐旗幟範圍內的樹木。你可以通過選擇旗幟查看範圍。",Lumberjack Flag is a name of a building. 'Cut trees' must be the same as ToolGroups.TreeCutting.
-Tutorial.Stage.WaterPump,海貍需要水才能生存。建造一個泵浦，以維持穩定的飲用水供給。別忘了將它連接到地區中心。,Water Pump and District Center are names of buildings
+你可以選擇地區中心以查看其透過道路延伸的範圍。",District Center and Path are building names
+Tutorial.Stage.MarkTrees,"除非你給他們下令，否則伐木工不會自己開始做事。使用砍樹工具標出要砍伐樹木的區域。
+
+伐木工僅會砍伐旗幟範圍內的樹木。你可以透過選擇旗幟查看範圍。",Lumberjack Flag is a name of a building. 'Cut trees' must be the same as ToolGroups.TreeCutting.
+Tutorial.Stage.WaterPump,海貍需要水才能生存。建造一個水泵，以維持穩定的飲用水供給。別忘了將它連接到地區中心。,Water Pump and District Center are names of buildings
 Tutorial.Stage.Gatherer,"除了水，海貍還需要食物。在藍莓灌木旁放置一面採集工旗幟。
 
-採集工將自動採集旗幟範圍內的漿果。你可以通過選擇採集旗幟查看範圍。",
+採集工將自動採集旗幟範圍內的漿果。你可以透過選擇採集旗幟查看範圍。",
 Tutorial.Stage.Farmhouse,"定居地需要穩定的食物來源。建造一個農舍來種植並收割穀物。
 
 如果工貍不夠，可以暫停一些建築。要暫停，請選擇一棟建築，然後點擊暫停按鈕或按P。
 
-和其他許多建築一樣，農舍的範圍有限。",Farmhouse is name of a building
-Tutorial.Stage.MarkCarrots,"除非告訴他們在哪裡種植什麽，農民不會自己開始幹活。使用種植穀物工具標出胡蘿蔔田地。
+和其他許多建築一樣，農舍的範圍有限。",Farmhouse should be the same as in Building.Farmhouse.DisplayName
+Tutorial.Stage.MarkCarrots,"除非告訴他們在哪裡種植什麼，農民不會自己開始做事。使用種植穀物工具標出胡蘿蔔田地。
 
 穀物需要種植在被灌溉的土壤上，否則它們就會乾枯並最終死去。",Plant crops must be the same as ToolGroups.FieldsPlanting.
-Tutorial.Stage.BasicStorage,"雖然你建造的的所有建築物都會自帶一些倉儲空間，但它們很快會被填滿。
+Tutorial.Stage.BasicStorage,"雖然你建造的的所有建築物都會內建一些倉儲空間，但它們很快會被填滿。
 
 請為原木和水建立額外的倉儲空間。每個倉儲建築物只能容納一種類型的資源。你可以在選擇建築物後進行設定。",
 Tutorial.Stage.ExpandStorage,原木和水有了存放的地方，你應該為漿果和即將到來的胡蘿蔔收穫做同樣的準備。,"water is same as Good.Water.DisplayName, logs is same as Good.Log.PluralDisplayName"
@@ -1081,11 +1186,11 @@ Tutorial.Stage.Lodges,"家園能增加海貍的幸福度，增加神尾海貍的
 建造足夠數量的木屋，為所有海貍提供家園。
 
 海貍必須有小海貍空位才能繁衍後代。",Lodge is a name of a building.
-Tutorial.Stage.Inventor,科學點數可以用來解鎖更高級的建築。發明家會隨著時間獲得科學點數。,Inventor is the name of a building. Science Points must be the same as Science.SciencePoints.
-Tutorial.Stage.WaterWheel,"我們可以開始建造更多的高級資源了，但有些建築需要能量才能驅動。
+Tutorial.Stage.Inventor,科學點數可以用來解鎖更進階的建築。發明家會隨著時間獲得科學點數。,Inventor is the name of a building. Science Points must be the same as Science.SciencePoints.
+Tutorial.Stage.WaterWheel,"我們可以開始建造更多的進階資源了，但有些建築需要能量才能驅動。
 
 在河岸邊建造一個水車。水車由水流推動，如果沒有活水，它就會停止生產能量。",Water Wheel is a name of a building
-Tutorial.Stage.LumberMill,"我們來生產一些木板吧！建造一個木板廠，將它通過能量傳動軸連接到水車。
+Tutorial.Stage.LumberMill,"我們來生產一些木板吧！建造一個木板廠，將它透過能量傳動軸連接到水車。
 
 許多建築在貼牆放置時都能彼此傳遞能量。",Lumber Mill and Water Wheel are the names of buildings.
 Tutorial.Stage.Forester,我們需要穩定的原木來源。解鎖林木工，並放置在你想要種樹的場所附近。,Forester is a name of a building
@@ -1103,7 +1208,7 @@ WaterOpacity.Visibility.Show,顯示水,Tooltip for button showing water
 WaterSimulationControls.Fast,快速,A button please keep short. Water will flow fast once pressed.
 WaterSimulationControls.Tooltip,水模擬,Short header
 WaterSimulationControls.Paused,暫停,A button please keep short
-WaterSimulationControls.Reset,重置,A button please keep short
+WaterSimulationControls.Reset,重設,A button please keep short
 WaterSimulationControls.Slow,慢速,A button please keep short. Water will flow slowly once pressed.
 Weather.CycleAndDayLong,週期{0}，第{1}天,"Example usage: 'Cycle 2, day 5'."
 Weather.CycleAndDayShort,天數{0}-{1},Example usage: 'Day 2-5'.
@@ -1132,11 +1237,11 @@ Work.DefaultAllowedWorker.Tooltip,此設定將決定該區新建築物容許的�
 Work.FuelRemaining,剩餘燃料：{0}%,"{0} stands for a number between 0 and 100, for example 10% means that most of the fuel has been depleted."
 Work.Incapacitated,無法工作,Label before a number of characters unfit for work (for example injured beavers or broken bots)
 Work.LackOfResources,無法獲得全部所需資源。,
-Work.LackOfResourcesShort,建築缺乏材料,
+Work.LackOfResourcesShort,建築缺乏材料,Please keep short.
 Work.MaxDepth,最大深度：{0},"Explains how deep a building can reach, for example how deep it can pump water from. {0} stands for a number. Example usage: 'Depth: 5'"
 Work.MaximumWorkers,最大勞工數：{0},{0} stands for max number of workers that can work in building.
-Work.NoUnemployed,當前區域無可用勞工,Shown when there are no unemployed workers available in a district to work in this building.
-Work.NoUnemployedShort,建築缺乏工貍,A shorter notification that lets players know that the building has no workers
+Work.NoUnemployed,目前區域無可用勞工,Shown when there are no unemployed workers available in a district to work in this building.
+Work.NoUnemployedShort,建築缺乏工貍,A notification that lets players know that the building has no workers. Please keep short.
 Work.PriorityTitle,工作場所優先度,Setting a priority on workplace building
 Work.Productivity,生產效率：,How productive a workplace is. Followed by a percentage.
 Work.ProductivityTip,花費在生產上的時間和生產停滯時間（比如搬運物料所花時間）的百分比。,Tooltip of how productivity works
@@ -1151,4 +1256,4 @@ Work.WorkplaceUnlock.Prompt,確定要為此工作場所解鎖機器人嗎？需�
 Work.WorkplaceUnlock.Tooltip,為此工作地點解鎖機器人,Shown on a blocked workplace's tooltip. Bots should be the same as Bot.PluralDisplayName.
 Work.WorkRefusalWarning,無法工作,Please keep short. A warning inside a tooltip that a beaver or a bot won't work if certain circumstances occur (like beaver is sick or bot is out of energy).
 Yielding.NoStorageInRange,範圍中沒有倉儲,
-Yielding.NothingToDoInRange,範圍中無事可做,
+Yielding.NothingToDoInRange,範圍中沒有事做,
