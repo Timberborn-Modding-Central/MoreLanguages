@@ -1,3 +1,6 @@
+# Update 6 deprication
+In update 6 of Timberborn, it's possible to do this by default in the base game [Timberborn wiki](https://timberborn.wiki.gg/wiki/Creating_Mods_(Update_6)#:~:text=list%20constantly%20evolves.-,Translations%20and%20in%2Dgame%20text,-Timberborn%20uses%20CSV).
+
 # More languages
 This mod makes it possible to add new custom translations with corresponding beaver names.
 
